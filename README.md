@@ -6,7 +6,7 @@ In philosophy, *conceptual engineering* is ”the design, implementation, and ev
 concepts” [1]. There are a wide range of views as to the proper definition of the term concept
 and how conceptual engineering can be performed, but in many instances it is an activity
 where language processing is a significant element. In recent years, large language models
-(LLMs) have emerged as a technology that has promises to be of ”substantial value in the
+(LLMs) have emerged as a technology that promises to be of ”substantial value in the
 scientific study of language learning and processing” [2]. The Python notebooks in this repository investigate the question of whether or not large language models can effectively support the process of conceptual engineering.
 
 ## References
