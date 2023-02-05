@@ -7,9 +7,7 @@ concepts” [1]. There are a wide range of views as to the proper definition of 
 and how conceptual engineering can be performed, but in many instances it is an activity
 where language processing is a significant element. In recent years, large language models
 (LLMs) have emerged as a technology that has promises to be of ”substantial value in the
-scientific study of language learning and processing” [2]. In this paper, we ask the question
-”can large language models support the process of conceptual engineering?” We provide two
-examples that suggest that large language models can be used to this end.
+scientific study of language learning and processing” [2]. The Python notebooks in this repository investigate the question of whether or not large language models can effectively support the process of conceptual engineering.
 
 ## References
 
