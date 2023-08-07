@@ -15,36 +15,84 @@ class ConceptualEngineeringAssistant:
         self.llm = ChatOpenAI(model_name=model_name, temperature=temperature)
         self._classify_entity_chain = self._classify_entity_chain()
         self._propose_counterexample_chain = self._propose_counterexample_chain()
-        self._revise_concept_chain = self._revise_concept_chain()
         self._validate_counterexample_chain = self._validate_counterexample_chain()
-     
+        self._revise_concept_chain = self._revise_concept_chain()
+    
     def _classify_entity_chain(self):
         template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Using the above definition, is {entity} a(n) {term}? Answer 'True', 'False', or 'Unknown'. Answer:"
         prompt_1 = PromptTemplate(
             input_variables=["variable", "term", "definition", "entity"], 
             template=template_1
         )
-        template_2 = "Definition: {variable} is a(n) {term} iff {definition}. Using the above definition, is {entity} a(n) {term}? Answer 'True' or 'False'. Answer: {in_extension} Explain your reasoning. Explanation:"
+        classification_chain = LLMChain(llm=self.llm, prompt=prompt_1, output_key="in_extension")
+        template_2 = "Definition: {variable} is a(n) {term} iff {definition}. Using the above definition, is {entity} a(n) {term}? Answer 'True', 'False', or 'Unknown'. Answer: {in_extension} Explain your reasoning. Rationale:"
         prompt_2 = PromptTemplate(
             input_variables=["variable", "term", "definition", "entity", "in_extension"], 
             template=template_2,
         )
-        in_extension_chain = LLMChain(llm=self.llm, prompt=prompt_1, output_key="in_extension")
         explanation_chain = LLMChain(llm=self.llm, prompt=prompt_2, output_key="rationale")
         return SequentialChain(
-            chains=[in_extension_chain, explanation_chain],
+            chains=[classification_chain, explanation_chain],
             input_variables=["variable", "term", "definition", "entity"],
             output_variables=["entity", "in_extension", "rationale"]
         )
     
     def _propose_counterexample_chain(self):
-        return
+        template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent who challenges your definition and presents a potential counterexample of an entity that does not fit the definition but in the judgment of the opponent is in the extension of the concept. What is the name of that counterexample? Answer:"
+        prompt_1 = PromptTemplate(
+            input_variables=["variable", "term", "definition"], 
+            template=template_1
+        )
+        counterexample_proposal_chain = LLMChain(llm=self.llm, prompt=prompt_1, output_key="counterexample")
+        template_2 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent who challenges your definition and presents a potential counterexample of an entity that does not fit the definition but in the judgment of the opponent is in the extension of the concept. What is the name of that counterexample? Answer: {counterexample} Explain your reasoning. Rationale:"
+        prompt_2 = PromptTemplate(
+            input_variables=["variable", "term", "definition", "counterexample"], 
+            template=template_2,
+        )
+        explanation_chain = LLMChain(llm=self.llm, prompt=prompt_2, output_key="rationale")
+        return SequentialChain(
+            chains=[counterexample_proposal_chain, explanation_chain],
+            input_variables=["variable", "term", "definition"],
+            output_variables=["counterexample", "rationale"]
+        )
   
-    def _revise_concept_chain(self):
-        return
-
     def _validate_counterexample_chain(self):
-        return
+        template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent has challenged your definition by presenting {counterexample} as a counterexample. Is this a valid counterexample? Answer 'True', 'False', or 'Unknown'. Answer:"
+        prompt_1 = PromptTemplate(
+            input_variables=["variable", "term", "definition", "counterexample"], 
+            template=template_1
+        )
+        counterexample_validation_chain = LLMChain(llm=self.llm, prompt=prompt_1, output_key="is_valid")
+        template_2 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent has challenged your definition by presenting {counterexample} as a counterexample. Is this a valid counterexample? Answer 'True', 'False', or 'Unknown'. Answer: {is_valid} Explain your reasoning. Rationale:"
+        prompt_2 = PromptTemplate(
+            input_variables=["variable", "term", "definition", "counterexample", "is_valid"], 
+            template=template_2,
+        )
+        explanation_chain = LLMChain(llm=self.llm, prompt=prompt_2, output_key="rationale")
+        return SequentialChain(
+            chains=[counterexample_validation_chain, explanation_chain],
+            input_variables=["variable", "term", "definition", "counterexample"],
+            output_variables=["is_valid", "rationale"]
+        )
+
+    def _revise_concept_chain(self):
+        template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent has challenged your definition by presenting {counterexample} as a counterexample. Revise your definition to account for the counterexample. Revised definition:"
+        prompt_1 = PromptTemplate(
+            input_variables=["variable", "term", "definition", "counterexample"], 
+            template=template_1
+        )
+        concept_revision_chain = LLMChain(llm=self.llm, prompt=prompt_1, output_key="revision")
+        template_2 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent has challenged your definition by presenting {counterexample} as a counterexample. Revise your definition to account for the counterexample. Revised definition: {revision} Explain your reasoning as to why the revision accounts for the counterexample. Rationale:"
+        prompt_2 = PromptTemplate(
+            input_variables=["variable", "term", "definition", "counterexample", "revision"], 
+            template=template_2,
+        )
+        explanation_chain = LLMChain(llm=self.llm, prompt=prompt_2, output_key="rationale")
+        return SequentialChain(
+            chains=[concept_revision_chain, explanation_chain],
+            input_variables=["variable", "term", "definition", "counterexample"],
+            output_variables=["revision", "rationale"]
+        )
 
     def classify_entity(self, concept, entity):
         """Determine whether or not an entity is in the extension of the concept."""
@@ -74,7 +122,7 @@ class ConceptualEngineeringAssistant:
                 "variable": concept.variable, 
                 "term": concept.term, 
                 "definition": concept.definition,
-                "entity": counterexample
+                "counterexample": counterexample
             }
         )
     
@@ -85,7 +133,7 @@ class ConceptualEngineeringAssistant:
                 "variable": concept.variable, 
                 "term": concept.term, 
                 "definition": concept.definition,
-                "entity": counterexample
+                "counterexample": counterexample
             }
         )
 
