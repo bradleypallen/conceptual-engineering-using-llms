@@ -4,3 +4,4 @@ bin
 lib
 share
 pyvenv.cfg
+*.pyc
