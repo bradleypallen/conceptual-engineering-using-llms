@@ -5,3 +5,4 @@ lib
 share
 pyvenv.cfg
 *.pyc
+.vscode/*

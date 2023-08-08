@@ -5,6 +5,7 @@ from langchain.prompts import PromptTemplate
 class Concept:
 
     def __init__(self, term, variable, definition):
+        """Define a concept that provides an intentional definition for a given term."""
         self.term = term
         self.variable = variable
         self.definition = definition
@@ -12,6 +13,7 @@ class Concept:
 class ConceptualEngineeringAssistant:
 
     def __init__(self, model_name="gpt-4", temperature=0.1):
+        """Create an object that supports the process of conceptual engineering."""
         self.llm = ChatOpenAI(model_name=model_name, temperature=temperature)
         self._classify_entity_chain = self._classify_entity_chain()
         self._propose_counterexample_chain = self._propose_counterexample_chain()
@@ -19,6 +21,7 @@ class ConceptualEngineeringAssistant:
         self._revise_concept_chain = self._revise_concept_chain()
     
     def _classify_entity_chain(self):
+        """Generate a chain of thought for determining whether or not an entity is in the extension of a concept given its definition."""
         template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Using the above definition, is {entity} a(n) {term}? Answer 'True', 'False', or 'Unknown'. Answer:"
         prompt_1 = PromptTemplate(
             input_variables=["variable", "term", "definition", "entity"], 
@@ -38,6 +41,7 @@ class ConceptualEngineeringAssistant:
         )
     
     def _propose_counterexample_chain(self):
+        """Generate a chain of thought for proposing a counterexample to a concept's definition."""
         template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent who challenges your definition and presents a potential counterexample of an entity that does not fit the definition but in the judgment of the opponent is in the extension of the concept. What is the name of that counterexample? Answer:"
         prompt_1 = PromptTemplate(
             input_variables=["variable", "term", "definition"], 
@@ -57,6 +61,7 @@ class ConceptualEngineeringAssistant:
         )
   
     def _validate_counterexample_chain(self):
+        """Generate a chain of thought for arguing for or against the validity of a counterexample."""
         template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent has challenged your definition by presenting {counterexample} as a counterexample. Is this a valid counterexample? Answer 'True', 'False', or 'Unknown'. Answer:"
         prompt_1 = PromptTemplate(
             input_variables=["variable", "term", "definition", "counterexample"], 
@@ -76,6 +81,7 @@ class ConceptualEngineeringAssistant:
         )
 
     def _revise_concept_chain(self):
+        """Generate chain of thought for revising a concept based on a valid counterexample."""
         template_1 = "Definition: {variable} is a(n) {term} iff {definition}. Now imagine an opponent has challenged your definition by presenting {counterexample} as a counterexample. Revise your definition to account for the counterexample. Revised definition:"
         prompt_1 = PromptTemplate(
             input_variables=["variable", "term", "definition", "counterexample"], 
