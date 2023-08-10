@@ -14,7 +14,9 @@ class ConceptualEngineeringAssistant:
 
     def __init__(self, model_name="gpt-4", temperature=0.1):
         """Create an object that supports the process of conceptual engineering."""
-        self.llm = ChatOpenAI(model_name=model_name, temperature=temperature)
+        self.model_name = model_name
+        self.temperature = temperature
+        self.llm = ChatOpenAI(model_name=self.model_name, temperature=self.temperature)
         self._classify_entity_chain = self._classify_entity_chain()
         self._classify_entity_with_summary_chain = self._classify_entity_with_summary_chain()
         self._propose_counterexample_chain = self._propose_counterexample_chain()
