@@ -18,7 +18,7 @@ class ConceptualEngineeringAssistant:
         self.temperature = temperature
         self.llm = ChatOpenAI(model_name=self.model_name, temperature=self.temperature)
         self._classify_entity_chain = self._classify_entity_chain()
-        self._classify_entity_with_summary_chain = self._classify_entity_with_summary_chain()
+        self._classify_entity_with_description_chain = self._classify_entity_with_description_chain()
         self._propose_counterexample_chain = self._propose_counterexample_chain()
         self._validate_counterexample_chain = self._validate_counterexample_chain()
         self._revise_concept_chain = self._revise_concept_chain()
@@ -43,23 +43,23 @@ class ConceptualEngineeringAssistant:
             output_variables=["entity", "in_extension", "rationale"]
         )
     
-    def _classify_entity_with_summary_chain(self):
+    def _classify_entity_with_description_chain(self):
         """Generate a chain of thought for determining whether or not an entity is in the extension of a concept given its definition."""
-        template_1 = "Definition: {variable} is a(n) {term} iff {definition}. {entity}: {summary}. Using the above definition, is {entity} a(n) {term}? Answer 'True', 'False', or 'Unknown'. Answer:"
+        template_1 = "Definition: {variable} is a(n) {term} iff {definition}. {entity}: {description}. Using the above definition, is {entity} a(n) {term}? Answer 'True', 'False', or 'Unknown'. Answer:"
         prompt_1 = PromptTemplate(
-            input_variables=["variable", "term", "definition", "entity", "summary"], 
+            input_variables=["variable", "term", "definition", "entity", "description"], 
             template=template_1
         )
         classification_chain = LLMChain(llm=self.llm, prompt=prompt_1, output_key="in_extension")
-        template_2 = "Definition: {variable} is a(n) {term} iff {definition}. {entity}: {summary}. Using the above definition, is {entity} a(n) {term}? Answer 'True', 'False', or 'Unknown'. Answer: {in_extension} Explain your reasoning. Rationale:"
+        template_2 = "Definition: {variable} is a(n) {term} iff {definition}. {entity}: {description}. Using the above definition, is {entity} a(n) {term}? Answer 'True', 'False', or 'Unknown'. Answer: {in_extension} Explain your reasoning. Rationale:"
         prompt_2 = PromptTemplate(
-            input_variables=["variable", "term", "definition", "entity", "summary", "in_extension"], 
+            input_variables=["variable", "term", "definition", "entity", "description", "in_extension"], 
             template=template_2,
         )
         explanation_chain = LLMChain(llm=self.llm, prompt=prompt_2, output_key="rationale")
         return SequentialChain(
             chains=[classification_chain, explanation_chain],
-            input_variables=["variable", "term", "definition", "entity", "summary"],
+            input_variables=["variable", "term", "definition", "entity", "description"],
             output_variables=["entity", "in_extension", "rationale"]
         )
     
@@ -134,15 +134,15 @@ class ConceptualEngineeringAssistant:
             }
         )
     
-    def classify_entity_with_summary(self, concept, entity, summary):
+    def classify_entity_with_description(self, concept, entity, description):
         """Determine whether or not an entity is in the extension of the concept."""
-        return self._classify_entity_with_summary_chain(
+        return self._classify_entity_with_description_chain(
             {
                 "variable": concept.variable, 
                 "term": concept.term, 
                 "definition": concept.definition, 
                 "entity": entity,
-                "summary": summary
+                "description": description
             }
         )
     
