@@ -41,7 +41,7 @@ answer_generation:
     Rationale: {rationale}
 
     Now given the above rationale, is {entity} a(n) {label}? 
-    Answer 'true', 'false', or 'unknown'.
+    Answer 'true' or 'false', and only 'true' or 'false'. If there is not enough information to be sure of an answer, answer 'false'.
   
     Answer:
     "

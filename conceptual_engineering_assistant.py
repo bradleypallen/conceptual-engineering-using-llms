@@ -29,7 +29,7 @@ class Entity:
         return {
             "id": self.id,
             "label": self.label,
-            "definition": self.definition           
+            "description": self.description           
         }
 
 
