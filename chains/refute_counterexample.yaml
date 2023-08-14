@@ -1,0 +1,65 @@
+name: "refute_counterexample"
+rationale_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+    - "counterexample"
+    - "rationale"
+  output_key: "refutation"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+    Counterexample: {counterexample}
+    Rationale: {rationale}
+
+    An opponent has challenged your definition of the concept {label} by 
+    identifying {counterexample} as a counterexample that does not fit 
+    the definition but, in the judgment of the opponent, is in 
+    the extension of the concept. Your opponent has also supplied 
+    the above rationale to support their challenge.
+  
+    Ignore any background knowledge about the concept.
+    You may, however, use background knowledge about the counterexample.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument that provides a refutation of a counterexample and explains 
+    your reasoning as to why the counterexample is invalid.
+    
+    Refutation:
+    "
+answer_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+    - "counterexample"
+    - "rationale"
+    - "refutation"
+  output_key: "accepted"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+    Counterexample: {counterexample}
+    Rationale: {rationale}
+
+    An opponent has challenged your definition of the concept {label} by 
+    identifying {counterexample} as a counterexample that does not fit 
+    the definition but, in the judgment of the opponent, is in 
+    the extension of the concept. Your opponent has also supplied 
+    the above rationale to support their challenge.
+  
+    Ignore any background knowledge about the concept.
+    You may, however, use background knowledge about the counterexample.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument that provides a refutation of a counterexample and explains 
+    your reasoning as to why the counterexample is valid.
+    
+    Refutation: {refutation}
+
+    Now compare the above refutation with the opponent's rationale.
+    Do you accept that {counterexample} a valid counterexample to 
+    your definition? Answer 'true' or 'false'.
+  
+    Accepted:
+    "
+output_variables:
+  - "refutation"
+  - "accepted"

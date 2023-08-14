@@ -1,0 +1,50 @@
+name: "classify_entity"
+rationale_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+    - "entity"
+    - "description"
+  output_key: "rationale"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+    Entity: {entity} 
+    Description: {description}
+  
+    Ignore any background knowledge about the concept {label}.
+    You may, however, use background knowledge about the entity {entity}.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument for the assertion that {entity} is a(n) {label}.
+    
+    Rationale:
+    "
+answer_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+    - "entity"
+    - "description"
+    - "rationale"
+  output_key: "classification"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+    Entity: {entity} 
+    Description: {description}
+  
+    Ignore any background knowledge about the concept {label}.
+    You may, however, use background knowledge about the entity {entity}.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument for the assertion that {entity} is a(n) {label}.
+    
+    Rationale: {rationale}
+
+    Now given the above rationale, is {entity} a(n) {label}? 
+    Answer 'true', 'false', or 'unknown'.
+  
+    Answer:
+    "
+output_variables:
+  - "rationale"
+  - "classification"

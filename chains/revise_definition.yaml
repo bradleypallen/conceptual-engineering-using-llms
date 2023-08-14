@@ -1,0 +1,64 @@
+name: "revise definition"
+rationale_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+    - "counterexample"
+    - "rationale"
+  output_key: "support"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+    Counterexample: {counterexample}
+    Rationale: {rationale}
+
+    An opponent has challenged your definition of the concept {label} by 
+    identifying {counterexample} as a counterexample that does not fit 
+    the definition but, in the judgment of the opponent, is in 
+    the extension of the concept. Your opponent has also supplied 
+    the above rationale to support their challenge.
+  
+    Ignore any background knowledge about the concept.
+    You may, however, use background knowledge about the counterexample.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument that provides your reasoning as to why 
+    the counterexample is valid.
+    
+    Support:
+    "
+answer_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+    - "counterexample"
+    - "rationale"
+    - "support"
+  output_key: "revision"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+    Counterexample: {counterexample}
+    Rationale: {rationale}
+
+    An opponent has challenged your definition of the concept {label} by 
+    identifying {counterexample} as a counterexample that does not fit 
+    the definition but, in the judgment of the opponent, is in 
+    the extension of the concept. Your opponent has also supplied 
+    the above rationale to support their challenge.
+  
+    Ignore any background knowledge about the concept.
+    You may, however, use background knowledge about the counterexample.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument that provides your reasoning as to why 
+    the counterexample is valid.
+    
+    Support: {support}
+
+    Given your acceptance of the counterexample as valid, now provide a revised definition
+    of the concept {label} that allows that the counterexample in in the extension of the concept.
+  
+    Revised definition:
+    "
+output_variables:
+  - "support"
+  - "revision"

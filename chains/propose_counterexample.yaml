@@ -1,0 +1,54 @@
+name: "propose_counterexample"
+rationale_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+  output_key: "rationale"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+
+    Now imagine you are an opponent who challenges your definition by 
+    identifying an entity that is a counterexample that does not fit 
+    the definition but, in the judgment of the opponent, is in 
+    the extension of the concept.
+  
+    Ignore any background knowledge about the concept.
+    You may, however, use background knowledge about the counterexample.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument that identifies a counterexample and explains 
+    your reasoning as to why the counterexample is valid.
+    
+    Rationale:
+    "
+answer_generation: 
+  input_variables:
+    - "label"
+    - "definition"
+    - "rationale"
+  output_key: "counterexample"
+  template: "
+    Concept: {label} 
+    Definition: {definition}
+  
+    Now imagine you are an opponent who challenges your definition by 
+    identifying an entity that is a counterexample that does not fit 
+    the definition but, in the judgment of the opponent, is in 
+    the extension of the concept.
+  
+    Ignore any background knowledge about the concept.
+    You may, however, use background knowledge about the counterexample.
+    Using the above definition, and only the information in the above definition, 
+    provide an argument that identifies a counterexample and explains 
+    your reasoning as to why the counterexample is valid.
+
+    Rationale: {rationale}
+
+    Now given the above rationale, what is the name of a valid 
+    counterexample to the definition? 
+  
+    Counterexample:
+    "
+output_variables:
+  - "rationale"
+  - "counterexample"
