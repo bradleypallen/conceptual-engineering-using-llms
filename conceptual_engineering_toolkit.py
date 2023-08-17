@@ -23,7 +23,7 @@ class Concept:
         self.model_name = model_name
         self.temperature = temperature
         self.llm = ChatOpenAI(model_name=self.model_name, temperature=self.temperature)
-        self._classify_entity_chain = self._zero_shot_chain_of_thought('./chains/classify_entity.yaml')
+        self._classify_chain = self._zero_shot_chain_of_thought('./chains/classify.yaml')
         self._propose_counterexample_chain = self._zero_shot_chain_of_thought('./chains/propose_counterexample.yaml')
         self._refute_counterexample_chain = self._zero_shot_chain_of_thought('./chains/refute_counterexample.yaml')
         self._revise_definition_chain = self._zero_shot_chain_of_thought('./chains/revise_definition.yaml')
@@ -46,8 +46,7 @@ class Concept:
     def _zero_shot_chain_of_thought(self, file):
         """
         Creates a langchain.SequentialChain that implements a zero-shot
-        chain of thought (CoT) using a specification Initializes the assistant with 
-        a model name and temperature parameter.
+        chain of thought (CoT) using a specification.
         
         Parameters:
             file: The name of the YAML file containing a specification of the CoT.
@@ -77,7 +76,7 @@ class Concept:
             output_variables=chain_specification["output_variables"]
         )
     
-    def classify_entity(self, entity):
+    def classify(self, entity):
         """
         Determines whether or not an entity is in the extension of the concept.
         
@@ -87,7 +86,7 @@ class Concept:
         Returns:
             Classification results based on the concept's definition.
         """
-        return self._classify_entity_chain(
+        return self._classify_chain(
             {
                 "label": self.label, 
                 "definition": self.definition, 

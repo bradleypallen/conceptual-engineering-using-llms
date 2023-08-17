@@ -1,4 +1,4 @@
-name: "classify_entity"
+name: "classify"
 rationale_generation: 
   input_variables:
     - "label"
