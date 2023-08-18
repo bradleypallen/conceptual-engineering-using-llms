@@ -1,5 +1,5 @@
 import yaml
-from langchain import HuggingFaceHub
+from langchain import HuggingFaceHub, OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
@@ -50,6 +50,10 @@ class Concept:
             "gpt-3.5-turbo",
             ]:
             return ChatOpenAI(model_name=model_name, temperature=temperature)
+        elif model_name in [
+            "text-curie-001"
+            ]:
+            return OpenAI(model_name=model_name, temperature=temperature)
         elif model_name in [
             "meta-llama/Llama-2-70b-chat-hf", 
             "google/flan-t5-xxl",
