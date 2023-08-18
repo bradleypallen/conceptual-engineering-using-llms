@@ -1,4 +1,5 @@
 import yaml
+from langchain import HuggingFaceHub
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
@@ -22,7 +23,7 @@ class Concept:
         self.definition = definition
         self.model_name = model_name
         self.temperature = temperature
-        self.llm = ChatOpenAI(model_name=self.model_name, temperature=self.temperature)
+        self.llm = self._llm(model_name, temperature)
         self._classify_chain = self._zero_shot_chain_of_thought('./chains/classify.yaml')
         self._propose_counterexample_chain = self._zero_shot_chain_of_thought('./chains/propose_counterexample.yaml')
         self._refute_counterexample_chain = self._zero_shot_chain_of_thought('./chains/refute_counterexample.yaml')
@@ -42,6 +43,20 @@ class Concept:
             "model_name": self.model_name,
             "temperature": self.temperature,           
         }
+    
+    def _llm(self, model_name, temperature):
+        if model_name in [
+            "gpt-4",
+            "gpt-3.5-turbo",
+            ]:
+            return ChatOpenAI(model_name=model_name, temperature=temperature)
+        elif model_name in [
+            "meta-llama/Llama-2-70b-chat-hf", 
+            "google/flan-t5-xxl",
+            ]:
+            return HuggingFaceHub(repo_id=model_name, model_kwargs={ "temperature": temperature })
+        else:
+            raise Exception(f'Model {model_name} not supported')
 
     def _zero_shot_chain_of_thought(self, file):
         """
