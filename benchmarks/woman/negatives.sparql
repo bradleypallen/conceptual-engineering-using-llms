@@ -1,0 +1,31 @@
+SELECT ?item ?name ?article ?gender WHERE {
+  {
+    ?item wdt:P21 wd:Q6581097 .
+    ?article schema:about ?item ;
+            schema:inLanguage "en" ;
+            schema:isPartOf <https://en.wikipedia.org/> ;
+            schema:name ?name .
+    wd:Q6581097 rdfs:label ?gender .
+    FILTER (lang(?gender) = "en")
+  }
+  UNION
+  {
+    ?item wdt:P21 wd:Q48270 .
+    ?article schema:about ?item ;
+           schema:inLanguage "en" ;
+           schema:isPartOf <https://en.wikipedia.org/> ;
+           schema:name ?name .
+    wd:Q48270 rdfs:label ?gender .
+    FILTER (lang(?gender) = "en")
+  }
+  UNION
+  {
+    ?item wdt:P21 wd:Q2449503 .
+    ?article schema:about ?item ;
+           schema:inLanguage "en" ;
+           schema:isPartOf <https://en.wikipedia.org/> ;
+           schema:name ?name .
+    wd:Q2449503 rdfs:label ?gender .
+    FILTER (lang(?gender) = "en")
+ }
+}

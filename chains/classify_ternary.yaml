@@ -1,4 +1,4 @@
-name: "classify"
+name: "classify_ternary"
 rationale_generation: 
   input_variables:
     - "label"

@@ -1,0 +1,10 @@
+SELECT ?item ?name ?article WHERE {
+  {
+    ?item p:P31/ps:P31/wdt:P279* wd:Q3132741 .
+    ?article schema:about ?item ;
+            schema:inLanguage "en" ;
+            schema:isPartOf <https://en.wikipedia.org/> ;
+            schema:name ?name .
+    FILTER NOT EXISTS { ?item p:P31 wd:Q634 }
+  }
+ }

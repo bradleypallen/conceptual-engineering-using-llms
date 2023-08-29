@@ -1,8 +1,13 @@
-import yaml
+import yaml, requests, json, wikipedia, pycm, pandas as pd, numpy as np
+from urllib.parse import urlparse, unquote
+from datetime import datetime
 from langchain import HuggingFaceHub, OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
+from langchain.tools import WikipediaQueryRun
+from langchain.utilities import WikipediaAPIWrapper
+from langchain.document_loaders import WikipediaLoader
 
 class Concept:
     """Represents a concept with a unique identifier, a label, and a definition."""
@@ -180,3 +185,98 @@ class Entity:
             "label": self.label,
             "description": self.description           
         }
+
+class Benchmark:
+
+    WIKIDATA_ENDPOINT = 'https://query.wikidata.org/sparql'
+
+    def __init__(self, target_concept, positives_query_filename, negatives_query_filename, limit=1000) -> None:
+        self.target_concept = target_concept
+        self.limit = limit
+        positives_limit = self.limit // 2
+        negatives_limit = self.limit - positives_limit
+        with open(positives_query_filename, 'r') as positives_query_file:
+            self.positives_query = positives_query_file.read() + f'\nLIMIT {positives_limit}'
+        with open(negatives_query_filename, 'r') as negatives_query_file:
+            self.negatives_query = negatives_query_file.read() + f'\nLIMIT {negatives_limit}'
+ 
+    def retrieve(self):
+        pos_response = requests.get(self.WIKIDATA_ENDPOINT, params={'query' : self.positives_query, 'format' : 'json'})
+        pos_response.raise_for_status()
+        self.positives = [ { k: v["value"] for k, v in result.items() } for result in json.loads(pos_response.text)["results"]["bindings"] ]
+        for item in self.positives:
+            item["@id"] = item.pop("item")
+            item["actual"] = 'positive'
+            path = urlparse(item.pop("article")).path
+            page_title = unquote(path.removeprefix("/wiki/"))
+            item["description"] = wikipedia.summary(page_title, auto_suggest=False)
+        neg_response = requests.get(self.WIKIDATA_ENDPOINT, params={'query' : self.negatives_query, 'format' : 'json'})
+        neg_response.raise_for_status()
+        self.negatives = [ { k: v["value"] for k, v in result.items() } for result in json.loads(neg_response.text)["results"]["bindings"] ]
+        for item in self.negatives:
+            item["@id"] = item.pop("item")
+            item["actual"] = 'negative'
+            path = urlparse(item.pop("article")).path
+            page_title = unquote(path.removeprefix("/wiki/"))
+            item["description"] = wikipedia.summary(page_title, auto_suggest=False)
+
+    def save(self):
+        benchmark = {
+            "created": datetime.now().isoformat(),
+            "target_concept": self.target_concept,
+            "positives": {
+                "query": self.positives_query,
+                "data": self.positives,
+            },
+            "negatives": {
+                "query": self.negatives_query,
+                "data": self.negatives,
+            }
+        }
+        filename = f'benchmarks/{self.target_concept}/data.json'
+        with open(filename, 'w+') as file:
+            json.dump(benchmark, file)
+        return filename
+
+class Experiment:
+
+    def __init__(self, benchmark_file, concept_file, model_name, temperature=0.1, use_description=True) -> None:
+        self.benchmark = json.load(open(benchmark_file, 'r'))
+        concept_json = yaml.safe_load(open(concept_file, 'r'))
+        self.concept = Concept(concept_json["id"], concept_json["label"], concept_json["definition"], model_name, temperature)
+        self.use_description = use_description
+
+    def sample(self, n=40):
+        n_positives = n // 2
+        n_negatives = n - n_positives
+        return np.concatenate((
+            np.random.choice(self.benchmark["positives"]["data"], size=n_positives, replace=False), 
+            np.random.choice(self.benchmark["negatives"]["data"], size=n_negatives, replace=False) 
+        ))
+
+    def run(self, sample):
+        if self.use_description:
+            predictions = [ self.concept.classify(Entity(entity["@id"], entity["name"], entity["description"])) for entity in sample ]
+        else:
+            predictions = [ self.concept.classify(Entity(entity["@id"], entity["name"])) for entity in sample ]
+        df_pred = pd.DataFrame(predictions, columns = [ 'entity' , 'predicted', 'rationale' ])
+        df_pred["predicted"] = df_pred["predicted"].str.lower()
+        df_samp = pd.DataFrame.from_records(sample)
+        self.results = pd.concat([df_samp[[ "name", "@id", "description", "actual" ]], df_pred[[ "predicted", "rationale" ]]], axis=1)
+
+    def save(self):
+        cm = pycm.ConfusionMatrix(
+            self.results["actual"].tolist(), 
+            self.results["predicted"].tolist(), 
+            digit=2, 
+            classes=[ 'positive', 'negative' ]
+        )
+        run = {
+            "created": datetime.now().isoformat(),
+            "concept": self.concept.to_json(),
+            "data": self.results.to_dict('records'),
+            "confusion_matrix": cm.matrix,
+        }
+        filename = f'experiments/{run["concept"]["model_name"]}_{run["concept"]["id"]}_{run["created"]}.json'
+        json.dump(run, open(filename, 'w'))
+        return filename

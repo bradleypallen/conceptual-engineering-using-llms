@@ -1,0 +1,10 @@
+SELECT ?item ?name ?article WHERE {
+  {
+    ?item wdt:P31/wdt:P279* wd:Q82794.  # Instance of geographical region (or subclass thereof)
+    ?article schema:about ?item ;
+            schema:inLanguage "en" ;
+            schema:isPartOf <https://en.wikipedia.org/> ;
+            schema:name ?name .
+    FILTER NOT EXISTS { ?item wdt:P30 wd:Q46 }
+  }
+ }
