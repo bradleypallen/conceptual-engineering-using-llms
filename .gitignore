@@ -7,3 +7,4 @@ share
 pyvenv.cfg
 *.pyc
 .vscode/*
+.DS_Store
