@@ -209,7 +209,10 @@ class Benchmark:
             item["actual"] = 'positive'
             path = urlparse(item.pop("article")).path
             page_title = unquote(path.removeprefix("/wiki/"))
-            item["description"] = wikipedia.summary(page_title, auto_suggest=False)
+            try:
+                item["description"] = wikipedia.summary(page_title, auto_suggest=False)
+            except wikipedia.DisambiguationError as e:
+                item["description"] = "Disambiguation error when retrieving summary"
         neg_response = requests.get(self.WIKIDATA_ENDPOINT, params={'query' : self.negatives_query, 'format' : 'json'})
         neg_response.raise_for_status()
         self.negatives = [ { k: v["value"] for k, v in result.items() } for result in json.loads(neg_response.text)["results"]["bindings"] ]
@@ -218,7 +221,10 @@ class Benchmark:
             item["actual"] = 'negative'
             path = urlparse(item.pop("article")).path
             page_title = unquote(path.removeprefix("/wiki/"))
-            item["description"] = wikipedia.summary(page_title, auto_suggest=False)
+            try:
+                item["description"] = wikipedia.summary(page_title, auto_suggest=False)
+            except wikipedia.DisambiguationError as e:
+                item["description"] = "Disambiguation error when retrieving summary"
 
     def save(self):
         benchmark = {
@@ -247,11 +253,13 @@ class Experiment:
         self.use_description = use_description
 
     def sample(self, n=40):
-        n_positives = n // 2
-        n_negatives = n - n_positives
+        positives = self.benchmark["positives"]["data"]
+        negatives = self.benchmark["negatives"]["data"]
+        n_positives = min(len(positives), n // 2)
+        n_negatives = min(len(negatives), n - n_positives)
         return np.concatenate((
-            np.random.choice(self.benchmark["positives"]["data"], size=n_positives, replace=False), 
-            np.random.choice(self.benchmark["negatives"]["data"], size=n_negatives, replace=False) 
+            np.random.choice(positives, size=n_positives, replace=False), 
+            np.random.choice(negatives, size=n_negatives, replace=False) 
         ))
 
     def run(self, sample):

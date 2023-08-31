@@ -1,0 +1,1022 @@
+{
+    "created": "2023-08-30T22:20:21.547315",
+    "target_concept": "red_wine",
+    "positives": {
+        "query": "SELECT ?item ?name ?article WHERE {\n    ?item p:P31/ps:P31/wdt:P279* wd:Q1827 .\n    ?article schema:about ?item ;\n            schema:inLanguage \"en\" ;\n            schema:isPartOf <https://en.wikipedia.org/> ;\n            schema:name ?name .\n}\nLIMIT 500",
+        "data": [
+            {
+                "name": "Montefalco Sagrantino",
+                "@id": "http://www.wikidata.org/entity/Q255071",
+                "actual": "positive",
+                "description": "Montefalco Sagrantino (also Sagrantino di Montefalco before 2009) is a style of Italian wine made with 100% Sagrantino grapes in and around the comune of Montefalco in the Province of Perugia, Umbria. The wines gained DOC status in 1979 as part of the Montefalco DOC and were later separately elevated to DOCG status in 1992 after a renewal of interest from winemakers, particularly Arnaldo Caprai. There are two DOCG wines: Montefalco Sagrantino Secco, an oak-aged dry red wine (\"secco\" is Italian for \"dry\"), and the less common Montefalco Sagrantino Passito, a sweet, dessert red wine."
+            },
+            {
+                "name": "Barolo",
+                "@id": "http://www.wikidata.org/entity/Q808584",
+                "actual": "positive",
+                "description": "Barolo ( b\u0259-ROH-loh, US also  bar-OH-loh, Italian: [ba\u02c8r\u0254\u02d0lo]; Piedmontese: bareul [ba\u02c8r\u00f8l]) is a red Denominazione di Origine Controllata e Garantita (DOCG) wine produced in the northern Italian region of Piedmont. It is made from the nebbiolo grape and is often described as one of Italy's greatest wines.The zone of production extends into the communes of Barolo, Castiglione Falletto, Serralunga d'Alba and parts of the communes of Cherasco, Diano d'Alba, Grinzane Cavour, La Morra, Monforte d'Alba, Novello, Roddi, Verduno, all in the province of Cuneo, south-west of Alba. Although production codes have always stipulated that vineyards must be located on hillsides, the most recent revision of the production code released in 2010 goes further, categorically excluding valley floors, humid and flat areas, areas without sufficient sunlight, and areas with full-on northern exposures.Barolo is often described as having the aromas of tar and roses, and the wines are noted for their ability to age and usually take on a rust red tinge as they mature. Barolo needs to be aged for at least 36 months after the harvest before release, of which at least 18 months must be in wood. When subjected to aging of at least five years before release, the wine can be labeled as Riserva.In the past, Barolo wines tended to be rich in tannin. It can take more than 10 years for the wine to soften and become ready for drinking. Fermenting wine sits on the grape skins for at least three weeks, extracting huge amounts of tannins and is then aged in large, wooden casks for years. In order to appeal to more modern international tastes, those that prefer fruitier, earlier-drinking wine styles, several producers began to cut fermentation times to a maximum of ten days and age the wine in new French oak barriques (small barrels). \"Traditionalists\" have argued that the wines produced in this way are not recognizable as Barolo and taste more of new oak than of wine. The controversies between traditionalists and modernists have been called the \"Barolo wars\"."
+            },
+            {
+                "name": "Nama (wine)",
+                "@id": "http://www.wikidata.org/entity/Q4312724",
+                "actual": "positive",
+                "description": "Nama (Greek: \u039d\u03ac\u03bc\u03b1) is a sweet red wine that is usually used in Greek Orthodox Churches in Holy Communion. It is similar to Mavrodaphne, with the difference that it is sweeter and it contains less alcohol.\nIn Greece 'Narma'  is a controlled appellation corresponding to the grape variety.\n\n"
+            },
+            {
+                "name": "Akhasheni",
+                "@id": "http://www.wikidata.org/entity/Q5763543",
+                "actual": "positive",
+                "description": "\u10d0\u10ee\u10d0\u10e8\u10d4\u10dc\u10d8 (Georgian: \u10d0\u10ee\u10d0\u10e8\u10d4\u10dc\u10d8) is an appellation for wines produced around Akhasheni village, Gurjaani district, Kakheti region in eastern Georgia.\nAkhasheni is a naturally semi-sweet red wine made from the Saperavi grape variety. It is of dark-pomegranate color and has a harmonious velvety taste with a chocolate flavor. It contains 10.5\u201312% alcohol, 3\u20135% sugar and has 5\u20137% titrated acidity. The wine has been manufactured since 1958.\n\n"
+            },
+            {
+                "name": "Parraleta",
+                "@id": "http://www.wikidata.org/entity/Q7139732",
+                "actual": "positive",
+                "description": "Parraleta is a red Spanish wine grape variety which might also be known under various other names, such as Tinta Caiada (Alentejo, Portugal) in several Mediterranean countries. Parraleta is chosen as a prime name as it (old synonym Parrel) was used in Somontano, region located in the north-east Spain, which is its likely place of origin. DNA profiles of Tinta Caiada (Alentejo, Portugal), and Carenisca (Sardinia, Italy), and Salce\u00f1o Negro (Somontano, Spain) with that of Parraleta suggests that they are one and the same variety."
+            },
+            {
+                "name": "Brunello di Montalcino",
+                "@id": "http://www.wikidata.org/entity/Q26667",
+                "actual": "positive",
+                "description": "Brunello di Montalcino is a red DOCG Italian wine produced in the vineyards surrounding the town of Montalcino, in the province of Siena, located about 80 km south of Florence in the Tuscany wine region. Brunello, a diminutive of Bruno (\"brown\"), is the name that was given locally to what was believed to be an individual grape variety grown in Montalcino. In 1879 the Province of Siena's Amphelographic Commission determined, after a few years of controlled experiments, that Sangiovese and Brunello were the same grape variety, and that the former should be its designated name. In Montalcino the name Brunello evolved into the designation of the wine produced with 100% Sangiovese.\nIn 1980, Brunello di Montalcino was among the four wines awarded the first Denominazione di Origine Controllata e Garantita (DOCG) designation. Today it is one of Italy's best-known and most expensive wines."
+            },
+            {
+                "name": "Barbaresco",
+                "@id": "http://www.wikidata.org/entity/Q590461",
+                "actual": "positive",
+                "description": "Barbaresco is an Italian wine made with the Nebbiolo grape. Barbaresco is produced in the Piedmont region in an area of the Langhe immediately to the east of Alba and specifically in the comunes of Barbaresco, Treiso and Neive plus that area of the frazione San Rocco Seno d'Elvio which was once part of the comune of Barbaresco and now belongs to the comune of Alba. It was granted Denominazione di origine controllata (DOC) status in 1966 and Denominazione di Origine Controllata e Garantita status in 1980. The wine is often compared with Barolo\u2014another Nebbiolo based wine from the Piedmont area. Though the wines do share many similarities, there are some distinct differences between them."
+            },
+            {
+                "name": "Mukuzani",
+                "@id": "http://www.wikidata.org/entity/Q4306822",
+                "actual": "positive",
+                "description": "Mukuzani (Georgian: \u10db\u10e3\u10d9\u10e3\u10d6\u10d0\u10dc\u10d8 muk\u2019uzani) is a dry red Georgian wine made from Saperavi grapes in Mukuzani, Kakheti.  Mukuzani is distinct from the other wines made from the same grapes in that it is aged in oak casks for a longer time \u2013 at least three years.\nMukuzani has a deep red color with a soft smoky scent of oak and berry. The taste begins dry but the oak and fruit flavors quickly come through. As a result of its longer aging, Mukuzani has more complexity than the other wines made from Saperavi grapes. It goes particularly well with steaks and dark meats.\nThe matured wine contains 10.5\u201312.5% alcohol and has 6.0\u20137.0% titrated acidity.  It has been produced since 1888.\nMukuzani is considered by many to be the best of the Georgian red wines made from Saperavi. It has won 9 gold medals, 2 silver medals and 3 bronze medals in international competitions."
+            },
+            {
+                "name": "Egri Bikav\u00e9r",
+                "@id": "http://www.wikidata.org/entity/Q987960",
+                "actual": "positive",
+                "description": "Egri Bikav\u00e9r (Bull's Blood of Eger) is a blended red wine produced in Eger, Hungary. It is very representative of the red wines of Eger, a terroir wine, which carries the flavour of the soils of local production sites, the mezzo-climate unique to the region and the traditions and mores of local residents, from the selection of varieties to choosing the period and method of grape processing and mellowing.\nThe exact date of the emergence of Egri Bikav\u00e9r is unknown. One thing is certain; the word Bikav\u00e9r (bull's blood) was recorded as early as the beginning of the 19th century. Under the name Bikav\u00e9r, full-bodied red wines were sold, not only in Eger and Szeksz\u00e1rd but other places as well. Legends grew up around the name, which tied it to the 1552 siege of Eger as related by G\u00e1rdonyi G\u00e9za.\nIn its present form, also accepted by the public, Egri Bikav\u00e9r is associated with the name of Gr\u0151ber Jen\u0151, Eger vigneron. Sug\u00e1r Istv\u00e1n (1981) writes: 'I have searched different sources for the composition of grape types constituting bull's blood. The earliest record dates back to 1912, when, in addition to kadarka, I have found blue frank, cabernet and merlot'.\nContemporary vignerons and winemakers have been refining the conditions of the production, name, classification and control of this wine for the past two decades. The result of this activity is that Egri Bikav\u00e9r became the first quality wine in Hungary's history to be produced in a specified region. (Egri Bikav\u00e9r Regulation of 1997)\nAt present, Egri Bikav\u00e9r is produced in accordance with a regulation designating 3 tiers of quality: classicus, superior and grand superior. The product description contains the rules of yield restriction, fermentation sur marc, aging in barrels and bottles, as well as the marketing and trading of the wines, for the different tiers.\nEgri Bikav\u00e9r is a K\u00e9kfrankos-based dry red wine blend, ranging from garnet red to deep ruby, with flavours and aromas presenting rich, spicy and fruity characteristics, without a tannin accent. Aging and fresh fruit aromas are both characteristic of the wine; its complexity is well illustrated by the fact that the characteristic feature of the wine is that no single grape type can dominate the wine in question. Due to the riper, more concentrated grape produce, as well as the extended aging in barrels and bottles, Superior and Grand Superior wines have marked aromas of mellowing, lasting flavours, full body and a long shelf-life with minerality and ideas in harmony with the production areas (sites). The difference between them is usually manifested in the fullness and duration of the aroma.\n\n"
+            },
+            {
+                "name": "Pauillac AOC",
+                "@id": "http://www.wikidata.org/entity/Q770230",
+                "actual": "positive",
+                "description": "Pauillac ([po.jak]) is a wine growing commune (municipality) and appellation d'origine contr\u00f4l\u00e9e within Haut-M\u00e9doc in Bordeaux, centred on the small town of Pauillac.  Hugh Johnson has said, \"If one had to single out one commune of Bordeaux to head the list, there would be no argument.  It would be Pauillac.\".  Pauillac includes three of the five premier cru ch\u00e2teaux of Bordeaux: Latour, Lafite Rothschild and Mouton Rothschild.  The wines of Pauillac are often considered the quintessence of Bordeaux wines."
+            },
+            {
+                "name": "Merlot",
+                "@id": "http://www.wikidata.org/entity/Q213338",
+                "actual": "positive",
+                "description": "Merlot ( MUR-loh) is a dark blue\u2013colored wine grape variety, that is used as both a blending grape and for varietal wines. The name Merlot is thought to be a diminutive of merle, the French name for the blackbird, probably a reference to the color of the grape. Its softness and \"fleshiness,\" combined with its earlier ripening, make Merlot a popular grape for blending with the sterner, later-ripening Cabernet Sauvignon, which tends to be higher in tannin.Along with Cabernet Sauvignon, Cabernet Franc, Malbec and Petit Verdot, Merlot is one of the primary grapes used in Bordeaux wine, and it is the most widely planted grape in the Bordeaux wine regions. Merlot is also one of the most popular red wine varietals in many markets. This flexibility has helped to make it one of the world's most planted grape varieties. As of 2004, Merlot was estimated to be the third most grown variety at 260,000 hectares (640,000 acres) globally.\nThe area planted to Merlot has continued to increase, with 266,000 hectares (660,000 acres) in 2015.While Merlot is made across the globe, there tend to be two main styles. The \"International style\" favored by many New World wine regions tends to emphasize late harvesting to gain physiological ripeness and produce inky, purple colored wines that are full in body with high alcohol and lush, velvety tannins with intense, plum and blackberry fruit. While this international style is practiced by many Bordeaux wine producers, the traditional \"Bordeaux style\" of Merlot involves harvesting Merlot earlier. This maintains the acidity and produces more medium-bodied wines with moderate alcohol levels that have fresh, red fruit flavors (raspberries, strawberries) and potentially leafy, vegetal notes."
+            },
+            {
+                "name": "Chianti",
+                "@id": "http://www.wikidata.org/entity/Q750979",
+                "actual": "positive",
+                "description": "A Chianti wine (, also US: , Italian: [\u02c8kjanti]) is any wine produced in the Chianti region of central Tuscany. It was historically associated with a squat bottle enclosed in a straw basket, called a fiasco (\"flask\"; pl. fiaschi). However, the fiasco is now only used by a few makers of the wine; most Chianti is bottled in more standard-shaped wine bottles. In the mid-to-late 19th century, Baron Bettino Ricasoli (later Prime Minister of the Kingdom of Italy) helped establish Sangiovese as the blend's dominant grape variety, creating the blueprint for today's Chianti wines.The first definition of a wine area called Chianti was made in 1716. It described the area near the villages of Gaiole, Castellina and Radda; the so-called Lega del Chianti and later Provincia del Chianti (Chianti province). In 1932 the Chianti area was completely redrawn and divided into seven sub-areas: Classico, Colli Aretini, Colli Fiorentini, Colline Pisane, Colli Senesi, Montalbano and R\u00f9fina. Most of the villages that in 1932 were added to the newly defined Chianti Classico region added in Chianti to their names, for example Greve in Chianti, which amended its name in 1972. Wines labelled Chianti Classico come from the largest sub-area of Chianti, which includes the original Chianti heartland. Only Chianti from this sub-zone may display the black rooster (gallo nero) seal on the neck of the bottle, which indicates that the producer of the wine is a member of the Chianti Classico Consortium, the local association of producers. Other variants, with the exception of Rufina north-east of Florence and Montalbano south of Pistoia, originate in the named provinces: Siena for the Colli Senesi, Florence for the Colli Fiorentini, Arezzo for the Colli Aretini and Pisa for the Colline Pisane. In 1996 part of the Colli Fiorentini sub-area was renamed Montespertoli.\nDuring the 1970s producers started to reduce the quantity of white grapes in Chianti. In 1995 it became legal to produce a Chianti with 100% Sangiovese. For a wine to retain the name of Chianti it must be produced with at least 80% Sangiovese grapes. Aged Chianti (38 months instead of 4\u20137) may be labelled as Riserva. Chianti that meets more stringent requirements (lower yield, higher alcohol content and dry extract) may be labelled as Chianti Superiore, although Chianti from the Classico sub-area is not allowed in any event to be labelled as Superiore."
+            },
+            {
+                "name": "Alazani (wine)",
+                "@id": "http://www.wikidata.org/entity/Q4708929",
+                "actual": "positive",
+                "description": "Alazani wine takes its name from one of Alazani River (Georgian: \u10d0\u10da\u10d0\u10d6\u10d0\u10dc\u10d8, Azerbaijani: Qan\u0131x), which forms part of the Georgian border with Azerbaijan in eastern Georgia, before flowing into the Kura River. As a result of the slightly warmer climate in the Alazani Valley, grapes grown there are sweeter than elsewhere in Georgia.\nThis wine is made from Rkatsiteli grapes (Georgian \u10e0\u10e5\u10d0\u10ec\u10d8\u10d7\u10d4\u10da\u10d8; literally \"red stem\"). This is one of the oldest variety of grapes in Georgia, with archaeologists having unearthed examples in clay jars from the 3rd millennium BC. Recently Rkatsiteli grapes have been planted in Eastern Europe, the Finger Lakes region of New York and Australia.\nIt has a semi-sweet flavor with light fruit tones and a straw color that darkens as the wine ages. Alazani white wine goes well with fruit, nuts and deserts."
+            },
+            {
+                "name": "Negru de Purcari",
+                "@id": "http://www.wikidata.org/entity/Q4316004",
+                "actual": "positive",
+                "description": "Negru de Purcari is a dry, red Moldovan wine, produced from Cabernet Sauvignon, Rara neagr\u0103 and Saperavi grapes. The wine has a dark ruby, saturated color."
+            }
+        ]
+    },
+    "negatives": {
+        "query": "SELECT ?item ?name ?article WHERE {\n    ?item p:P31/ps:P31/wdt:P279* wd:Q282 .\n    ?article schema:about ?item ;\n            schema:inLanguage \"en\" ;\n            schema:isPartOf <https://en.wikipedia.org/> ;\n            schema:name ?name .\n    FILTER NOT EXISTS { ?item p:P31/ps:P31/wdt:P279* wdt:Q1827 }\n}\nLIMIT 500",
+        "data": [
+            {
+                "name": "Banyuls AOC",
+                "@id": "http://www.wikidata.org/entity/Q807022",
+                "actual": "negative",
+                "description": "Banyuls is a French appellation d'origine contr\u00f4l\u00e9e (AOC) for a fortified ap\u00e9ritif or dessert wine made from old vines cultivated in terraces on the slopes of the Catalan Pyrenees in the Roussillon county of France, bordering, to the south, the Empord\u00e0 wine region in Catalonia in Spain.\nThe AOC production area is limited to four communes of the C\u00f4te Vermeille: Banyuls (from which the AOC takes its name), Cerb\u00e8re, Collioure and Port-Vendres. The boundaries of the AOC are identical to those of the  Collioure AOC.\nBanyuls Grand Cru is an AOC for superior wines that would otherwise be classified as simply Banyuls. They must be matured for 30 months. The grapes permitted are the same."
+            },
+            {
+                "name": "Colline di Levanto DOC",
+                "@id": "http://www.wikidata.org/entity/Q3683272",
+                "actual": "negative",
+                "description": "Colline di Levanto is an Italian Denominazione di origine controllata (DOC) located in Liguria that produces both red and white wines primarily from Sangiovese and Vermentino, respectively. Located next to the notable white wine only DOC of Cinque Terre, the Colline di Levanto has very similar vineyard soils and mesoclimate to its neighboring wine region."
+            },
+            {
+                "name": "Colli Piacentini",
+                "@id": "http://www.wikidata.org/entity/Q2983286",
+                "actual": "negative",
+                "description": "The Colli Piacentini (\"Hills of Piacenza\") are an Italian wine region located at the western end of Emilia-Romagna. In 1967, the region was given the denominazione di origine controllata (DOC) quality designation. Within its boundaries are several smaller DOCs including Colli Piacentini Gutturnio, Monterosso Val D'Arda DOC, Trebbianino Val Trebbia DOC, and Val Nur del Colli Piacentini DOC. The region has a long history of winemaking with fossilized vine roots and grape seeds excavated from the region showing viticulture taking place as early as 2000 BC. In Roman times, Julius Caesar's father-in-law Lucius Calpurnius Piso Caesoninus, grew grapes in the Piacenza hills.The Colli Piacentini region was once considered part of the Piedmont wine region. To the northwest is the Lombardy wine region of Oltrep\u00f2 Pavese and, like Oltrep\u00f2 Pavese, the wine industry of the Colli Piacentini has had strong historical ties to the wine markets of Milan. The region produces over 17 different wines ranging from Vin Santo dessert wines to slightly sparkling frizzante wines. While the practice of labeling wines by varietal is more often associated with New World wines, winemakers in the Colli Piacentini are permitted by DOC regulations to label some of their wines by varietal.\n\n"
+            },
+            {
+                "name": "Bianco di Pitigliano",
+                "@id": "http://www.wikidata.org/entity/Q3639454",
+                "actual": "negative",
+                "description": "Bianco di Pitigliano is a denominazione di origine controllata that is located close to the southern coast of Tuscany, in Italy.  The DOC was created in 1966."
+            },
+            {
+                "name": "Cagnina di Romagna",
+                "@id": "http://www.wikidata.org/entity/Q3649800",
+                "actual": "negative",
+                "description": "Cagnina di Romagna was an Italian wine-producing zone in Emilia-Romagna region, in northeastern Italy. In 2011 it was incorporated into the Romagna Denominazione di Origine Controllata (DOC) alongside the denominations of Pagadebit di Romagna, Romagna Albana Spumante, Sangiovese di Romagna, and Trebbiano di Romagna.The local name of the Terrano, a grape of the Refosco family, is Cagnina. The term can still be found on wine labels from Romagna DOC provided a minimum of 85% of Terrano/Cagnina is used in the wine.It makes a purple and red, fruit-scented, soft, slightly sweet red wine that is low in alcohol, low in acidity, and easy to sip.Cagnina di Romagna is often served with Ciambella and roast chestnuts."
+            },
+            {
+                "name": "Aglianico del Vulture",
+                "@id": "http://www.wikidata.org/entity/Q338771",
+                "actual": "negative",
+                "description": "Aglianico del Vulture and Aglianico del Vulture Superiore are Italian red wines based on the Aglianico grape and produced in the Vulture area of Basilicata. Located on volcanic soils derived from nearby Mount Vulture, it was awarded Denominazione di Origine Controllata (DOC) status in 1971. The Superiore was elevated to a separate Denominazione di Origine Controllata e Garantita (DOCG) status in 2011, the only DOCG wine in Basilicata.Although not as famous as other Italian wines, Aglianico del Vulture is considered one of the best red wines of Italy."
+            },
+            {
+                "name": "Dom P\u00e9rignon",
+                "@id": "http://www.wikidata.org/entity/Q347187",
+                "actual": "negative",
+                "description": "Dom P\u00e9rignon ( DOM perr-in-YON, French: [d\u0254\u0303 pe\u0281i\u0272\u0254\u0303]) is a brand of vintage Champagne. It is named after Dom P\u00e9rignon, a Benedictine monk who was an important quality pioneer for Champagne wine but who, contrary to popular myths, did not discover the Champagne method for making sparkling wines."
+            },
+            {
+                "name": "Brachetto d'Acqui",
+                "@id": "http://www.wikidata.org/entity/Q390630",
+                "actual": "negative",
+                "description": "Brachetto d'Acqui (Italian: [bra\u02c8ketto \u02c8dakkwi]; Piedmontese: brachet d'\u00c0ich [bra\u02cck\u025bt \u02c8d\u0251jk]) is a red Italian wine that is classified as a Denominazione di Origine Controllata e Garantita (DOCG) since 1996 and previously a Denominazione di Origine Controllata (DOC) region since 1969. It is produced in the Piedmont wine region around Acqui Terme in the province of Alessandria with some overlap into the province of Asti. The wine is produced from the Brachetto grape, a variety that is believed to be native to Piedmont, and can be still or sparkling with usually some sweetness."
+            },
+            {
+                "name": "Bardolino DOC",
+                "@id": "http://www.wikidata.org/entity/Q808039",
+                "actual": "negative",
+                "description": "Bardolino and Bardolino Superiore are Italian red wines produced along the chain of morainic hills in the province of Verona to the east of Lake Garda. Bardolino takes its name from the town Bardolino on the shores of Lake Garda and was awarded Denominazione di origine controllata (DOC) status in 1968. The Superiore is a stronger aged wine, and was promoted to Denominazione di origine controllata e garantita (DOCG) status in 2001. The blend of grapes used to produce the wine primarily includes Corvina, Rondinella, and Molinara. Up to 15% of the blend is allowed to include Rossignola, Barbera, Sangiovese, or Garganega, in any combination."
+            },
+            {
+                "name": "Uhudler",
+                "@id": "http://www.wikidata.org/entity/Q874080",
+                "actual": "negative",
+                "description": "Uhudler is a unique wine from Austria, which originates in the S\u00fcdburgenland region (see Burgenland). In appearance it is often a ros\u00e9 colour, but is also made as a white wine. It has intense flavours of strawberry and black currants, a characteristic taste often called \"foxy\" in wine parlance. The grape varieties used are highly resistant to phylloxera and other diseases; as a result they do not often have to be sprayed with pesticides. They also require little fertilization because of their vigorous growth."
+            },
+            {
+                "name": "Morellino di Scansano",
+                "@id": "http://www.wikidata.org/entity/Q926371",
+                "actual": "negative",
+                "description": "Morellino di Scansano DOCG is an Italian red wine made in the hilly environs of the village of Scansano, GR, in the Maremma region of coastal Tuscany, which has an ancient but obscure tradition of winemaking. Morellino is the local name for the Sangiovese grape variety. Many people think that the name Morellino comes from morello (brown), the colour of the region's horses. The name may also come from the morello cherry, a dark red cherry with great tartness and acidity. The wine, which was granted DOC status in 1978, then upgraded to DOCG status beginning with the 2007 vintage, is made from at least 85% Sangiovese, which is also the basis of the Tuscan wines Chianti, Brunello di Montalcino, and Vino Nobile di Montepulciano. The remaining 15% can comprise any non-aromatic black grape varieties included in a list made and periodically updated by Tuscan wine authorities."
+            },
+            {
+                "name": "Est! Est!! Est!!! di Montefiascone",
+                "@id": "http://www.wikidata.org/entity/Q1368986",
+                "actual": "negative",
+                "description": "Est! Est!! Est!!! di Montefiascone (also known as just Est! Est!! Est!!!) is an Italian wine region centered on the commune of Montefiascone in the province of Viterbo in Lazio. Since 1966, the white Trebbiano and Malvasia bianca-based wines produced within the 1,000 acres (400 ha) of the region can qualify for Denominazione di origine controllata (DOC) designation under Italian wine laws.\nThe unusual name of the wine region dates back to a 12th-century tale of a German bishop traveling to the Vatican for a meeting with the pope. The bishop sent a prelate ahead of him to survey the villages along the route for the best wines. The 'wine scout' had instructions to write 'Est' (Latin for 'There is') on the door or on the wall of the inns he visited when he was particularly impressed with the quality of the wine they served so the bishop following on his trail would have known in advance where to make a stop. At a Montefiascone inn, the prelate was reportedly so overwhelmed with the local wine that he wrote Est! Est!! Est!!! on the door. While this tale has been widely repeated, with some variations (such as the event taking place in the 10th century and/or involving a Flemish bishop, attending the coronation of Henry V, Holy Roman Emperor instead of meeting the Pope, etc.), the story is considered by many wine experts, such as Master of Wine Mary Ewing-Mulligan, to be apocryphal.Today, the wine region is known primarily for wine tourism, catering to the visitors of Lake Bolsena north of Rome, with comparatively little Est! Est!! Est!!! di Montefiascone being exported. Among wine critics, the wine often receives mixed opinions with wine experts such as Hugh Johnson and Jancis Robinson describing in The World Atlas of Wine Est! Est!! Est!!! di Montefiascone as \"usually the dullest white wine with the strangest name in the world.\" Wine writers Joe Bastianich and David Lynch compares Est! Est!! Est!!! di Montefiascone to the Tuscan wines from Vernaccia di San Gimignano saying that the region's \"...history is more compelling than what's currently in the glass.\""
+            },
+            {
+                "name": "Juran\u00e7on AOC",
+                "@id": "http://www.wikidata.org/entity/Q921560",
+                "actual": "negative",
+                "description": "Juran\u00e7on is a wine region in South West France in the foothills of the Pyrenees, around the commune of Juran\u00e7on. It produces a dry white wine and a more sought after sweet white wine. The grape varieties used are Gros Manseng, Petit Manseng and Courbu. The sweet wines develop aromas of tropical fruit such as pineapple and mango. The vines are grown on steep mountain slopes and for the sweet wines the grapes are often hand selected well into October and November to ensure the best noble rot characteristics - although Tim Wildman MW states that noble rot is not the origin of sweetness in these wines."
+            },
+            {
+                "name": "Constantia (wine)",
+                "@id": "http://www.wikidata.org/entity/Q1127722",
+                "actual": "negative",
+                "description": "Constantia is a South African dessert wine. It is made from Muscat Blanc \u00e0 Petits Grains (Muscat de Frontignan) grapes grown in the district of Constantia, City of Cape Town. In the eighteenth and nineteenth centuries it was widely exported to Europe. However, production of Constantia ceased in the late nineteenth century following the devastation of South African vineyards by the phylloxera epidemic. Production resumed at Klein Constantia in 1986, at Groot Constantia in 2003 and at Buitenverwachting in 2007."
+            },
+            {
+                "name": "Alcamo wine",
+                "@id": "http://www.wikidata.org/entity/Q1285128",
+                "actual": "negative",
+                "description": "Alcamo wine is produced under the DOC classification of Alcamo, Sicily. It is located in the province of Palermo about 30 kilometres (19 mi) south-west of the city of Palermo and just east of Trapani province.\nIn July 1972, the Alcamo DOC was applied to the wines produced in the nine different towns in the vicinity of Alcamo: Calatafimi, Castellammare del Golfo, Gibellina, Balestrate, Camporeale, Monreale, Partinico, San Cipirello and San Giuseppe Jato. Initially, it applied only to the white wines produced in the region. It is now also used for the red and rose wines produced in the region, following Local Wine Law 99."
+            },
+            {
+                "name": "Colli di Luni",
+                "@id": "http://www.wikidata.org/entity/Q1109395",
+                "actual": "negative",
+                "description": "Colli di Luni is an Italian Denominazione di origine controllata (DOC) located in both Liguria and Tuscany in northwest Italy. The DOC produces both reds and white wines made primarily from Sangiovese and Vermentino with a varietal Vermentino also being produced in the DOC.Wine experts Joe Bastianich and David Lynch have described well made example of the reds of Colli di Luni as similar to \"small scale Chiantis\"."
+            },
+            {
+                "name": "Ramandolo",
+                "@id": "http://www.wikidata.org/entity/Q910343",
+                "actual": "negative",
+                "description": "Ramandolo is a sweet white Italian wine from the village of the same name which is situated in the hills near Nimis in the Friuli-Venezia Giulia wine region of northeast Italy. It is made from a local variety of the Verduzzo grape. Since 2001, Ramandolo has been produced as a DOCG wine. Prior to this it was a subzone of the Colli Orientali del Friuli DOC."
+            },
+            {
+                "name": "Ch\u00e2teau P\u00e9trus",
+                "@id": "http://www.wikidata.org/entity/Q1090667",
+                "actual": "negative",
+                "description": "P\u00e9trus is a Bordeaux, France, wine estate located in the Pomerol appellation near its eastern border to Saint-\u00c9milion. A small estate of just 11.4 hectares (28 acres), it produces a red wine entirely from Merlot grapes (since the end of 2010), and produces no second wine. The estate belongs to Jean-Fran\u00e7ois Moueix and his children.\nAlthough the wines of Pomerol have never been classified, P\u00e9trus is widely regarded as the outstanding wine of the appellation. P\u00e9trus leads a duo of Pomerol estates in extreme prices, along with Le Pin, that rank consistently among the world's most expensive wines. A 750 ml bottle of P\u00e9trus wine is priced at an average of $2,630."
+            },
+            {
+                "name": "Colline Lucchesi",
+                "@id": "http://www.wikidata.org/entity/Q1109645",
+                "actual": "negative",
+                "description": "Colline Lucchesi is a denominazione di origine controllata (DOC) for wine, created in 1968, that is located in northern Tuscany, Italy, and centered near the commune of Lucca."
+            },
+            {
+                "name": "Champagne",
+                "@id": "http://www.wikidata.org/entity/Q134862",
+                "actual": "negative",
+                "description": "Champagne (, French: [\u0283\u0251\u0303pa\u0272]) is a sparkling wine originated and produced in the Champagne wine region of France under the rules of the appellation, that demand specific vineyard practices, sourcing of grapes exclusively from designated places within it, specific grape-pressing methods and secondary fermentation of the wine in the bottle to cause carbonation.\nThe grapes Pinot noir, Pinot meunier, and Chardonnay are used to produce almost all Champagne, but small amounts of Pinot blanc, Pinot gris (called Fromenteau in Champagne), Arbane, and Petit Meslier are vinified as well.\nChampagne became associated with royalty in the 17th, 18th, and 19th centuries. The leading manufacturers made efforts to associate their Champagnes with nobility and royalty through advertising and packaging, which led to its popularity among the emerging middle class."
+            },
+            {
+                "name": "Montagne-Saint-\u00c9milion AOC",
+                "@id": "http://www.wikidata.org/entity/Q282021",
+                "actual": "negative",
+                "description": "Montagne-Saint-\u00c9milion is an Appellation d'origine contr\u00f4l\u00e9e (AOC) for wine in the Bordeaux wine region of France, where it is situated in the Libourne subregion on the right bank of the Dordogne. It was granted AOC status on 14 November 1936, and the AOC designation granted to the wines which have been harvested on the land of the Montagne commune or in its hamlets, Parsac and Saint-Georges. 1,570 hectares (3,900 acres) of vine planted areas have belonged to the appellation in 2005, with a production of 74,130 hl.\nMontagne-Saint-\u00c9milion only produces red wine, and nearly all of the grape varieties from Bordeaux can be and are used, such as Cabernet Sauvignon, Cabernet Franc, Merlot, C\u00f4t, etc., although it is Merlot that is used most often.\nThe vineyard of Montagne can be found northeast of Saint-\u00c9milion, on the right bank of the Barbonne. It forms part of the \"satellites\" of the Saint-\u00c9milion vineyard along with the vineyards of Lussac-Saint-\u00c9milion, Saint-Georges-Saint-\u00c9milion and Puisseguin-Saint-\u00c9milion.\nThe base yield is fixed at 45 hl/hectare with a limit of 20%. Before the chaptalization and concentration process, the must (the residue of grapes, after the juice has been extracted) must contain a minimum of 187g/L of natural sugar.  After fermentation, the wine must have a minimum alcohol level of 11% vol."
+            },
+            {
+                "name": "Vin de liqueur",
+                "@id": "http://www.wikidata.org/entity/Q7931338",
+                "actual": "negative",
+                "description": "A vin de liqueur is a sweet fortified style of French wine that is fortified with brandy to unfermented grape must. The term vin de liqueur is also used by the European Union to refer to all fortified wines.\nThese wines are similar to vins doux naturels but are sweeter and have more flavor influence from the added brandy. A vin de liqueur is usually served as an ap\u00e9ritif."
+            },
+            {
+                "name": "Fino",
+                "@id": "http://www.wikidata.org/entity/Q5450908",
+                "actual": "negative",
+                "description": "Fino (\"refined\" in Spanish) is the driest and palest of the traditional varieties of sherry and Montilla-Moriles fortified wine. They are consumed comparatively young and, unlike the sweeter varieties, should be consumed soon after the bottle is opened as exposure to air can cause them to lose their flavour within hours."
+            },
+            {
+                "name": "Salice Salentino (wine)",
+                "@id": "http://www.wikidata.org/entity/Q11262139",
+                "actual": "negative",
+                "description": "Salice Salentino is a red Italian wine produced primarily from the Negroamaro grape in the provinces of Brindisi and Lecce. The wine received DOC status in 1976."
+            },
+            {
+                "name": "Kagor (wine)",
+                "@id": "http://www.wikidata.org/entity/Q12824226",
+                "actual": "negative",
+                "description": "Kagor is a fortified dessert wine made from cabernet sauvignon, saperavi and other grapes on the Black Sea coast, primarily in Moldova and Crimea. Its name comes from Cahors, France. Conversely, the dominant grape variety in French Cahors wine is Malbec.\nKagor originated as a sacramental wine for use in Russian Orthodox liturgy."
+            },
+            {
+                "name": "South Tyrol wine",
+                "@id": "http://www.wikidata.org/entity/Q7838516",
+                "actual": "negative",
+                "description": "South Tyrol (called in Italian Alto Adige) is an autonomous province located in north-east Italy producing wine. This Austro-Italian wine region is noted for the distinct Austrian influences on the wine industry due to the region's long history under the rule of Austria-Hungary and Holy Roman Empires.Because of its unique history and location within the southern Alps and Dolomites, in this region grows a wide range of grape varieties that are not usually seen in other parts of Italy. These include M\u00fcller-Thurgau, Vernatsch, Lagrein, Sylvaner, Riesling (known in Italian as Riesling Renano), Gew\u00fcrztraminer (known in Italian as Traminer Aromatico) and Blatterle."
+            },
+            {
+                "name": "Beaujolais",
+                "@id": "http://www.wikidata.org/entity/Q616",
+                "actual": "negative",
+                "description": "Beaujolais ( BOH-zh\u0259-LAY, French: [bo\u0292\u0254l\u025b]) is a French Appellation d'Origine Contr\u00f4l\u00e9e (AOC) wine generally made of the Gamay grape, which has a thin skin and is low in tannins. Like most AOC wines they are not labeled varietally. Whites from the region, which make up only 1% of its production, are made mostly with Chardonnay grapes though Aligot\u00e9 is also permitted until 2024 (on condition the vines were planted before 2004). Beaujolais tends to be a very light-bodied red wine, with relatively high amounts of acidity. In some vintages, Beaujolais produces more wine than the Burgundy wine regions of Chablis, C\u00f4te d'Or, C\u00f4te Chalonnaise and M\u00e2connais put together.The wine takes its name from the historical Province of Beaujolais, a wine-producing region. It is located north of Lyon, and covers parts of the north of the department of Rh\u00f4ne, the Rh\u00f4ne-Alpes region and southern areas of the department of Sa\u00f4ne-et-Loire, in Burgundy. While administratively considered part of the Burgundy wine region, the climate is closer to that of the Rh\u00f4ne, and the wine is sufficiently individual in character to be considered apart from Burgundy and Rh\u00f4ne. The region is known internationally for its long tradition of winemaking, for the use of carbonic maceration, and more recently for the popular Beaujolais nouveau."
+            },
+            {
+                "name": "Moscadello di Montalcino",
+                "@id": "http://www.wikidata.org/entity/Q3866002",
+                "actual": "negative",
+                "description": "Moscadello di Montalcino is a white Italian wine from the Tuscan wine village of Montalcino."
+            },
+            {
+                "name": "Falerno del Massico",
+                "@id": "http://www.wikidata.org/entity/Q1394022",
+                "actual": "negative",
+                "description": "Falerno del Massico is an Italian red wine of DOC produced in the province of Caserta in the region of Campania.  It received DOC classification in 1989.  Falerno is produced in the same region as the highly regarded falernian wine of ancient Rome.  As of 2012, there are forty-four Falerno del Massico Wines produced in this DOC region."
+            },
+            {
+                "name": "Alella (DO)",
+                "@id": "http://www.wikidata.org/entity/Q1507028",
+                "actual": "negative",
+                "description": "Alella is a Spanish Denominaci\u00f3n de Origen (DO) (Denominaci\u00f3 d'Origen in Catalan) for wines produced in Maresme county in the province of Barcelona in the Spanish autonomous communities of Catalonia, located on the Mediterranean coast, 15 km to the north of the city of Barcelona.\nIt is one of the smallest DOs in Spain as the vineyards have been encroached upon by urban development. At the present time it only covers one third of the area that it covered in 1956 when it was established, despite a territorial extension in 1989."
+            },
+            {
+                "name": "Lacrima di Morro d'Alba",
+                "@id": "http://www.wikidata.org/entity/Q1799803",
+                "actual": "negative",
+                "description": "Lacrima di Morro d'Alba is a denominazione di origine controllata red wine that is produced in the province of Ancona, in Marche, Italy.  It is predominantly, if not entirely made from the rare Lacrima grape.  The DOC was created in 1985."
+            },
+            {
+                "name": "M\u00e9ntrida DO",
+                "@id": "http://www.wikidata.org/entity/Q3170850",
+                "actual": "negative",
+                "description": "M\u00e9ntrida is a Spanish Denominaci\u00f3n de Origen Protegida (DOP) for wines covering many municipalities in the northeast corner of the province of Toledo (Castile-La Mancha, Spain) and which is divided into three distinct areas: Talavera, Torrijos and Sagra-Toledo, with over 26,000 hectares (64,000 acres) under vines, the majority (71%) being in Torrijos."
+            },
+            {
+                "name": "Amarone",
+                "@id": "http://www.wikidata.org/entity/Q455219",
+                "actual": "negative",
+                "description": "Amarone della Valpolicella, usually known as Amarone (UK: , Italian: [ama\u02c8ro\u02d0ne]), is an Italian DOCG denomination of typically rich dry red wine made from the partially dried grapes of the Corvina (45\u201395%, of which up to 50% could be substituted with Corvinone), Rondinella (5\u201330%) and other approved red grape varieties (up to 25%).Valpolicella is in the province of Verona, within the large Veneto region.\nIn Italian, the name Amarone literally means \"Great Bitter\"; originally, this was to distinguish it from the Recioto produced in the same region, which is sweeter in taste."
+            },
+            {
+                "name": "Parrina",
+                "@id": "http://www.wikidata.org/entity/Q1632778",
+                "actual": "negative",
+                "description": "Parrina is a small Italian Denominazione di Origine Controllata comprising parts of the commune of Orbetello in the province of Grosseto, Tuscany. The DOC was awarded in 1971, and extends to 110.33 hectares (272.6 acres) with about 20 wine producers, the largest of which, by far, is Antica Fattoria La Parrina. The DOC originally allowed only the use of Italian varieties such as Trebbiano, Sangiovese and Ansonica, but an amendment in 1986 recognised emerging trends in allowing the use of Chardonnay, Cabernet Sauvignon and Merlot. About 50% of the wine production is white, 35% red, and 15% rosato (ros\u00e9, or pink). The name \"Parrina\" may originate from the Castilian word for a pergola on which vines or figs are grown. Others argue the area took its name from the Parrini order which had a monastery here in the twelfth century (although the existence of such an order is hard to substantiate).\nThe small Parrina DOC is located entirely within the larger Ansonica Costa dell'Argentario DOC."
+            },
+            {
+                "name": "Soave (wine)",
+                "@id": "http://www.wikidata.org/entity/Q1933708",
+                "actual": "negative",
+                "description": "Soave ( soh-AH-vay, SWAH-vay, Italian: [so\u02c8a\u02d0ve]) is a dry white Italian wine from the Veneto region in northeast Italy, principally around the city of Verona. Within the Soave region are both a  Denominazione di Origine Controllata (DOC) zone and since 2001 a Denominazione di Origine Controllata e Garantita (DOCG) designation known as Soave Superiore, with both zones being further sub-divided into a general and Classico designation for the wines produced in the heartland of the Soave region around the sloping vineyards of Verona.\nThroughout the Soave production zone Garganega is the principal grape variety, though Trebbiano di Soave and Chardonnay are permitted in varying percentages. While most Soave is dry, still wine within the DOC zone a sparkling spumante style is permitted as is the passito Recioto style, that in 1998 was granted its own DOCG designation for grapes grown in the hilly region."
+            },
+            {
+                "name": "Bollinger",
+                "@id": "http://www.wikidata.org/entity/Q1949939",
+                "actual": "negative",
+                "description": "Bollinger (French pronunciation: \u200b[b\u0254l\u025b\u0303\u0292e]) is a French Champagne house, a producer of luxury sparkling wines from the Champagne region. They produce several labels of Champagne under the Bollinger name, including the vintage Vieilles Vignes Fran\u00e7aises, Grande Ann\u00e9e and R.D. as well as the non-vintage Special Cuv\u00e9e. Founded in 1829 in A\u00ff by Hennequin de Villermont, Paul Renaudin and Jacques Bollinger, the house continues to be run by members of the Bollinger family. In Britain, Bollinger Champagnes are affectionately known as \"Bolly\"."
+            },
+            {
+                "name": "Piedirosso",
+                "@id": "http://www.wikidata.org/entity/Q467794",
+                "actual": "negative",
+                "description": "Piedirosso is a red Italian wine grape variety that is planted primarily in the Campania region. The grape is considered a specialty of the region, being used to produce wines for local and tourist consumption.  Its name \"piedirosso\" means \"red feet\" that reflects the bottom of the vine which used to be red similar to the red feet of a pigeon. The grape is believed to be one of the parent varieties of the central Italy grape Abbuoto, possibly a crossing with Casavecchia. DNA analysis has also shown a close genetic relationship between Piedirosso and the white Campanian wine grape Caprettone that was previously thought to be a clone of Coda di Volpe."
+            },
+            {
+                "name": "Toro (DO)",
+                "@id": "http://www.wikidata.org/entity/Q765567",
+                "actual": "negative",
+                "description": "Toro is a Spanish Denominaci\u00f3n de Origen Protegida (DOP) for wines in the province of Zamora, which is in the northwest of Castile and L\u00e9on (Spain). The area covered by the DOP is in the southeastern corner of Zamora province and includes the lands known as Tierra del Vino, Valle del Guare\u00f1a and Tierra de Toro. It borders on the lands known as Tierra del Pan and Tierra de Campos. There are 8,000 ha under vines, of which 5,500 are registered with the DOP Regulatory Council (Consejo Regulador)."
+            },
+            {
+                "name": "Ausbruch",
+                "@id": "http://www.wikidata.org/entity/Q778189",
+                "actual": "negative",
+                "description": "Ausbruch (literal meaning: \"break-out\") or sometimes Ausbruchwein is an Austrian wine term for a quality level in the Pr\u00e4dikatswein category. It is situated between Beerenauslese and Trockenbeerenauslese in requirements, which makes it a sweet dessert wine typically made from grapes affected by noble rot. The minimum must weight requirements for Ausbruch is 30 degrees KMW. The Ausbruch Pr\u00e4dikat exists only in Austria and Hungary, not in Germany. The category was introduced into Austrian wine legislation in 1970, as a legalization of the production method allegedly already used in the area of Rust. Ruster Ausbruch are still the most common Ausbruch wines to encounter; in many other Austrian regions, producers classify their wines as Beerenauslese if they fall short of the Trockenbeerenauslese requirements. Since October 2020, the Ruster Ausbruch is legally protected by the Austrian DAC system of origins as \"Ruster Ausbruch DAC\"."
+            },
+            {
+                "name": "Vernaccia di San Gimignano",
+                "@id": "http://www.wikidata.org/entity/Q1401752",
+                "actual": "negative",
+                "description": "Vernaccia di San Gimignano is a white Italian wine, made from the Vernaccia grape, produced in and around the Italian hill town of San Gimignano in Tuscany. It was the first Italian wine to be awarded Denominazione di Origine Controllata (DOC) status in 1966; on July 9, 1993, it was upgraded to Denominazione di Origine Controllata e Garantita (DOCG)."
+            },
+            {
+                "name": "Clairet",
+                "@id": "http://www.wikidata.org/entity/Q1427324",
+                "actual": "negative",
+                "description": "Clairet (French: [kl\u025b.\u0281\u025b]) is a wine that is dark pink in style and may be described as a full-bodied and deep-coloured type of ros\u00e9. It is considered a specialty of the Bordeaux region and is thought to have originated in Quinsac in Premieres C\u00f4tes de Bordeaux.\nSimilar to the light wine of the Middle Ages that was exported to England, also called \"vinum clarum\" and \"vin clar\" or \"bin clar\", the name is the source of the English term claret, although that term does not refer to a clairet but to a red wine.The wine is bottled under the AOC of Bordeaux clairet."
+            },
+            {
+                "name": "Romagna Albana",
+                "@id": "http://www.wikidata.org/entity/Q1423822",
+                "actual": "negative",
+                "description": "Romagna Albana (also Albana di Romagna before 2011) is a white, still Italian wine based principally on the Albana grape variety produced in Bologna, Forl\u00ec-Cesena and Ravenna. It was awarded Denominazione di Origine Controllata (DOC) status in 1967, and promoted to Denominazione di Origine Controllata e Garantita (DOCG) in 1987, with a name change instituted in 2011."
+            },
+            {
+                "name": "Colli Orientali del Friuli",
+                "@id": "http://www.wikidata.org/entity/Q748202",
+                "actual": "negative",
+                "description": "The Colli Orientali del Friuli is a Denominazione di origine controllata (DOC) located in the Italian wine region of  Friuli-Venezia Giulia. The region is located in the province of Udine and is sub-divided into three main sections; Ramandolo in the north, Cialla and Corno di Rosazzo. The climate and soil is very similar to the neighboring DOC of Collio Goriziano and the two region share many winemaking similarities as well. The main distinction between the Colli Orientali del Friuli and Collio Goriziano lie in the increased red and dessert wine production of the Colli Orientali del Friuli. The region also includes within its boundaries the three Denominazione di Origine Controllata e Garantita (DOCG) of the Friuli-Venezia Giulia Ramandolo and the two passito wine DOCGs of Colli Orientali del Friuli Picolit and Colli Orientali del Friuli Picolit-Cialla.\n\n"
+            },
+            {
+                "name": "Ghemme DOCG",
+                "@id": "http://www.wikidata.org/entity/Q1421577",
+                "actual": "negative",
+                "description": "Ghemme is a red Italian wine with Denominazione di Origine Controllata e Garantita status produced in the Colli Novaresi viticultural area in the hills of the Province of Novara in Piedmont. It was awarded DOC status in 1969 and received its DOCG classification in 1997.The wine is made primarily from the Nebbiolo grape varietal (known locally as Spanna) and like Gattinara, it may be blended with Uva Rara (known locally as Bonarda di Gattinara) and Vespolina.A minimum of 3 years total ageing is required, including a minimum of 20 months in wood and 9 months in a bottle from November 1 of the harvest year. Riserva is a minimum of 4 years of total ageing, including a minimum of 25 months in wood and 9 months in a bottle from November 1 of the harvest year."
+            },
+            {
+                "name": "Lessona (wine)",
+                "@id": "http://www.wikidata.org/entity/Q3236769",
+                "actual": "negative",
+                "description": "Piemonte wine is the range of Italian wines made in the region of Piedmont in the northwestern corner of Italy. \nThe best-known wines from the region include Barolo and Barbaresco. They are made from the Nebbiolo grape. These wines are ideal for storage and a well-aged Barolo for instance may leave a feeling of drinking velvet because the tannins are polished and integrated more and more into the wine. As the wine matures the colour becomes more brownish and rust-red.\nOther popular grapes used for red wine production are Barbera and  Dolcetto. Wine made with the Barbera grape is often fruity, with high acidity.  It can be delicate with less tannin than wine made from the Nebbiolo grape. Dolcetto on the other side, is not, as the name indicates, sweet.  Dolcetto means \"little sweet one\". (dolce is Italian for sweet). The grape gives fresh and dry red wines with some tannin. The wines made with the Dolcetto grape are typically consumed relatively young.\nThe sparkling wine   Asti spumante is made from the Moscato grape. The majority of the area's winemaking take places in the provinces of Cuneo, Asti and Alessandria. The Brachetto is another variety used for making sweet and sparkling red wines.\nWhile Turin is the capital of the Piedmont, Alba and Asti are at the heart of the region's wine industry. The winemaking industry of the Piedmont played a significant role in the early stages of the Risorgimento with some of the era's most prominent figures \u2013 such as Camillo Benso, conte di Cavour and Giuseppe Garibaldi \u2013 owning vineyards in Piedmont region and making significant contributions to the development of Piedmontese wines. The excessively high tariffs imposed by the Austrian Empire on the export of Piedmontese wines to Austrian controlled areas of northern Italy was one of the underlying sparks to the revolutions of 1848\u20131849.\n\n"
+            },
+            {
+                "name": "Galician wine",
+                "@id": "http://www.wikidata.org/entity/Q3392103",
+                "actual": "negative",
+                "description": "Galician wine is Spanish wine made in the autonomous community of Galicia in the northwest corner of Spain. It includes wine made in the provinces of A Coru\u00f1a, Ourense, Pontevedra and Lugo. Within Galicia are five Denominaci\u00f3ns de Orixe (DO): Monterrei, R\u00edas Baixas, Ribeira Sacra, Ribeiro and Valdeorras. In recent years, the region has seen a resurgence in its wine industry led by the international acclaim being received by the R\u00edas Baixas region for its Albari\u00f1o wines."
+            },
+            {
+                "name": "Ansonica Costa dell'Argentario",
+                "@id": "http://www.wikidata.org/entity/Q3618365",
+                "actual": "negative",
+                "description": "Ansonica Costa dell'Argentario is a dry Italian white wine from the region of Tuscany, Italy. Ansonica is made from the Ansonica (Inzolia) grape.  The DOC is located on the extreme southern coast of Tuscany and on the island of Giglio.  The DOC was created in 1995, and allows for a minimum of 85% Ansonica and a 15% maximum of other white grapes in the blend."
+            },
+            {
+                "name": "Beaune wine",
+                "@id": "http://www.wikidata.org/entity/Q2893254",
+                "actual": "negative",
+                "description": "Beaune wine is produced in the commune of Beaune in the C\u00f4te de Beaune subregion of Burgundy. The appellation d'origine contr\u00f4l\u00e9e (AOC) Beaune may be used for red and white wine with respectively Pinot noir and Chardonnay as the main grape variety. The production consists of slightly over 85 percent red wine, and slightly less than 15 percent white wine. While there are no Grand cru vineyards within Beaune, there are several well-known and highly regarded Premier cru vineyards, including some that are owned by the large n\u00e9gociant houses in Beaune and produce some of their \"flagship\" wines at the Premier cru level. The AOC was created in 1936.\nIn 2008, there was 411.7 hectares (1,017 acres) of vineyard surface in production for Beaune wine at village and Premier cru level, making Beaune the largest village-named appellation of the C\u00f4te d'Or, just ahead of Gevrey-Chambertin AOC in vineyard size. A total of 15,652 hectolitres of wine were produced in 2008, of which 13,319 hectolitres were red wine and 2,333 hectolitres white wine. Some 357.06 hectares (882.3 acres) of this area was used for the red wines in 2007. The total amount produced corresponds to almost 2.1 million bottles, which included almost 1.8 million bottles of red wine and a little over 300,000 bottles of white wine.\nFor white wines, the AOC regulations allow both Chardonnay and Pinot blanc to be used, but most wines are 100% Chardonnay. The AOC regulations also allow up to 15 percent total of Chardonnay, Pinot blanc and Pinot gris as accessory grapes in the red wines, but this is not practised very often. The allowed base yield is 40 hectoliters per hectare of red wine and 45 hectoliters per hectare for white wine. The grapes must reach a maturity of at least 10.5 percent potential alcohol for village-level red wine, 11.0 percent for village-level white wine and Premier Cru red wine, and 11.5 percent for Premier cru white wine.\nBeaune is also the centre of the Burgundy wine business, with most of the largest n\u00e9gociants located in the town, as well as the Hospices de Beaune, which annually holds a charity wine auction."
+            },
+            {
+                "name": "Brindisi Rosso",
+                "@id": "http://www.wikidata.org/entity/Q2925580",
+                "actual": "negative",
+                "description": "Brindisi Rosso is a red DOC (Denominazione di Origine Controllata) wine from the Southern Italian province of Brindisi, in the region of Apulia. The official appellation was granted on November 22, 1979, when a presidential decree was published in the Gazzetta Ufficiale dated April 23, 1980, after lobbying by the firm of Pasquale Medico & Sons and other producers. In recent years the production of this variety of wine has declined considerably (up to 50%), due to the uprooting of vines as a result of incentives from the EU, which has favoured other products. The province of Brindisi has a very long tradition of wine making, largely because Brindisi was the Roman gateway to the East and sold its wine to Rome along with salt and olive oil imported from the empire's Mediterranean provinces."
+            },
+            {
+                "name": "Ch\u00e2teau Mont-P\u00e9rat",
+                "@id": "http://www.wikidata.org/entity/Q2967951",
+                "actual": "negative",
+                "description": "Ch\u00e2teau Mont-P\u00e9rat, archaically Domaine du Peyrat, is a Bordeaux winery from the appellation Premi\u00e8res C\u00f4tes de Bordeaux in the department Gironde. The estate is located on the Right Bank of the Garonne, opposite that of Graves, in the commune of Capian.The estate produces a red and a dry white grand vin. Mont-P\u00e9rat has for long remained relatively unknown, though the estate was mentioned in the second edition of F\u00e9ret in 1864, it has more recently been described as a wine that could pass for being much more expensive.The estate was acquired by the Despagne family in 1998, also proprietors of the considerably more fashionable and higher priced Merlot based wine Girolate.The vineyards extend 102 hectares (250 acres) with vines of Merlot, Cabernet Sauvignon, Cabernet Franc, Sauvignon blanc, S\u00e9millon and Muscadelle."
+            },
+            {
+                "name": "Marino DOC",
+                "@id": "http://www.wikidata.org/entity/Q3848166",
+                "actual": "negative",
+                "description": "Marino is a DOC wine that is produced on the western edge of the Alban Hills, south of Rome, and next to the town of Marino.  The DOC was created in 1970.  Marino wine is similar to the blend found in Frascati, and is primarily composed of Trebbiano and Malvasia (Bianca di Candia).  The DOC allows for more range than typical Frascati.  While Frascati is permitted to be made up entirely of the notoriously-bland Trebbiano, Marino caps Trebbiano at 25% to 55% of the blend.  The rest of the blend is made up of 60% maximum Malvasia Bianca, 5% to 45% Malvasia del Lazio and up to 10% other wine grapes.\n\n"
+            },
+            {
+                "name": "Cristal (wine)",
+                "@id": "http://www.wikidata.org/entity/Q2422815",
+                "actual": "negative",
+                "description": "Cristal is the flagship cuv\u00e9e of Champagne Louis Roederer, created in 1876 for Alexander II, tsar of Russia."
+            },
+            {
+                "name": "Palo Cortado",
+                "@id": "http://www.wikidata.org/entity/Q2048343",
+                "actual": "negative",
+                "description": "Palo Cortado is a rare variety of sherry that is initially aged under flor to become a fino or amontillado, but inexplicably loses its veil of flor and begins aging oxidatively as an oloroso. The result is a wine with some of the richness of oloroso and some of the crispness of amontillado. Only about 1\u20132% of the grapes pressed for sherry naturally develop into palo cortado."
+            },
+            {
+                "name": "Pineau des Charentes",
+                "@id": "http://www.wikidata.org/entity/Q2095599",
+                "actual": "negative",
+                "description": "Pineau des Charentes, (Pineau Charentais, or simply Pineau) is a regional aperitif of western France, made in the d\u00e9partements of Charente, Charente-Maritime, and (to a lesser extent) Dordogne. While popular within its region of production, it is less well known in other regions of France and somewhat uncommon abroad.\nIt is a fortified wine (mistelle or vin de liqueur), made from either fresh, unfermented grape juice or a blend of lightly fermented grape must, to which a Cognac eau-de-vie is added and then matured.\nPineau is also found as a home-made product in the neighbouring Deux-S\u00e8vres and Vend\u00e9e d\u00e9partements. There is also a similar drink called \"Troussepinette\" that is made in the Vend\u00e9e, which is often flavoured with pine or fruits such as pear. Elsewhere in France analogous drinks are made (Macvin in Jura, Floc de Gascogne in the Armagnac area; there is also Pommeau, similarly made by blending apple juice and apple brandy), but these products are much less well known nationally and internationally than Pineau."
+            },
+            {
+                "name": "Oloroso",
+                "@id": "http://www.wikidata.org/entity/Q2838270",
+                "actual": "negative",
+                "description": "Oloroso (\"scented\" in Spanish) is a variety of fortified wine (sherry) made in Jerez and Montilla-Moriles and produced by oxidative aging. It is normally darker than Amontillado. Oloroso is usually dark and nutty. \nUnlike the fino and Amontillado sherries, in oloroso the flor yeast is suppressed by fortification at an earlier stage. This causes the finished wine to lack the fresh yeasty taste of the fino sherries. Without the layer of flor, the sherry is exposed to air through the slightly porous walls of the American or Canadian oak casks and undergoes oxidative aging. As the wine ages, it becomes darker and stronger and is often left for many decades.\nOloroso sherry is also the base for many of the sweet sherries developed for the international market, such as Bristol Cream, in which oloroso is sweetened and sometimes has the color removed by charcoal filtering to achieve the desired effect."
+            },
+            {
+                "name": "Cerasuolo d'Abruzzo",
+                "@id": "http://www.wikidata.org/entity/Q2946359",
+                "actual": "negative",
+                "description": "Cerasuolo d'Abruzzo is an Italian DOC classification of a ros\u00e9 (Italian: rosato) style wine made from the Montepulciano grape in Italy's Abruzzo wine region. The name cerasuolo (lit.\u2009'cherry-red') relates to the deep color the wine obtains from even very brief skin-contact with the highly pigmented skins of the Montepulciano grapes."
+            },
+            {
+                "name": "Mulsum (beverage)",
+                "@id": "http://www.wikidata.org/entity/Q1303349",
+                "actual": "negative",
+                "description": "Mulsum was the ancient beverage used by Romans, with the two main ingredients being wine and honey. The beverage was usually served before the main meal and is therefore an aperitif."
+            },
+            {
+                "name": "Retsina",
+                "@id": "http://www.wikidata.org/entity/Q1310859",
+                "actual": "negative",
+                "description": "Retsina (Greek: \u03c1\u03b5\u03c4\u03c3\u03af\u03bd\u03b1) is a Greek white (or ros\u00e9) resinated wine, which has been made for at least 2,000 years. Its unique flavor is said to have originated from the practice of sealing wine vessels, particularly amphorae, with Aleppo pine resin in ancient times.  Before the invention of impermeable glass bottles, oxygen caused many wines to spoil within the year. Pine resin helped keep air out, while infusing the wine with resin aroma. The Romans began to use barrels in the 3rd century AD, removing any oenological necessity for resin, but the flavor itself was so popular that the style is still widespread today."
+            },
+            {
+                "name": "Faug\u00e8res AOC",
+                "@id": "http://www.wikidata.org/entity/Q1398382",
+                "actual": "negative",
+                "description": "Faug\u00e8res (also known as Coteaux-du-Languedoc Faug\u00e8res) is an Appellation d'origine contr\u00f4l\u00e9e (AOC) in the Languedoc-Roussillon wine region in France and is named after the town of Faug\u00e8res, which lies 30 km north of B\u00e9ziers, in the foothills of the Massif Central, in the d\u00e9partement of H\u00e9rault. It is a local classification within the Coteaux-du-Languedoc AOC."
+            },
+            {
+                "name": "Cortese di Gavi",
+                "@id": "http://www.wikidata.org/entity/Q1135592",
+                "actual": "negative",
+                "description": "Cortese di Gavi, or simply Gavi, is an Italian dry white wine produced in a restricted area of the Province of Alessandria, Piedmont, close to the Ligurian border. The wine was awarded DOC status in 1974 and elevated to DOCG in 1998.The name derives from Gavi, the comune at the centre of its production zone, and Cortese, the local variety of grape from which it is exclusively made and whose existence is reported from the 17th century.  The current style of production dates to 1876.  Cortese di Gavi made from vines within the comune of Gavi may be labeled Gavi di Gavi. Although the DOCG rules allow for sparkling spumante and metodo classico styles, most Gavi is produced as a non-sparkling still wine."
+            },
+            {
+                "name": "Orvieto DOC",
+                "@id": "http://www.wikidata.org/entity/Q1404965",
+                "actual": "negative",
+                "description": "Orvieto is an Italian wine region located in Umbria and Lazio, centered on the comune of Orvieto. It is primarily known for its white wines made from a blend of mostly Grechetto and Trebbiano, which is sold under the Denominazione di origine controllata (DOC) Orvieto and Orvieto Classico. Blended red wine and eight varietal reds are sold under the Rosso Orvietano DOC. The region has been producing wine since the Middle Ages, when Orvieto wine was known as a sweet, golden-yellow wine. Today's white Orvieto is dry, but a semi-sweet style, known as Orvieto Abboccato, and dolce (sweet), are also produced in small quantities."
+            },
+            {
+                "name": "Merlot",
+                "@id": "http://www.wikidata.org/entity/Q213338",
+                "actual": "negative",
+                "description": "Merlot ( MUR-loh) is a dark blue\u2013colored wine grape variety, that is used as both a blending grape and for varietal wines. The name Merlot is thought to be a diminutive of merle, the French name for the blackbird, probably a reference to the color of the grape. Its softness and \"fleshiness,\" combined with its earlier ripening, make Merlot a popular grape for blending with the sterner, later-ripening Cabernet Sauvignon, which tends to be higher in tannin.Along with Cabernet Sauvignon, Cabernet Franc, Malbec and Petit Verdot, Merlot is one of the primary grapes used in Bordeaux wine, and it is the most widely planted grape in the Bordeaux wine regions. Merlot is also one of the most popular red wine varietals in many markets. This flexibility has helped to make it one of the world's most planted grape varieties. As of 2004, Merlot was estimated to be the third most grown variety at 260,000 hectares (640,000 acres) globally.\nThe area planted to Merlot has continued to increase, with 266,000 hectares (660,000 acres) in 2015.While Merlot is made across the globe, there tend to be two main styles. The \"International style\" favored by many New World wine regions tends to emphasize late harvesting to gain physiological ripeness and produce inky, purple colored wines that are full in body with high alcohol and lush, velvety tannins with intense, plum and blackberry fruit. While this international style is practiced by many Bordeaux wine producers, the traditional \"Bordeaux style\" of Merlot involves harvesting Merlot earlier. This maintains the acidity and produces more medium-bodied wines with moderate alcohol levels that have fresh, red fruit flavors (raspberries, strawberries) and potentially leafy, vegetal notes."
+            },
+            {
+                "name": "Carso DOC",
+                "@id": "http://www.wikidata.org/entity/Q387806",
+                "actual": "negative",
+                "description": "Carso \u2013 Kras is an Italian wine-producing zone located in the provinces Trieste and Gorizia in the Friuli-Venezia Giulia region, on the border with Slovenia. It was classified as a Denominazione di Origine Controllata (DOC) in 1985 and produces both red and white wine. It takes its name from the Carso plateau and covers 57 hectares. It has produced 1, 080 hl total 2013/2014, with an average of 11, 240 cases bottled annually."
+            },
+            {
+                "name": "Friuli-Venezia Giulia wine",
+                "@id": "http://www.wikidata.org/entity/Q443118",
+                "actual": "negative",
+                "description": "Friuli-Venezia Giulia wine (or Friuli wine) is wine made in the northeastern Italian region of Friuli-Venezia Giulia. There are 11 Denominazione di origine controllata (DOC) and 3 Denominazione di Origine Controllata e Garantita (DOCG) in the Friuli-Venezia Giulia area. The region has 3 Indicazione Geografica Tipica (IGT) designations Alto Livenza, delle Venezie and Venezia Giulia. Nearly 62% of the wine produced in the region falls under a DOC designation. The area is known predominantly for its white wines which are considered some of the best examples of Italian wine in that style. Along with the Veneto and Trentino-Alto Adige/S\u00fcdtirol, the Friuli-Venezia Giulia forms the Tre Venezie wine region which ranks with Tuscany and Piedmont as Italy's world class wine regions."
+            },
+            {
+                "name": "Frascati DOC",
+                "@id": "http://www.wikidata.org/entity/Q457946",
+                "actual": "negative",
+                "description": "Frascati, an Italian white wine, takes its name from the town of Frascati, located 25 km southeast of Rome, in Lazio, Italy. Archeological discoveries from the ancient town of Tusculum, now Frascati, demonstrate the cultivation of grapes for wine since the 5th century BC. Frascati was one of the preferred wines of  Ancient Rome, of Renaissance Popes, of poets and artists visiting in the Grand Tour (1700s and 1800s), and of the La Dolce Vita generation in the 1960s. Made from Malvasia di Candia, Malvasia del Lazio, Grechetto, Bombino bianco, and Trebbiano grapes, Frascati gained Denominazione di Origine Controllata (DOC) status in 1966 and DOCG status in 2011, making it one of Italy's first DOC wines. The Frascati DOC/DOCG area is located in the heart of the Castelli Romani, Tusculum and Albani Hills south of Rome, and north of Lake Albano. The vineyards range from 200 to 1,000 feet in altitude.  The soils are well drained and volcanic. The DOC allows for a minimum of 70% Malvasia (Bianca di Candia) and/or Malvasia del Lazio (aka Bombino) and a 30% maximum of Trebbiano and/or Greco and a maximum of 10% other white grapes. Many of the vineyards' cellars have ancient Roman caves. Modern cellars and techniques are now leading the way to an ever-growing reputation of a fine quality wine, with many award-winning labels. Frascati wine is an ingredient in the Frascati Frizz aperitif.Two Frascati wines qualified on Sep 20th 2011 for the higher DOCG recognition: \n\nFrascati Superiore, a white wine,\nCannellino di Frascati, a sweet dessert wine."
+            },
+            {
+                "name": "Trebbiano d'Abruzzo (wine)",
+                "@id": "http://www.wikidata.org/entity/Q502082",
+                "actual": "negative",
+                "description": "Trebbiano d'Abruzzo  is the most important white wine grape in Abruzzo."
+            },
+            {
+                "name": "Tsinandali wine",
+                "@id": "http://www.wikidata.org/entity/Q204269",
+                "actual": "negative",
+                "description": "Tsinandali (Georgian: \u10e2\u10d5\u10d8\u10e8\u10d8\u10ec\u10d8\u10dc\u10d0\u10dc\u10d3\u10d0\u10da\u10d8 t\u2019vishits\u2019inandali) white wine comes from Georgia.\n\n It is made from Rkatsiteli and Mtsvane grapes and comes from the Telavi and Kvareli area of Kakheti. Tsinandali is fermented at cool temperatures and matured for two to three years to bring out the complexity. Tsinandali can be aged for a further five, adopting some nutty bottle-aged characters in the process. It has a pale golden color and a light body. The flavor is light, with a moderate finish."
+            },
+            {
+                "name": "Vin jaune",
+                "@id": "http://www.wikidata.org/entity/Q440657",
+                "actual": "negative",
+                "description": "Vin jaune (French for \"yellow wine\") is a special and characteristic type of white wine made in the Jura region in eastern France. It is similar to dry fino Sherry and gets its character from being matured in  a barrel under a film of yeast, known as the voile, on the wine's surface. Vin jaune shares many similarities with Sherry, including some aromas, but unlike Sherry, it is not a fortified wine. The wine is made from the Savagnin grape, with some of the most premium examples coming from the marl based vineyards in the Ch\u00e2teau-Chalon AOC. In other French wine regions, there has been experimentation in producing similar style wines from Chardonnay and other local grape varieties using cultured yeast such as the vin de voile wine produced in the Gaillac."
+            },
+            {
+                "name": "Montefalco Sagrantino",
+                "@id": "http://www.wikidata.org/entity/Q255071",
+                "actual": "negative",
+                "description": "Montefalco Sagrantino (also Sagrantino di Montefalco before 2009) is a style of Italian wine made with 100% Sagrantino grapes in and around the comune of Montefalco in the Province of Perugia, Umbria. The wines gained DOC status in 1979 as part of the Montefalco DOC and were later separately elevated to DOCG status in 1992 after a renewal of interest from winemakers, particularly Arnaldo Caprai. There are two DOCG wines: Montefalco Sagrantino Secco, an oak-aged dry red wine (\"secco\" is Italian for \"dry\"), and the less common Montefalco Sagrantino Passito, a sweet, dessert red wine."
+            },
+            {
+                "name": "Condrieu AOC",
+                "@id": "http://www.wikidata.org/entity/Q2992326",
+                "actual": "negative",
+                "description": "Condrieu (From the French coin de ruisseau meaning \"corner of the brook\")  is a French wine-growing Appellation d'Origine Contr\u00f4l\u00e9e (AOC) located in the northern Rh\u00f4ne, near Vienne and to the south of the C\u00f4te-R\u00f4tie AOC. The vineyards are situated in the seven communes of Limony, Chavanay, Malleval, Saint-Michel-sur-Rh\u00f4ne, Saint-Pierre-de Boeuf, V\u00e9rin, and Condrieu. These communes are in the French departments of Ard\u00e8che, Rh\u00f4ne and Loire on the steep slopes of the foothills of the Massif Central on the right bank of the Rh\u00f4ne. The four southernmost communes can also produce wine under the Saint-Joseph AOC. The wines made in this AOC are exclusively white, from the Viognier grape, which may have originated in the region. The smaller AOC of Ch\u00e2teau-Grillet is enclaved within Condrieu and produces wines that are also 100% Viognier. The Condrieu AOC was officially created in 1940."
+            },
+            {
+                "name": "Rosso di Montepulciano",
+                "@id": "http://www.wikidata.org/entity/Q3941695",
+                "actual": "negative",
+                "description": "Vino Nobile di Montepulciano is a red wine with a Denominazione di Origine Controllata e Garantita status produced in the vineyards surrounding the town of Montepulciano, Italy. The wine is made primarily from the Sangiovese grape varietal (known locally as Prugnolo gentile) (minimum 70%), blended with Canaiolo Nero (10%\u201320%)  and small amounts of other local varieties such as Mammolo.  The wine is aged for 2 years (at least 1 year in oak barrels); three years if it is a riserva.  The wine should not be confused with Montepulciano d'Abruzzo, a red wine made from the  Montepulciano grape in the Abruzzo region of east-central Italy."
+            },
+            {
+                "name": "Arribes (wine)",
+                "@id": "http://www.wikidata.org/entity/Q4795974",
+                "actual": "negative",
+                "description": "Arribes is a Spanish Denominaci\u00f3n de Origen Protegida (DOP) for wines located in the southeast of the province of Zamora and the northeast of the province of Salamanca (Castile and Le\u00f3n, Spain), along the border with Portugal on the banks of the River Duero.\nIn 2002 the area covered by the DOP along with parts of Portugal on the opposite bank was declared a Natural Park, Parque Natural de Arribes del Duero."
+            },
+            {
+                "name": "Sonoma County wine",
+                "@id": "http://www.wikidata.org/entity/Q7562180",
+                "actual": "negative",
+                "description": "Sonoma County wine is wine made in Sonoma County, California, in the United States.\nCounty names in the United States automatically qualify as legal appellations of origin for wine produced from grapes grown in that county and do not require registration with the United States Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau.Sonoma County is one of California's largest producers of wine grapes, far outproducing the Napa Valley AVA."
+            },
+            {
+                "name": "Recioto di Soave DOCG",
+                "@id": "http://www.wikidata.org/entity/Q15039733",
+                "actual": "negative",
+                "description": "Recioto di Soave DOCG is an Italian wine DOCG subregion of the Soave DOC. It was granted DOCG status in 1998. Recioto di Soave DOCG is made in the  recioto method from grapes which have been dried out, traditionally  on straw mats,  for several weeks or months after harvest. A sweet wine, Recioto di Soave must be made of at least 70% Garganega grapes, and no more than 30% Trebbiano di Soave grapes allowed per DOCG regulations."
+            },
+            {
+                "name": "Trento DOC",
+                "@id": "http://www.wikidata.org/entity/Q7838522",
+                "actual": "negative",
+                "description": "Trento DOC (Denominazione di origine controllata) is an appellation for white and ros\u00e9 sparkling wine made in Trentino, Italy. Trentinos developed this appellation, the second in the world after Champagne, to ensure  quality and distinction.  Only Chardonnay, Pinot noir, and Pinot Meunier with Pinot blanc are permitted, and they must be grown in a well-defined area within the Province of Trento."
+            },
+            {
+                "name": "\u00c7alkaras\u0131",
+                "@id": "http://www.wikidata.org/entity/Q8077453",
+                "actual": "negative",
+                "description": "\u00c7al Karas\u0131 is a variety of red wine grape from the \u00c7al district of the Denizli Province of western Turkey. It also gives its name to a wine produced from the grape, which is sweet with berry fruit flavours."
+            },
+            {
+                "name": "Champagne",
+                "@id": "http://www.wikidata.org/entity/Q134862",
+                "actual": "negative",
+                "description": "Champagne (, French: [\u0283\u0251\u0303pa\u0272]) is a sparkling wine originated and produced in the Champagne wine region of France under the rules of the appellation, that demand specific vineyard practices, sourcing of grapes exclusively from designated places within it, specific grape-pressing methods and secondary fermentation of the wine in the bottle to cause carbonation.\nThe grapes Pinot noir, Pinot meunier, and Chardonnay are used to produce almost all Champagne, but small amounts of Pinot blanc, Pinot gris (called Fromenteau in Champagne), Arbane, and Petit Meslier are vinified as well.\nChampagne became associated with royalty in the 17th, 18th, and 19th centuries. The leading manufacturers made efforts to associate their Champagnes with nobility and royalty through advertising and packaging, which led to its popularity among the emerging middle class."
+            },
+            {
+                "name": "Malvasia di Castelnuovo Don Bosco",
+                "@id": "http://www.wikidata.org/entity/Q454914",
+                "actual": "negative",
+                "description": "Malvasia di Castelnuovo Don Bosco is a sweet, sparkling, red or ros\u00e9 DOC dessert wine produced in the Italian province of Asti from the Malvasia di Schierano grape variety with the optional addition of up to 15% Freisa.\nThe wine is cherry red in colour with an aroma typical of the grape and 'reminiscent of dog roses and scents of red berries.' The flavour is sweet and aromatic with characteristic tannins. It is made in both lightly (frizzante) and fully sparkling (spumante) versions; the regulations also permit it to be made as a still wine."
+            },
+            {
+                "name": "Akhasheni",
+                "@id": "http://www.wikidata.org/entity/Q5763543",
+                "actual": "negative",
+                "description": "\u10d0\u10ee\u10d0\u10e8\u10d4\u10dc\u10d8 (Georgian: \u10d0\u10ee\u10d0\u10e8\u10d4\u10dc\u10d8) is an appellation for wines produced around Akhasheni village, Gurjaani district, Kakheti region in eastern Georgia.\nAkhasheni is a naturally semi-sweet red wine made from the Saperavi grape variety. It is of dark-pomegranate color and has a harmonious velvety taste with a chocolate flavor. It contains 10.5\u201312% alcohol, 3\u20135% sugar and has 5\u20137% titrated acidity. The wine has been manufactured since 1958.\n\n"
+            },
+            {
+                "name": "Parraleta",
+                "@id": "http://www.wikidata.org/entity/Q7139732",
+                "actual": "negative",
+                "description": "Parraleta is a red Spanish wine grape variety which might also be known under various other names, such as Tinta Caiada (Alentejo, Portugal) in several Mediterranean countries. Parraleta is chosen as a prime name as it (old synonym Parrel) was used in Somontano, region located in the north-east Spain, which is its likely place of origin. DNA profiles of Tinta Caiada (Alentejo, Portugal), and Carenisca (Sardinia, Italy), and Salce\u00f1o Negro (Somontano, Spain) with that of Parraleta suggests that they are one and the same variety."
+            },
+            {
+                "name": "Piemonte (wine)",
+                "@id": "http://www.wikidata.org/entity/Q16590178",
+                "actual": "negative",
+                "description": "Piemonte wine is the range of Italian wines made in the region of Piedmont in the northwestern corner of Italy. \nThe best-known wines from the region include Barolo and Barbaresco. They are made from the Nebbiolo grape. These wines are ideal for storage and a well-aged Barolo for instance may leave a feeling of drinking velvet because the tannins are polished and integrated more and more into the wine. As the wine matures the colour becomes more brownish and rust-red.\nOther popular grapes used for red wine production are Barbera and  Dolcetto. Wine made with the Barbera grape is often fruity, with high acidity.  It can be delicate with less tannin than wine made from the Nebbiolo grape. Dolcetto on the other side, is not, as the name indicates, sweet.  Dolcetto means \"little sweet one\". (dolce is Italian for sweet). The grape gives fresh and dry red wines with some tannin. The wines made with the Dolcetto grape are typically consumed relatively young.\nThe sparkling wine   Asti spumante is made from the Moscato grape. The majority of the area's winemaking take places in the provinces of Cuneo, Asti and Alessandria. The Brachetto is another variety used for making sweet and sparkling red wines.\nWhile Turin is the capital of the Piedmont, Alba and Asti are at the heart of the region's wine industry. The winemaking industry of the Piedmont played a significant role in the early stages of the Risorgimento with some of the era's most prominent figures \u2013 such as Camillo Benso, conte di Cavour and Giuseppe Garibaldi \u2013 owning vineyards in Piedmont region and making significant contributions to the development of Piedmontese wines. The excessively high tariffs imposed by the Austrian Empire on the export of Piedmontese wines to Austrian controlled areas of northern Italy was one of the underlying sparks to the revolutions of 1848\u20131849.\n\n"
+            },
+            {
+                "name": "Brunello di Montalcino",
+                "@id": "http://www.wikidata.org/entity/Q26667",
+                "actual": "negative",
+                "description": "Brunello di Montalcino is a red DOCG Italian wine produced in the vineyards surrounding the town of Montalcino, in the province of Siena, located about 80 km south of Florence in the Tuscany wine region. Brunello, a diminutive of Bruno (\"brown\"), is the name that was given locally to what was believed to be an individual grape variety grown in Montalcino. In 1879 the Province of Siena's Amphelographic Commission determined, after a few years of controlled experiments, that Sangiovese and Brunello were the same grape variety, and that the former should be its designated name. In Montalcino the name Brunello evolved into the designation of the wine produced with 100% Sangiovese.\nIn 1980, Brunello di Montalcino was among the four wines awarded the first Denominazione di Origine Controllata e Garantita (DOCG) designation. Today it is one of Italy's best-known and most expensive wines."
+            },
+            {
+                "name": "Vazisubani (wine)",
+                "@id": "http://www.wikidata.org/entity/Q25205273",
+                "actual": "negative",
+                "description": "Vazisubani (Georgian: \u10d5\u10d0\u10d6\u10d8\u10e1\u10e3\u10d1\u10d0\u10dc\u10d8) is an appellation for wines produced in a 62-square-kilometer zone around Vazisubani village in eastern Georgia.Vazisubani is a dry, still white wine made of two grape varieties: Rkatsiteli and Mtsvane."
+            },
+            {
+                "name": "Alazani (wine)",
+                "@id": "http://www.wikidata.org/entity/Q4708929",
+                "actual": "negative",
+                "description": "Alazani wine takes its name from one of Alazani River (Georgian: \u10d0\u10da\u10d0\u10d6\u10d0\u10dc\u10d8, Azerbaijani: Qan\u0131x), which forms part of the Georgian border with Azerbaijan in eastern Georgia, before flowing into the Kura River. As a result of the slightly warmer climate in the Alazani Valley, grapes grown there are sweeter than elsewhere in Georgia.\nThis wine is made from Rkatsiteli grapes (Georgian \u10e0\u10e5\u10d0\u10ec\u10d8\u10d7\u10d4\u10da\u10d8; literally \"red stem\"). This is one of the oldest variety of grapes in Georgia, with archaeologists having unearthed examples in clay jars from the 3rd millennium BC. Recently Rkatsiteli grapes have been planted in Eastern Europe, the Finger Lakes region of New York and Australia.\nIt has a semi-sweet flavor with light fruit tones and a straw color that darkens as the wine ages. Alazani white wine goes well with fruit, nuts and deserts."
+            },
+            {
+                "name": "Nama (wine)",
+                "@id": "http://www.wikidata.org/entity/Q4312724",
+                "actual": "negative",
+                "description": "Nama (Greek: \u039d\u03ac\u03bc\u03b1) is a sweet red wine that is usually used in Greek Orthodox Churches in Holy Communion. It is similar to Mavrodaphne, with the difference that it is sweeter and it contains less alcohol.\nIn Greece 'Narma'  is a controlled appellation corresponding to the grape variety.\n\n"
+            },
+            {
+                "name": "Tintilia",
+                "@id": "http://www.wikidata.org/entity/Q3991623",
+                "actual": "negative",
+                "description": "Tintilia is a red Italian wine grape variety that is grown in the Molise region of east-central Italy. A red wine made from the grape was classified as Denominazione di origine controllata (DOC) in 2011."
+            },
+            {
+                "name": "Mukuzani",
+                "@id": "http://www.wikidata.org/entity/Q4306822",
+                "actual": "negative",
+                "description": "Mukuzani (Georgian: \u10db\u10e3\u10d9\u10e3\u10d6\u10d0\u10dc\u10d8 muk\u2019uzani) is a dry red Georgian wine made from Saperavi grapes in Mukuzani, Kakheti.  Mukuzani is distinct from the other wines made from the same grapes in that it is aged in oak casks for a longer time \u2013 at least three years.\nMukuzani has a deep red color with a soft smoky scent of oak and berry. The taste begins dry but the oak and fruit flavors quickly come through. As a result of its longer aging, Mukuzani has more complexity than the other wines made from Saperavi grapes. It goes particularly well with steaks and dark meats.\nThe matured wine contains 10.5\u201312.5% alcohol and has 6.0\u20137.0% titrated acidity.  It has been produced since 1888.\nMukuzani is considered by many to be the best of the Georgian red wines made from Saperavi. It has won 9 gold medals, 2 silver medals and 3 bronze medals in international competitions."
+            },
+            {
+                "name": "Alazani (wine)",
+                "@id": "http://www.wikidata.org/entity/Q4708929",
+                "actual": "negative",
+                "description": "Alazani wine takes its name from one of Alazani River (Georgian: \u10d0\u10da\u10d0\u10d6\u10d0\u10dc\u10d8, Azerbaijani: Qan\u0131x), which forms part of the Georgian border with Azerbaijan in eastern Georgia, before flowing into the Kura River. As a result of the slightly warmer climate in the Alazani Valley, grapes grown there are sweeter than elsewhere in Georgia.\nThis wine is made from Rkatsiteli grapes (Georgian \u10e0\u10e5\u10d0\u10ec\u10d8\u10d7\u10d4\u10da\u10d8; literally \"red stem\"). This is one of the oldest variety of grapes in Georgia, with archaeologists having unearthed examples in clay jars from the 3rd millennium BC. Recently Rkatsiteli grapes have been planted in Eastern Europe, the Finger Lakes region of New York and Australia.\nIt has a semi-sweet flavor with light fruit tones and a straw color that darkens as the wine ages. Alazani white wine goes well with fruit, nuts and deserts."
+            },
+            {
+                "name": "Saint-Pour\u00e7ain AOC",
+                "@id": "http://www.wikidata.org/entity/Q10214",
+                "actual": "negative",
+                "description": "Saint-Pour\u00e7ain is an Appellation d'origine contr\u00f4l\u00e9e (AOC) for wine located around Saint-Pour\u00e7ain-sur-Sioule in the Auvergne region of France. It can alternatively be considered as an upstream satellite of the Loire wine region or as a tiny wine region in its own right. White, ros\u00e9 and red wines are produced on vineyards covering 600 hectares (1,500 acres) in 19 communes of Auvergne."
+            },
+            {
+                "name": "Negru de Purcari",
+                "@id": "http://www.wikidata.org/entity/Q4316004",
+                "actual": "negative",
+                "description": "Negru de Purcari is a dry, red Moldovan wine, produced from Cabernet Sauvignon, Rara neagr\u0103 and Saperavi grapes. The wine has a dark ruby, saturated color."
+            },
+            {
+                "name": "Gir\u00f2",
+                "@id": "http://www.wikidata.org/entity/Q735114",
+                "actual": "negative",
+                "description": "Gir\u00f2 is a red Italian wine grape variety that is grown on Sardinia and is used mostly in the production of fortified wines in the Giro di Cagliari Denominazione di origine controllata (DOC). The grape was once widely planted throughout Sardinia but its plantings were decimated when the phylloxera epidemic hit the island at the end of the nineteenth century. At the turn of the 21st century there were 552 hectares (1,364 acres) of the grape planted throughout Italy, mostly in the Sardinian provinces of Cagliari and Oristano."
+            },
+            {
+                "name": "Hock (wine)",
+                "@id": "http://www.wikidata.org/entity/Q883138",
+                "actual": "negative",
+                "description": "Hock is a British term for German white wine. It sometimes refers to white wine from the Rhine region (specifically Riesling) and sometimes to all German white wine. The word hock is short for the obsolete word hockamore, an alteration of \"Hochheimer\", derived from the name of the town of Hochheim am Main in Germany. \nThe term seems to have been in use in the 17th century, initially for white wines (predominantly Riesling) from the Rheingau, but in the 18th century it came to be used for any German white wine sold in Britain, to convey some of the then very high prestige of Rheingau wine to (often much) lesser German wines.It seems probable that Queen Victoria's visit in 1850 to Hochheim (in Rheingau) and its vineyards during harvest time contributed to the continued use of the term. By then, those Rheingau wines commanded high prices, on par with, and sometimes higher than, the best wines from Bordeaux and Burgundy, matching and sometimes exceeding them in prestige.\nThere are many vineyards associated with Hocks, such as Hochheimer, R\u00fcdesheimer, Marcobrunner and Johannisberger."
+            },
+            {
+                "name": "Carmignano DOCG",
+                "@id": "http://www.wikidata.org/entity/Q912059",
+                "actual": "negative",
+                "description": "Carmignano is an Italian wine region located in the Tuscany region and centered on the city of Carmignano, about 10 miles (16 kilometers) northwest of Florence. Noted for the quality of its wines since the Middle Ages, Carmignano was identified by Cosimo III de' Medici, Grand Duke of Tuscany as one of the superior wine producing areas of Tuscany and granted special legal protections in 1716. In the 1800s, the producers of the Carmignano region developed a tradition of blending Sangiovese with Cabernet Sauvignon, long before the practice became popularized by the \"Super Tuscan\" of the late 20th century. In 1975, the region was awarded Denominazione di origine controllata (DOC) status and subsequently promoted to Denominazione di Origine Controllata e Garantita (DOCG) status in 1990 (retroactive to the 1988 vintage). Today Carmignano has approximately 270 acres (110 ha) planted, producing nearly 71,500 gallons ( 2,700 hectoliters) of DOCG designated wine a year."
+            },
+            {
+                "name": "Falerio dei Colli Ascolani",
+                "@id": "http://www.wikidata.org/entity/Q1394013",
+                "actual": "negative",
+                "description": "Falerio dei Colli Ascolani is a denominazione di origine controllata white wine that is located in the region of Marche, in Italy.  The DOC was created in 1975."
+            },
+            {
+                "name": "Pauillac AOC",
+                "@id": "http://www.wikidata.org/entity/Q770230",
+                "actual": "negative",
+                "description": "Pauillac ([po.jak]) is a wine growing commune (municipality) and appellation d'origine contr\u00f4l\u00e9e within Haut-M\u00e9doc in Bordeaux, centred on the small town of Pauillac.  Hugh Johnson has said, \"If one had to single out one commune of Bordeaux to head the list, there would be no argument.  It would be Pauillac.\".  Pauillac includes three of the five premier cru ch\u00e2teaux of Bordeaux: Latour, Lafite Rothschild and Mouton Rothschild.  The wines of Pauillac are often considered the quintessence of Bordeaux wines."
+            },
+            {
+                "name": "Chianti",
+                "@id": "http://www.wikidata.org/entity/Q750979",
+                "actual": "negative",
+                "description": "A Chianti wine (, also US: , Italian: [\u02c8kjanti]) is any wine produced in the Chianti region of central Tuscany. It was historically associated with a squat bottle enclosed in a straw basket, called a fiasco (\"flask\"; pl. fiaschi). However, the fiasco is now only used by a few makers of the wine; most Chianti is bottled in more standard-shaped wine bottles. In the mid-to-late 19th century, Baron Bettino Ricasoli (later Prime Minister of the Kingdom of Italy) helped establish Sangiovese as the blend's dominant grape variety, creating the blueprint for today's Chianti wines.The first definition of a wine area called Chianti was made in 1716. It described the area near the villages of Gaiole, Castellina and Radda; the so-called Lega del Chianti and later Provincia del Chianti (Chianti province). In 1932 the Chianti area was completely redrawn and divided into seven sub-areas: Classico, Colli Aretini, Colli Fiorentini, Colline Pisane, Colli Senesi, Montalbano and R\u00f9fina. Most of the villages that in 1932 were added to the newly defined Chianti Classico region added in Chianti to their names, for example Greve in Chianti, which amended its name in 1972. Wines labelled Chianti Classico come from the largest sub-area of Chianti, which includes the original Chianti heartland. Only Chianti from this sub-zone may display the black rooster (gallo nero) seal on the neck of the bottle, which indicates that the producer of the wine is a member of the Chianti Classico Consortium, the local association of producers. Other variants, with the exception of Rufina north-east of Florence and Montalbano south of Pistoia, originate in the named provinces: Siena for the Colli Senesi, Florence for the Colli Fiorentini, Arezzo for the Colli Aretini and Pisa for the Colline Pisane. In 1996 part of the Colli Fiorentini sub-area was renamed Montespertoli.\nDuring the 1970s producers started to reduce the quantity of white grapes in Chianti. In 1995 it became legal to produce a Chianti with 100% Sangiovese. For a wine to retain the name of Chianti it must be produced with at least 80% Sangiovese grapes. Aged Chianti (38 months instead of 4\u20137) may be labelled as Riserva. Chianti that meets more stringent requirements (lower yield, higher alcohol content and dry extract) may be labelled as Chianti Superiore, although Chianti from the Classico sub-area is not allowed in any event to be labelled as Superiore."
+            },
+            {
+                "name": "Ostuni DOC",
+                "@id": "http://www.wikidata.org/entity/Q3886982",
+                "actual": "negative",
+                "description": "Ostuni is a white or ros\u00e9 style Italian wine awarded Denominazione di Origine Controllata (DOC) status in 1972, in the Province of Brindisi of Apulia. The zone of production of the area is limited to the communes of Ostuni, Carovigno, San Vito dei Normanni, San Michele Salentino and parts of the communes of Brindisi, Latiano and Ceglie Messapica."
+            },
+            {
+                "name": "Vino Nobile di Montepulciano",
+                "@id": "http://www.wikidata.org/entity/Q541959",
+                "actual": "negative",
+                "description": "Vino Nobile di Montepulciano is a red wine with a Denominazione di Origine Controllata e Garantita status produced in the vineyards surrounding the town of Montepulciano, Italy. The wine is made primarily from the Sangiovese grape varietal (known locally as Prugnolo gentile) (minimum 70%), blended with Canaiolo Nero (10%\u201320%)  and small amounts of other local varieties such as Mammolo.  The wine is aged for 2 years (at least 1 year in oak barrels); three years if it is a riserva.  The wine should not be confused with Montepulciano d'Abruzzo, a red wine made from the  Montepulciano grape in the Abruzzo region of east-central Italy."
+            },
+            {
+                "name": "Barbaresco",
+                "@id": "http://www.wikidata.org/entity/Q590461",
+                "actual": "negative",
+                "description": "Barbaresco is an Italian wine made with the Nebbiolo grape. Barbaresco is produced in the Piedmont region in an area of the Langhe immediately to the east of Alba and specifically in the comunes of Barbaresco, Treiso and Neive plus that area of the frazione San Rocco Seno d'Elvio which was once part of the comune of Barbaresco and now belongs to the comune of Alba. It was granted Denominazione di origine controllata (DOC) status in 1966 and Denominazione di Origine Controllata e Garantita status in 1980. The wine is often compared with Barolo\u2014another Nebbiolo based wine from the Piedmont area. Though the wines do share many similarities, there are some distinct differences between them."
+            },
+            {
+                "name": "Saperavi",
+                "@id": "http://www.wikidata.org/entity/Q1446649",
+                "actual": "negative",
+                "description": "Saperavi (Georgian: \u10e1\u10d0\u10e4\u10d4\u10e0\u10d0\u10d5\u10d8; literally \"paint, dye, give color\") is an acidic, teinturier-type grape variety native to the country of Georgia, where it is used to make many of the region's most well-known wines.  It is also grown in Russia and in lesser quantities in Armenia, Moldova, Ukraine, Uzbekistan, Azerbaijan, Australia.\nSaperavi is also known under the synonyms Didi Saperavi, Kleinberiger, Nerki Khagog, Patara Saperavi, Saparavi, Sapeavi de Kakhetie, Saperaibi, Saperavi de Kachet, Saperavi de Kakhetie, Saperavi Patara, Sapeur, Sapperavi, Sapperavy, Scoperawi, and Szaperavi."
+            },
+            {
+                "name": "Malamatina",
+                "@id": "http://www.wikidata.org/entity/Q1886697",
+                "actual": "negative",
+                "description": "Malamatina (Greek: \u039c\u03b1\u03bb\u03b1\u03bc\u03b1\u03c4\u03af\u03bd\u03b1) is the name of a Greek wine brand, mostly known for its retsina.\n\nIt was founded in Alexandroupoli in 1895 by Konstantinos Malamatinas, a native of the island of Tenedos. The company has facilities in Euboea and Thessaloniki, where it has its base.\n\n"
+            },
+            {
+                "name": "Douce noir",
+                "@id": "http://www.wikidata.org/entity/Q2750961",
+                "actual": "negative",
+                "description": "Douce noir (also known as Bonarda, Corbeau and Charbono) is a red Savoyard wine grape variety that has historically been grown in the Savoy region, but today is more widely planted in Argentina. \nIt arrived in Savoy in the early 19th century, and by the end of the century it was the most widely grown red wine grape in the region. It is the second most widely planted red grape in Argentina (after Malbec). The grape is also grown in California where it is known as Charbono.In California, Bonarda/Douce noir/Charbono is produced in very limited amounts with the grape having been described as a \"cult wine\" for its scarcity and devotion of its connoisseurs. However, journalists such as Alan Goldfarb describes the variety as \"... the Rodney Dangerfield of wine\" and notes that it is a hard variety to find a market for."
+            },
+            {
+                "name": "Beira Interior DOC",
+                "@id": "http://www.wikidata.org/entity/Q2894017",
+                "actual": "negative",
+                "description": "Beira Interior is a Portuguese wine Denomina\u00e7\u00e3o de Origem Controlada (DOC) located in central Portugal in the Beiras VR wine region. It was created in 2005 when three Indica\u00e7\u00e3o de Proveniencia Regulamentada (IPR) regions were put together into one DOC."
+            },
+            {
+                "name": "Etna DOC",
+                "@id": "http://www.wikidata.org/entity/Q3733820",
+                "actual": "negative",
+                "description": "Etna is a Denominazione di origine controllata (DOC) for wine from the Etna region in Italy.\nEtna D.O.C. territory is closely tied to the biggest active volcano in Europe, Etna. Much of the volcano is covered with crops and natural vegetation. Among the cultivated species the grape vine has always played a major role."
+            },
+            {
+                "name": "Barolo",
+                "@id": "http://www.wikidata.org/entity/Q808584",
+                "actual": "negative",
+                "description": "Barolo ( b\u0259-ROH-loh, US also  bar-OH-loh, Italian: [ba\u02c8r\u0254\u02d0lo]; Piedmontese: bareul [ba\u02c8r\u00f8l]) is a red Denominazione di Origine Controllata e Garantita (DOCG) wine produced in the northern Italian region of Piedmont. It is made from the nebbiolo grape and is often described as one of Italy's greatest wines.The zone of production extends into the communes of Barolo, Castiglione Falletto, Serralunga d'Alba and parts of the communes of Cherasco, Diano d'Alba, Grinzane Cavour, La Morra, Monforte d'Alba, Novello, Roddi, Verduno, all in the province of Cuneo, south-west of Alba. Although production codes have always stipulated that vineyards must be located on hillsides, the most recent revision of the production code released in 2010 goes further, categorically excluding valley floors, humid and flat areas, areas without sufficient sunlight, and areas with full-on northern exposures.Barolo is often described as having the aromas of tar and roses, and the wines are noted for their ability to age and usually take on a rust red tinge as they mature. Barolo needs to be aged for at least 36 months after the harvest before release, of which at least 18 months must be in wood. When subjected to aging of at least five years before release, the wine can be labeled as Riserva.In the past, Barolo wines tended to be rich in tannin. It can take more than 10 years for the wine to soften and become ready for drinking. Fermenting wine sits on the grape skins for at least three weeks, extracting huge amounts of tannins and is then aged in large, wooden casks for years. In order to appeal to more modern international tastes, those that prefer fruitier, earlier-drinking wine styles, several producers began to cut fermentation times to a maximum of ten days and age the wine in new French oak barriques (small barrels). \"Traditionalists\" have argued that the wines produced in this way are not recognizable as Barolo and taste more of new oak than of wine. The controversies between traditionalists and modernists have been called the \"Barolo wars\"."
+            },
+            {
+                "name": "Sancerre (wine)",
+                "@id": "http://www.wikidata.org/entity/Q282221",
+                "actual": "negative",
+                "description": "Sancerre is a French wine Appellation d'origine contr\u00f4l\u00e9e (AOC) for wine produced in the area of Sancerre in the eastern part of the Loire valley, southeast of Orl\u00e9ans. Almost all of the appellation lies on the left bank of the Loire, opposite Pouilly-Fum\u00e9. It is well regarded for and primarily associated with Sauvignon blanc. Some Pinot noir is also grown, accounting for around 20% of the region's production, making mostly light red wines under the designation of Sancerre Rouge.  A ros\u00e9 style from Pinot noir is also produced in a style similar to Beaujolais, which is produced from the Gamay grape.White Sancerre was one of the original AOCs awarded in 1936, with the same area being designated for red wines on 23 January 1959. The AOC area has expanded fourfold over the years, most recently on 18 March 1998. The town lies on an outcrop of the chalk that runs from the White Cliffs of Dover down through the Champagne and Chablis. A series of small valleys cut through the chalk, each with their own soils and microclimate and terroir. In the east are the \"flints\" that make minerally, long-lived wines.  Between the town and Verdigny the soil consists of marl and gravel \u2013 \"les caillottes\" \u2013 producing fruity, well balanced wines.  And in the southwest, away from the river towards Menetou-Salon, the chalky \"terres blanches\" (white ground) produce weightier wines. Most \u2013 but not all \u2013 of the Sauvignon Blancs are unoaked."
+            },
+            {
+                "name": "Rivesaltes AOC",
+                "@id": "http://www.wikidata.org/entity/Q455197",
+                "actual": "negative",
+                "description": "Rivesaltes (; French pronunciation: [\u0281ivzalt] ()) is an appellation d'origine contr\u00f4l\u00e9e (AOC) for naturally sweet, fortified wines (vin doux naturel or VDN). The name refers to both a production region within Languedoc-Roussillon in southern France, and the style of sweet wines produced there.\nThe Rivesaltes AOC designation of origin has been protected by INAO since 1972, combining several smaller protected designations created in 1936."
+            },
+            {
+                "name": "Altiplano de Sierra Nevada",
+                "@id": "http://www.wikidata.org/entity/Q585122",
+                "actual": "negative",
+                "description": "Altiplano de Sierra Nevada (previously called Norte de Granada) is a Spanish geographical indication for Vino de la Tierra wines located in the autonomous region of Andalusia. Vino de la Tierra is one step below the mainstream Denominaci\u00f3n de Origen indication on the Spanish wine quality ladder.\nThe area covered by this geographical indication comprises certain municipalities in the north of the province of Granada (Andalusia, Spain).\nIt acquired its Vino de la Tierra status in 2005.\n\n"
+            },
+            {
+                "name": "Cold Duck",
+                "@id": "http://www.wikidata.org/entity/Q613381",
+                "actual": "negative",
+                "description": "Cold Duck is the name of a sparkling wine made in the United States."
+            },
+            {
+                "name": "Egri Bikav\u00e9r",
+                "@id": "http://www.wikidata.org/entity/Q987960",
+                "actual": "negative",
+                "description": "Egri Bikav\u00e9r (Bull's Blood of Eger) is a blended red wine produced in Eger, Hungary. It is very representative of the red wines of Eger, a terroir wine, which carries the flavour of the soils of local production sites, the mezzo-climate unique to the region and the traditions and mores of local residents, from the selection of varieties to choosing the period and method of grape processing and mellowing.\nThe exact date of the emergence of Egri Bikav\u00e9r is unknown. One thing is certain; the word Bikav\u00e9r (bull's blood) was recorded as early as the beginning of the 19th century. Under the name Bikav\u00e9r, full-bodied red wines were sold, not only in Eger and Szeksz\u00e1rd but other places as well. Legends grew up around the name, which tied it to the 1552 siege of Eger as related by G\u00e1rdonyi G\u00e9za.\nIn its present form, also accepted by the public, Egri Bikav\u00e9r is associated with the name of Gr\u0151ber Jen\u0151, Eger vigneron. Sug\u00e1r Istv\u00e1n (1981) writes: 'I have searched different sources for the composition of grape types constituting bull's blood. The earliest record dates back to 1912, when, in addition to kadarka, I have found blue frank, cabernet and merlot'.\nContemporary vignerons and winemakers have been refining the conditions of the production, name, classification and control of this wine for the past two decades. The result of this activity is that Egri Bikav\u00e9r became the first quality wine in Hungary's history to be produced in a specified region. (Egri Bikav\u00e9r Regulation of 1997)\nAt present, Egri Bikav\u00e9r is produced in accordance with a regulation designating 3 tiers of quality: classicus, superior and grand superior. The product description contains the rules of yield restriction, fermentation sur marc, aging in barrels and bottles, as well as the marketing and trading of the wines, for the different tiers.\nEgri Bikav\u00e9r is a K\u00e9kfrankos-based dry red wine blend, ranging from garnet red to deep ruby, with flavours and aromas presenting rich, spicy and fruity characteristics, without a tannin accent. Aging and fresh fruit aromas are both characteristic of the wine; its complexity is well illustrated by the fact that the characteristic feature of the wine is that no single grape type can dominate the wine in question. Due to the riper, more concentrated grape produce, as well as the extended aging in barrels and bottles, Superior and Grand Superior wines have marked aromas of mellowing, lasting flavours, full body and a long shelf-life with minerality and ideas in harmony with the production areas (sites). The difference between them is usually manifested in the fullness and duration of the aroma.\n\n"
+            },
+            {
+                "name": "Amontillado",
+                "@id": "http://www.wikidata.org/entity/Q2668300",
+                "actual": "negative",
+                "description": "Amontillado (Spanish pronunciation: [amonti\u02c8\u028ea\u00f0o] ah-MON-tee-AH-doe) is a variety of sherry wine characterised by being darker than fino but lighter than oloroso. It is named after the Montilla region of Spain, where the style originated in the 18th century, although the name \"Amontillado\" is sometimes used commercially as a simple measure of colour to label any sherry lying between a fino and an oloroso. It features prominently in the Edgar Allan Poe short story \"The Cask of Amontillado\".\nAn Amontillado sherry begins as a fino, fortified to approximately 15.5% alcohol with a cap of flor yeast limiting its exposure to the air. A cask of fino is considered to be amontillado if the layer of flor fails to develop adequately, is intentionally killed by additional fortification, or is allowed to die off through non-replenishment. Without the layer of flor, amontillado must be fortified to approximately 17.5% alcohol so that it does not oxidise too quickly. After the additional fortification, Amontillado oxidises slowly, exposed to oxygen through the slightly porous American or Canadian oak casks, and gains a darker colour and richer flavour than fino.\nAmontillado is characterized by nutty aromas, tobacco, aromatic herbs and often ethereal, polished notes of oak. The fusion of two different ageing processes gives Amontillado wines a specific flavour."
+            },
+            {
+                "name": "Muscat du Ventoux",
+                "@id": "http://www.wikidata.org/entity/Q3328297",
+                "actual": "negative",
+                "description": "Muscat du Ventoux is a French black table grape, protected by an AOC, produced from the grape variety Muscat Hamburg on the slopes of Mont Ventoux, in the department of Vaucluse."
+            },
+            {
+                "name": "Collioure AOC",
+                "@id": "http://www.wikidata.org/entity/Q429620",
+                "actual": "negative",
+                "description": "Collioure is an Appellation d'Origine Contr\u00f4l\u00e9e (AOC) for French wines situated around the town of Collioure in the Roussillon wine region of France. Red, ros\u00e9 and a few white wines are produced-the reds from Grenache noir, Mourv\u00e8dre, Syrah, Carignan and Cinsaut grapes; the white are made from a blend of Grenache blanc and Grenache gris. The boundaries of the AOC are identical with the Banyuls AOC as many of the grapes grown in Collioure are destined for use in the fortified Vins doux naturels of the region. The grapes that do not get used for Banyuls are then produced as non-fortified still wines under the Collioure AOC."
+            },
+            {
+                "name": "Aloxe-Corton wine",
+                "@id": "http://www.wikidata.org/entity/Q453673",
+                "actual": "negative",
+                "description": "Aloxe-Corton wine (French pronunciation: \u200b[al\u0254s k\u0254\u0281t\u0254\u0303]) is produced in the communes of Aloxe-Corton and Ladoix-Serrigny in C\u00f4te de Beaune of Burgundy. The appellation d'origine contr\u00f4l\u00e9e (AOC) Aloxe-Corton may be used for red and white wine with respectively Pinot noir and Chardonnay as the main grape variety. The production consists of almost only red wine, around 98 per cent, and only around two per cent white wine. The southern and eastern side of the Corton hill is located in the commune of Aloxe-Corton, including vineyards of all three Grand Cru AOCs of the hill; Corton, Corton-Charlemagne and Charlemagne, and its northeastern part in the commune of Ladoix-Serrigny. The major part of the Corton hill is located within Aloxe-Corton. The AOC was created in 1938.\nIn 2008, there was 117.78 hectares (291.0 acres) of vineyard surface in production for Aloxe-Corton wine at village and Premier Cru level, and 4,382 hectoliter of wine was produced, of which 4,301 hectoliter red wine and 81 hectoliter white wine. Only some 1.40 hectares (3.5 acres) of this area was used for the white wines in 2007. The total amount produced corresponds to close to 600,000 bottles, of which around 10,000 bottles of white wine.\nFor white wines, the AOC regulations allow both Chardonnay and Pinot blanc to be used, but most wines are 100% Chardonnay. The AOC regulations also allow up to 15 per cent total of Chardonnay, Pinot blanc and Pinot gris as accessory grapes in the red wines, but this not very often practiced. The allowed base yield is 40 hectoliter per hectare of red wine and 45 hectoliter per hectare for white wine. The grapes must reach a maturity of at least 10.5 per cent potential alcohol for village-level red wine, 11.0 per cent for village-level white wine and Premier Cru red wine, and 11.5 per cent for Premier Cru white wine.\nAloxe-Corton is featured in the Fawlty Towers episode The Hotel Inspectors."
+            },
+            {
+                "name": "C\u00f4tes du Marmandais",
+                "@id": "http://www.wikidata.org/entity/Q462248",
+                "actual": "negative",
+                "description": "C\u00f4tes du Marmandais is an Appellation d'origine contr\u00f4l\u00e9e (AOC) for wine located in South West France around the commune of Marmande. With its location just southeast of the Entre-Deux-Mers along the banks of the Garonne river, it is a satellite of Bordeaux, but just outside the borders of that region. The region was elevated from Vin D\u00e9limit\u00e9 de Qualit\u00e9 Superieure (VDQS) to AOC status in 1990. From the Middle Ages to the 19th century, the wines of the C\u00f4tes du Marmandais were widely exported to the Netherlands. The Phylloxera epidemic wiped out most of the vineyards in this area with many farmers switching to other agricultural crops. It was not until the later half of the 20th century that viticulture in the area reaffirmed itself."
+            },
+            {
+                "name": "Grignan-Les Adhemar AOC",
+                "@id": "http://www.wikidata.org/entity/Q458075",
+                "actual": "negative",
+                "description": "The Grignan-Les Adhemar AOC (formerly the C\u00f4teaux du Tricastin) is the northernmost wine-growing AOC in the southern area of the Rh\u00f4ne wine region of France. The wines are produced in 21 communes in the department of Dr\u00f4me on the east bank of the Rh\u00f4ne River in a triangle bounded by Saint-Paul-Trois-Ch\u00e2teaux, Mont\u00e9limar, and Grignan; opposite the C\u00f4tes du Vivarais AOC on the right bank. the vineyards straddle both the true Mediterranean and the continental climatic regions where in this part of France the transition is rapid, winter snow being  frequent in Mont\u00e9limar but rare some 20 - 30 kilometres further south.  In this transitional area between the northern and southern Rh\u00f4ne wine regions that constitutes the northern limit of the Provence, the climate in Baume-le-Transit and St Paul are more typically Mediterranean climate than the slightly cooler areas dominated by the Lance mountain.According to archeological finds, particularly the remains of the largest Roman wine villa in Donz\u00e8re dating from the 1st century BC, wine has been produced in the region since the antiquity. Tricastin wines were mentioned in the writings of the Marquise de Sevign\u00e9 in the 16th century. The wines were accorded an AOVDQS on 19 March 1964, and were awarded their AOC on 27 July 1973."
+            },
+            {
+                "name": "Asti wine",
+                "@id": "http://www.wikidata.org/entity/Q522420",
+                "actual": "negative",
+                "description": "Asti (also known as Asti Spumante) is a sparkling white Italian wine that is produced throughout southeastern Piedmont but is particularly focused around the towns of Asti and Alba. Since 1993 the wine has been classified as a Denominazione di Origine Controllata e Garantita (DOCG) and as of 2004 was Italy's largest producing appellation. On an average vintage more than ten times as much Asti is produced in Piedmont than the more well-known Piedmontese red wine Barolo.Made from the Moscato Bianco grape, it is sweet and low in alcohol, and often served with dessert. Unlike Champagne, Asti is not made sparkling through the use of secondary fermentation in the bottle but rather through a single tank fermentation utilizing the Charmat method. It retains its sweetness through a complex filtration process.  Another wine called Moscato d'Asti is made in the same region from the same grape, but is only slightly sparkling (frizzante) and tends to have even lower alcohol.On 22 June 2014, Vineyard Landscape of Piedmont: Langhe-Roero and Monferrato was declared a UNESCO  World Heritage Site. This landscape covers five distinct wine-growing areas and the Castle of Cavour, an important site both in the development of vineyards and in Italian history."
+            },
+            {
+                "name": "Savoy wine",
+                "@id": "http://www.wikidata.org/entity/Q850468",
+                "actual": "negative",
+                "description": "Savoy (French: Savoie) is a wine region situated in the Savoy region in eastern France, and is sometimes referred to as the country of the Allobroges. It is the only alpine wine region in France, and is known for grape varieties rarely grown elsewhere, including Jacqu\u00e8re, Roussanne, Altesse (also known as Roussette) and Gringet for white wines, and Mondeuse for reds.\nThe Savoyard appellations (labels) are distributed through four departments: Haute-Savoie, Ain, Is\u00e8re and Savoie. Cr\u00e9py near Lake Geneva and Seyssel in the Ain are easy to locate. But wines labelled Roussette de Savoie and Vin de Savoie can come from anywhere in the wine growing area, unless the label display the name of a village in addition to the appellation. There are four Roussette villages (Frangy, Monthoux, Marestel and Monterminod) and seventeen \"Vin de Savoie\" villages, the best known being Apremont, Chignin, Chautagne and Arbin."
+            },
+            {
+                "name": "Pouilly-Fum\u00e9",
+                "@id": "http://www.wikidata.org/entity/Q2106740",
+                "actual": "negative",
+                "description": "Pouilly-Fum\u00e9 is an appellation d'origine contr\u00f4l\u00e9e (AOC) for the dry sauvignon blanc white wine produced around Pouilly-sur-Loire, in the Ni\u00e8vre d\u00e9partement.  Another white wine produced in the same area but with a different grape variety is called Pouilly-sur-Loire."
+            },
+            {
+                "name": "Touraine-Amboise",
+                "@id": "http://www.wikidata.org/entity/Q2446577",
+                "actual": "negative",
+                "description": "Touraine-Amboise is an Appellation d'Origine Contr\u00f4l\u00e9e (AOC) for in the Loire Valley wine region in France. It is situated within the wider Touraine AOC wine appellation. It is produced by ten communes bordering both sides of the River Loire. To their west lies the town of Amboise with its famous royal ch\u00e2teau.  Since its separation from the Touraine AOC in 1954, it has constituted an AOC in its own right. Annual production stands at 9,000 hectolitres of wine, spread between red, ros\u00e9, and still white wines. Effervescent wines are also produced within this AOC's boundaries, but they are not entitled to use the Touraine-Amboise appellation, belonging instead to the Touraine appellation."
+            },
+            {
+                "name": "Touraine AOC",
+                "@id": "http://www.wikidata.org/entity/Q3533893",
+                "actual": "negative",
+                "description": "Touraine is an Appellation d'Origine Contr\u00f4l\u00e9e (AOC) in the Loire Valley wine region in France that produce dry, white wines and red wines rich in tannins. The AOC status was awarded by a decree of December 24, 1939 (modified by the decree of August 29, 2002). The wine-growing area extends over 5,300 hectares (13,000 acres) departments of Indre-et-Loire, Indre and Loir-et-Cher and comprises a total of 70 communes and it is thus a \"subregional\" appellation covering the same area as a number of local AOCs."
+            },
+            {
+                "name": "Minervois AOC",
+                "@id": "http://www.wikidata.org/entity/Q441995",
+                "actual": "negative",
+                "description": "Minervois is an AOC in the Languedoc-Roussillon wine region, in the departments of the Aude and of the H\u00e9rault. Historically, the region's capital has been the village of Minerve.\nAOC regulations require the wine to be blended (at least 2 varieties), so pure varietal wines must be vin de pays. The red wines of the Minervois appellation are produced from Syrah and Mourvedre, Grenache and Lladoner Pelut (minimum 60%); and Carignan, Cinsault, Piquepoul, Terret, and Rivairenc (maximum 40%). In any case Syrah and  Mourvedre needs to be at least 20% of total, and Piquepoul, Terret, and Rivairenc needs to be no more than 10%.The white wines, which are less commonly found, may include Marsanne, Roussanne, Maccabeu, Bourboulenc, Clairette, Grenache, Vermentino, Piquepoul and Muscat Blanc a Petits Grains."
+            },
+            {
+                "name": "Conditum",
+                "@id": "http://www.wikidata.org/entity/Q924164",
+                "actual": "negative",
+                "description": "Conditum, piperatum, or konditon (\u03ba\u03cc\u03bd\u03b4\u03b9\u03c4\u03bf\u03bd) is a family of spiced wines in ancient Roman and Byzantine cuisine.\nThe Latin name translates roughly as \"spiced\". Recipes for conditum viatorium (traveler's spiced wine) and conditum paradoxum (surprise spiced wine) are found in De re coquinaria. This conditum paradoxum includes wine, honey, pepper, mastic, laurel, saffron, date seeds and dates soaked in wine.In the Levant of the 4th-century CE, the main ingredients of conditum were wine, honey and pepper corns. Conditum was considered to be a piquant wine.\nA 10th-century redaction of an earlier Greek Byzantine agricultural work brings down the relative portions of each ingredient:\n\nLet eight scruples of pepper [corns] washed and dried and carefully pounded; one sextarius of Attic honey, and four or five sextarii of old white wine, be mixed."
+            },
+            {
+                "name": "Cerasuolo di Vittoria",
+                "@id": "http://www.wikidata.org/entity/Q1054633",
+                "actual": "negative",
+                "description": "Cerasuolo di Vittoria is a dry red Italian wine from a region around the comune of Vittoria, Sicily. The only wine with DOCG status in Sicily, it is made from a blend of two Sicilian grape varieties, Nero d'Avola (locally known as Calabrese) at between 50% and 70%, with Frappato as the remainder. The DOCG rules also include regulation of cropping rates and a minimum alcohol level of 13%. Cerasuolo means \"cherry red\" and refers to the colour of the resulting blend of these grapes."
+            },
+            {
+                "name": "Cr\u00e9py AOC",
+                "@id": "http://www.wikidata.org/entity/Q1142517",
+                "actual": "negative",
+                "description": "Cr\u00e9py is an Appellation d'Origine Contr\u00f4l\u00e9e (AOC) for white wine in the Savoy wine region of France. The region is on the south side of Lake Geneva. The wines are exclusively white, made from the Chasselas grape variety which is also extensively grown in Switzerland. The wines are light and dry and best drunk young."
+            },
+            {
+                "name": "Jura wine",
+                "@id": "http://www.wikidata.org/entity/Q1713793",
+                "actual": "negative",
+                "description": "Jura wine is French wine produced in the Jura d\u00e9partement. Located between Burgundy and Switzerland, this cool climate wine region produces wines with some similarity to Burgundy and Swiss wine. Jura wines are distinctive and unusual wines, the most famous being vin jaune, which is made by a similar process to Sherry, developing under a flor-like strain of yeast. This is made from the local Savagnin grape variety. Other grape varieties include Poulsard, Trousseau, and Chardonnay. Other wine styles found in Jura includes a vin de paille made from Chardonnay, Poulsard and Savagnin, a sparkling Cr\u00e9mant du Jura made from slightly unripe Chardonnay grapes, and a vin de liqueur known as Macvin du Jura made by adding marc to halt fermentation. The renowned French chemist and biologist Louis Pasteur was born and raised in the Jura region and owned a vineyard near Arbois."
+            },
+            {
+                "name": "Montepulciano d'Abruzzo",
+                "@id": "http://www.wikidata.org/entity/Q1946117",
+                "actual": "negative",
+                "description": "Montepulciano d'Abruzzo is an Italian red wine made from the Montepulciano wine grape in the Abruzzo region of east-central Italy. It should not be confused with Vino Nobile di Montepulciano, a Tuscan wine made from Sangiovese and other grapes.Montepulciano d'Abruzzo was first classified as Denominazione di origine controllata (DOC) in 1968. The Colline Teramane subzone, established in 1995 as a DOC in the province of Teramo, was promoted to separate Denominazione di origine controllata e garantita (DOCG) status in 2003 and is now known as Colline Teramane Montepulciano d'Abruzzo.\nIn the late 20th and early 21st century, Montepulciano d'Abruzzo earned a reputation as one of the most widely exported DOC wines in Italy.\nIt is typically dry with soft tannins and often consumed young.\nIn addition to Montepulciano, up to 15% Sangiovese is permitted in the blend. Wines aged by the maker for more than two years may be labeled Riserva."
+            },
+            {
+                "name": "Lacryma Christi",
+                "@id": "http://www.wikidata.org/entity/Q2305328",
+                "actual": "negative",
+                "description": "Lacryma Christi (Latin for 'Christ's tear') or Lachryma Christi of Vesuvius is a Neapolitan type of wine produced on the slopes of Mount Vesuvius in Campania, Italy. White Lacryma Christi is made mainly from Verdeca and Coda di Volpe grapes, with smaller proportions of Falanghina, Caprettone and Greco di Tufo included. Red Lacryma Christi is made from Piedirosso and Sciascinoso grapes. It is also, as archaeologists have discovered, the nearest equivalent to wine drunk by the Ancient Romans, having analysed microscopic residue left on the taps of the casks."
+            },
+            {
+                "name": "Puisseguin-Saint-\u00c9milion AOC",
+                "@id": "http://www.wikidata.org/entity/Q283918",
+                "actual": "negative",
+                "description": "Puisseguin-Saint-\u00c9milion is an Appellation d'origine contr\u00f4l\u00e9e (AOC) for wine in the Bordeaux wine region of France, where it is situated in the Libourne subregion on the right bank of the Dordogne. It was granted AOC status on 14 November 1936, and the AOC designation granted to the wines which have been harvested on the land of the Puisseguin commune. 753 hectares (1,860 acres) of vine planted areas have belonged to the appellation in 2005, with a production of 34,648 hl.\nPuisseguin-Saint-\u00c9milion only produces red wine, and nearly all of the grape varieties from Bordeaux can be and are used, such as Cabernet Sauvignon, Cabernet Franc, Merlot, C\u00f4t, etc., although it is Merlot that is used most often.\nLike the vineyards of Montagne, the vineyards of Puisseguin are located in the area northeast of Saint-\u00c9milion on the right bank of the Barbanne. Together with Lussac-Saint-\u00c9milion, Saint-Georges-Saint-\u00c9milion and Montagne-Saint-\u00c9milion, it is one of the \"satellites\" of Saint-\u00c9milion.\nThe base yield is fixed at 45 hl/hectare with a limit of 20%. Before the chaptalization and concentration process, the must (the residue of grapes, after the juice has been extracted) must contain a minimum of 187g/L of natural sugar.  After fermentation, the wine must have a minimum alcohol level of 11% vol."
+            },
+            {
+                "name": "Liebfraumilch",
+                "@id": "http://www.wikidata.org/entity/Q697469",
+                "actual": "negative",
+                "description": "Liebfraumilch or Liebfrauenmilch (German for 'Our Lady's milk'), in reference to the Virgin Mary) is a style of semi-sweet white German wine which may be produced, mostly for export, in the regions Rheinhessen, Palatinate, Rheingau, and Nahe. The original German spelling of the word is Liebfrauenmilch, given to the wine produced from the vineyards of the Liebfrauenkirche or \"Church of Our Lady\" in the Rhineland-Palatinate city of Worms since the eighteenth century. The spelling Liebfraumilch is more common on labels of exported wine."
+            },
+            {
+                "name": "Provence wine",
+                "@id": "http://www.wikidata.org/entity/Q815934",
+                "actual": "negative",
+                "description": "Provence (Proven\u00e7al) wine comes from the French wine-producing region of Provence in southeast France. The Romans called the area provincia nostra (\"our province\"), giving the region its name. Just south of the Alps, it was the first Roman province outside Italy.\nWine has been made in this region for at least 2,600 years, ever since the ancient Greeks founded the city of Marseille in 600 BC. Throughout the region's history, viticulture and winemaking have been influenced by the cultures that have been present in Provence, which include the Ancient Greeks, Romans, Gauls, Catalans and Savoyards.  These diverse groups introduced a large variety of grapes to the region, including grape varieties of Greek and Roman origin as well as Spanish, Italian and traditional French wine grapes.Today the region is known predominantly for its ros\u00e9 wine, though wine critics such as Tom Stevenson believe that region's best wines are the spicy, full-flavoured red wines. Ros\u00e9 wine currently accounts for more than half of the production of Proven\u00e7al wine, with red wine accounting for about a third of the region's production. White wine is also produced in small quantities throughout the region with the Appellation d'origine contr\u00f4l\u00e9e (AOC) region of Cassis specializing in white wine production. The C\u00f4tes de Provence is the largest AOC followed by the Coteaux d'Aix-en-Provence. The Bandol region near Toulon is one of the more internationally recognized Proven\u00e7al wine regions."
+            },
+            {
+                "name": "Cava (Spanish wine)",
+                "@id": "http://www.wikidata.org/entity/Q1051699",
+                "actual": "negative",
+                "description": "Cava (Spanish pronunciation: [\u02c8ka\u03b2a], plural cavas) is a sparkling wine of Denominaci\u00f3n de Origen (DO) status from Spain. It may be white (blanco) or ros\u00e9 (rosado). The Macabeo, Parellada and Xarel\u00b7lo are the most popular and traditional grape varieties for producing cava. Chardonnay and Malvasia are also permitted.  Authorized red grapes are Garnacha tinta, Monastrell, Trepat, and Pinot Noir. Only wines produced in the traditional method may be labelled \"cava\"; those produced by other processes may only be called \"sparkling wines\" (vinos espumosos). About 95% of all cava is produced in the Pened\u00e8s area in Catalonia, Spain, with the village of Sant Sadurn\u00ed d'Anoia being home to many of the largest Catalan production houses.:\u200a144\u2013145\u200a The two major producers are Codorn\u00edu and Freixenet. Cava is also produced in other villages in the provinces of Girona, Lleida, Tarragona, and Barcelona in Catalonia, Zaragoza in Aragon, Badajoz in Extremadura, La Rioja, Araba/\u00c1lava in the Basque Country, Navarra and Val\u00e8ncia in the Valencian Community.Marketing Cava as \"Spanish champagne\" is no longer permitted under European Union law, since Champagne has a Protected Geographical Status (PGS). Colloquially it is still called champ\u00e1n or champa\u00f1a in Spanish or xampany in Catalan. Today it is defined by law as a \"quality sparkling wine produced in a designated region\" (Vino Espumoso de Calidad Producido en una Regi\u00f3n Determinada, VECPRD).The word champ\u00e1n in Spanish is not to be confused with achampa\u00f1ado, a colloquial term for the non-traditional sparkling wines. These achampa\u00f1ados wines are generally cheaper, are served by the bottle at bars or restaurants specializing in them and hence these establishments are called by the same name, i.e. achampa\u00f1ado. This is not cava, but it is a somewhat popular drink as well."
+            },
+            {
+                "name": "Prosecco",
+                "@id": "http://www.wikidata.org/entity/Q1069954",
+                "actual": "negative",
+                "description": "Prosecco (; Italian: [pro\u02c8sekko]) is an Italian DOC or DOCG white wine produced in a large area spanning nine provinces in the Veneto and Friuli Venezia Giulia regions, and named after the village of Prosecco which is in the province of Trieste, Italy. It is made from the Prosecco grape (renamed \"Glera\" in Italy in 2009) but denomination rules allow up to 15% of the wine to be other permitted varieties. Prosecco is almost always made in sparkling or semi-sparkling style (spumante and frizzante, respectively), but a still wine (tranquillo) is also permitted. Within the larger designation are two small DOCG areas, Conegliano Valdobbiadene Prosecco in the hills between the towns of Conegliano and Valdobbiadene, and Asolo Prosecco around the nearby town of Asolo. Prosecco Superiore is always spumante and comes only from these DOCG areas.In 2019, Le Colline del Prosecco di Conegliano e Valdobbiadene became a UNESCO World Heritage Site, in large part due to the region's role in the production of Prosecco. Since 2020, the DOC rules allow a ros\u00e9 variety of Prosecco designated spumante ros\u00e9, which must contain Glera blended with 10\u201315% Pinot noir."
+            },
+            {
+                "name": "Prosecco",
+                "@id": "http://www.wikidata.org/entity/Q1069954",
+                "actual": "negative",
+                "description": "Prosecco (; Italian: [pro\u02c8sekko]) is an Italian DOC or DOCG white wine produced in a large area spanning nine provinces in the Veneto and Friuli Venezia Giulia regions, and named after the village of Prosecco which is in the province of Trieste, Italy. It is made from the Prosecco grape (renamed \"Glera\" in Italy in 2009) but denomination rules allow up to 15% of the wine to be other permitted varieties. Prosecco is almost always made in sparkling or semi-sparkling style (spumante and frizzante, respectively), but a still wine (tranquillo) is also permitted. Within the larger designation are two small DOCG areas, Conegliano Valdobbiadene Prosecco in the hills between the towns of Conegliano and Valdobbiadene, and Asolo Prosecco around the nearby town of Asolo. Prosecco Superiore is always spumante and comes only from these DOCG areas.In 2019, Le Colline del Prosecco di Conegliano e Valdobbiadene became a UNESCO World Heritage Site, in large part due to the region's role in the production of Prosecco. Since 2020, the DOC rules allow a ros\u00e9 variety of Prosecco designated spumante ros\u00e9, which must contain Glera blended with 10\u201315% Pinot noir."
+            },
+            {
+                "name": "Saint-Julien AOC",
+                "@id": "http://www.wikidata.org/entity/Q382471",
+                "actual": "negative",
+                "description": "Saint-Julien is an Appellation d'Origine Contr\u00f4l\u00e9e (AOC) for red wine in the Bordeaux region, located in the M\u00e9doc subregion. It takes its name from the commune Saint-Julien-Beychevelle and is one of the six communal appellations in M\u00e9doc. A number of classified (Grand Cru Class\u00e9) Bordeaux estates are located within the appellation."
+            },
+            {
+                "name": "Judima",
+                "@id": "http://www.wikidata.org/entity/Q110378029",
+                "actual": "negative",
+                "description": "Judima is a traditional ethnic rice wine associated with the Dimasa people of Assam.  It has received a geographical indication tag in 2021.  It is prepared from a starter kit, and is distinguished by the use of a wild herb local to Dima Hasao district called thembra (Accacia pennata). It is used ritualistically by the Dimasa people in events such as birth, marriage and death."
+            },
+            {
+                "name": "Bokbunja-ju",
+                "@id": "http://www.wikidata.org/entity/Q715604",
+                "actual": "negative",
+                "description": "Bokbunjaju (\ubcf5\ubd84\uc790\uc8fc; \u8986\u76c6\u5b50\u9152), also called bokbunja wine, is a Korean fruit wine made from wild and/or cultivated black raspberry; traditionally of the Korean species Bokbunja (Rubus coreanus), but nowadays mostly from Rubus occidentalis, which originates from Northern America and is now widely cultivated in Korea.\nThe beverage is produced in Gochang County, Jeollabuk-do, in Damyang, Jeollanam-do, and in Jeju Island, South Korea. It is made by fermenting berries with water. Some varieties also contain rice and reishi mushroom extract.The wine is deep red in color and moderately sweet. The scent of ripe fruit rises, and the sour taste is low. The bitter taste left behind makes it go well with food. Soft tannins irritate the tongue. It ranges between 15% and 19% alcohol by volume, depending on the brand. It is believed to be healthful  and to promote male sexual stamina.Since 2008, South Korean scientists have searched for ways to use bokbunja seeds, which are a by-product of bokbunja ju production. The carbonized seeds can be used as potential adsorbent for industrial dye removal from wastewaters."
+            },
+            {
+                "name": "Sovetskoye Shampanskoye",
+                "@id": "http://www.wikidata.org/entity/Q1789031",
+                "actual": "negative",
+                "description": "Sovetskoye Shampanskoye (\u0421\u043e\u0432\u0435\u0301\u0442\u0441\u043a\u043e\u0435 \u0448\u0430\u043c\u043f\u0430\u0301\u043d\u0441\u043a\u043e\u0435, 'Soviet Champagne') is a generic brand of sparkling wine produced in the Soviet Union and successor states. It was produced for many years as a state-run initiative. Typically the wine is made from a  blend of Aligot\u00e9 and Chardonnay grapes.\nAfter the Soviet Union dissolved, private corporations in Belarus, Russia, Kyrgyzstan, Moldova, and Ukraine purchased the rights to use \"Soviet Champagne\" as a brand name and began manufacturing once again. \"Soviet Champagne\" is still being produced today by those private companies, using the original generic title as a brand name."
+            },
+            {
+                "name": "Mouton Cadet",
+                "@id": "http://www.wikidata.org/entity/Q3326436",
+                "actual": "negative",
+                "description": "Mouton Cadet is the brand name of a popular range of modestly priced, generic Bordeaux wines, considered Bordeaux's most successful brand. Created by Baron Philippe de Rothschild, Mouton Cadet wine is produced through the assembly of a variety of grapes, from several Bordeaux region appellations."
+            },
+            {
+                "name": "P\u00e9charmant",
+                "@id": "http://www.wikidata.org/entity/Q461047",
+                "actual": "negative",
+                "description": "P\u00e9charmant is a wine appellation (Appellation d'origine contr\u00f4l\u00e9e, AOC) for certain wines produced in the hills to the North-East of the market town of Bergerac, France. With a surface area of 400 hectares, the communes of Bergerac, Creysse, and Lembras produce nearly 15 000 hectolitres of red wine. P\u00e9charmant is the best known of the Dordogne region wines and has been classified AOC since 1936. The identification \"P\u00e9charmant\" dates from 1946 and the new AOC on 13 March 1992."
+            },
+            {
+                "name": "La Palma (DO)",
+                "@id": "http://www.wikidata.org/entity/Q116757084",
+                "actual": "negative",
+                "description": "La Palma is a Spanish Denominaci\u00f3n de Origen Protegida (DOP) for wines that covers the entire island of La Palma, in the Canary Islands, Spain. It acquired its DO in 1994.\nThere are around 600 ha of vineyards registered with the DOP, planted in a strip along the coast, though the altitude can vary between 200 m and 1,500 m above sea-level. The DOP is divided into three sub-zones.\n\nHoyo de Mazo, covering the municipalities of Villa de Mazo, Bre\u00f1a Baja, Bre\u00f1a Alta and Santa Cruz de la Palma, in the high central part of the island\nFuencaliente, covering Fuencaliente, El Paso, Los Llanos de Aridane and Tazacorte, is located in the south of the island\nNorte de la Palma, covering Puntallana, San Andr\u00e9s y Sauces, Barlovento, Garaf\u00eda, Puntagorda and Tijarafe, is located in the north of the island"
+            },
+            {
+                "name": "Gattinara DOCG",
+                "@id": "http://www.wikidata.org/entity/Q594168",
+                "actual": "negative",
+                "description": "Gattinara is a red Italian wine with Denominazione di Origine Controllata e Garantita (DOCG) status produced from Nebbiolo grapes grown within the boundaries of the comune of Gattinara which is located in the hills in the north of the province of Vercelli, northwest of Novara in the Piedmont region. It was awarded DOC status in 1967 and received its DOCG classification in 1990."
+            },
+            {
+                "name": "Haut-M\u00e9doc AOC",
+                "@id": "http://www.wikidata.org/entity/Q1591387",
+                "actual": "negative",
+                "description": "Haut-M\u00e9doc (French: [o med\u0254k]) is an Appellation d'Origine Contr\u00f4l\u00e9e (AOC) for wine in the Bordeaux wine region of southwestern France, on the Left Bank of the Gironde estuary. Covering a large part of the viticultural strip of land along the M\u00e9doc peninsula, the zone covers approximately 60 kilometres (37 mi) of its length.\nAs defined by the original Institut National des Appellations d'Origine (INAO) decree of November 14, 1936, its southern edge borders the city of Bordeaux and the M\u00e9doc AOC to the north, encompassing fifteen communes exclusive to the appellation, while at the same time it enclaves six appellations made up of  nine communes (Saint-Est\u00e8phe AOC, Pauillac AOC, Saint-Julien AOC, Listrac-M\u00e9doc AOC, Moulis-en-M\u00e9doc AOC and Margaux AOC) that are technically wine-making communes of Haut-M\u00e9doc. Similarly, Haut-M\u00e9doc is a sub-appellation of the M\u00e9doc AOC.Of Haut-M\u00e9doc's fifteen wine-producing communes, eight are located along the waterfront of Garonne and Gironde: Blanquefort, Parempuyre, Ludon, Macau, Arcins, Lamarque, Cussac and Saint-Seurin-de-Cadourne. Seven communes lie inland: Le Taillan, Le Pian-M\u00e9doc, Avensan, Saint-Laurent-M\u00e9doc. Saint-Sauveur, Cissac and Vertheuil.\nFew of the estates falling within the generic Haut-M\u00e9doc appellation were included in the Bordeaux Wine Official Classification of 1855 (as all but six of the 61 are located within the AOCs Margaux, Saint-Julien, Pauillac and Saint-Est\u00e8phe), but several were included in the classification Cru Bourgeois."
+            },
+            {
+                "name": "Regional Bordeaux AOCs",
+                "@id": "http://www.wikidata.org/entity/Q2743615",
+                "actual": "negative",
+                "description": "In the Bordeaux wine region there are seven regional Appellations d'origine contr\u00f4l\u00e9e (AOCs) that may be used throughout the Gironde department. These are Bordeaux Rouge AOC, Bordeaux Sup\u00e9rieur Rouge, Bordeaux Clairet, Bordeaux Ros\u00e9, Bordeaux Blanc, a dry white, Bordeaux Sup\u00e9rieur Blanc, a sweet white, and Cr\u00e9mant de Bordeaux, a sparkling m\u00e9thode traditionnelle wine. The regional appellations together form the largest world-class wine vineyard, making up more than half of the production of the prestigious Bordeaux wine region, and representing more than 55% of all Bordeaux wines consumed in the world."
+            },
+            {
+                "name": "Pago Ayl\u00e9s",
+                "@id": "http://www.wikidata.org/entity/Q62099022",
+                "actual": "negative",
+                "description": "Pago Ayl\u00e9s is a branch of Finca Ayl\u00e9s, a Spanish winery in Arag\u00f3n, Spain. The Pago Ayl\u00e9s branch uses the Vino de Pago wine appellation, a classification for Spanish wine applied to individual vineyards or wine estates, unlike the Denominaci\u00f3n de Origen Protegida (DOP) or Denominaci\u00f3n de Origen Calificada (DOCa) which is applied to an entire wine region. The Pago Ayl\u00e9s winery was formed as a Vino de Pago in 2003, and geographically it lies within the extent of the Cari\u00f1ena DOP. Along with the Vino de Pago appellation, the winery sells wines under the Cari\u00f1ena DOP appellation as Bodega Ayl\u00e9s Demba wines."
+            },
+            {
+                "name": "Pouilly-Fuiss\u00e9",
+                "@id": "http://www.wikidata.org/entity/Q390514",
+                "actual": "negative",
+                "description": "Pouilly-Fuiss\u00e9 (French pronunciation: \u200b[pu.ji f\u0265i.se]) is an appellation (AOC) for white wine in the M\u00e2connais subregion of Burgundy in central France, located in the communes of Fuiss\u00e9, Solutr\u00e9-Pouilly, Vergisson and Chaintr\u00e9. Pouilly-Fuiss\u00e9 has Chardonnay as the only grape variety.\nPouilly-Fuiss\u00e9 is the best-known part of M\u00e2connais. The AOC was created on September 11, 1936. It was granted premier cru designation in September 2020. There are currently 22 premier cru climats.  The area used to be known simply as \"Pouilly,\u201d but when the AOC laws were introduced, it was split into three: Pouilly-Fuiss\u00e9, Pouilly-Loch\u00e9 and Pouilly-Vinzelles."
+            },
+            {
+                "name": "Luberon AOC",
+                "@id": "http://www.wikidata.org/entity/Q458070",
+                "actual": "negative",
+                "description": "Luberon (known as C\u00f4tes du Luberon until 2009) is a French wine-growing AOC in the southeastern extreme of the Rh\u00f4ne wine region of France, where the wines are produced in 36 communes of the Vaucluse d\u00e9partement. The neighbouring appellation of Ventoux AOC stretches along its northern border and is separated by the Calavon river. The southern limit of the region is marked by the Durance river."
+            },
+            {
+                "name": "Vin de Savoie AOC",
+                "@id": "http://www.wikidata.org/entity/Q2526374",
+                "actual": "negative",
+                "description": "Vin de Savoie is an Appellation d'Origine Contr\u00f4l\u00e9e (French, AOC) and Protected Designation of Origin (EU, PDO) for red and white wines in the Savoy wine region of France, which is located in the foothills of the Alps. The region is divided roughly into three distinct parts: the glacially sculpted terrain along the South shore of Lake Geneva, the hilly country near the northern end of Lac de Bourget, and the area bordering the Massif de Bauges South of Chamb\u00e9ry.The wines are mostly white, made from grape varieties Chasselas, Jacqu\u00e8re, Altesse (also known as Roussette), Verdesse, Chardonnay and Roussanne grapes, although there are also some (relatively light) reds made from Mondeuse, Gamay noir and occasionally Pinot noir, and ros\u00e9s made from Gamay, and some sparkling wines."
+            },
+            {
+                "name": "Bianchello del Metauro",
+                "@id": "http://www.wikidata.org/entity/Q3639419",
+                "actual": "negative",
+                "description": "Bianchello del Metauro is a denominazione di origine controllata wine made in the province of Pesaro and Urbino, in the region of Marche, Italy. The DOC was created in 1969."
+            },
+            {
+                "name": "Elba DOC",
+                "@id": "http://www.wikidata.org/entity/Q3721167",
+                "actual": "negative",
+                "description": "Elba is a Denominazione di origine controllata (DOC) wine made from grapes grown on the island of Elba, in the region of Tuscany, Italy.  Elba wine can be red, white or sweet, the latter being the island's own version of vin santo.  The Elba DOC was created in 1967.  Elba rosso is a minimum of 60% sangiovese, while Elba bianco may encompasses several different blends of grapes, of which include Ansonica, Trebbiano Toscano, Vermentino and other white grapes.  Rosso riserva wines must be aged for a minimum of two years, including six months in bottle."
+            },
+            {
+                "name": "Penfolds Grange",
+                "@id": "http://www.wikidata.org/entity/Q7162661",
+                "actual": "negative",
+                "description": "Penfolds Grange (until the 1989 vintage labelled Penfolds Grange Hermitage) is an Australian wine, made predominantly from the Shiraz (Syrah) grape and usually a small percentage of Cabernet Sauvignon. It is widely considered one of Australia's \"first growth\" and its most collectable wine. The term \"Hermitage\", the name of a French wine appellation, was commonly used in Australia as another synonym for Shiraz or Syrah. Penfolds is owned by Treasury Wine Estates."
+            },
+            {
+                "name": "Maremma Toscana",
+                "@id": "http://www.wikidata.org/entity/Q15833829",
+                "actual": "negative",
+                "description": "Maremma Toscana is a Denominazione di Origine Controllata (DOC) wine produced in the Italian region of Tuscany. The DOC guidelines permit a wide variety of grapes and styles."
+            },
+            {
+                "name": "Franciacorta DOCG",
+                "@id": "http://www.wikidata.org/entity/Q3750896",
+                "actual": "negative",
+                "description": "Franciacorta [frant\u0283a\u02c8korta] is a sparkling wine from the Italian Province of Brescia (Lombardy) with DOCG status. It is produced using the traditional method from grapes grown within the boundaries of the territory of Franciacorta, on the hills located between the southern shore of Lake Iseo and the city of Brescia. It was awarded DOC status in 1967, the designation then also including red and white still wines. Since 1995 the DOCG classification has applied exclusively to the sparkling wines of the area."
+            },
+            {
+                "name": "Sp\u00e4trot-Rotgipfler",
+                "@id": "http://www.wikidata.org/entity/Q7581831",
+                "actual": "negative",
+                "description": "Sp\u00e4trot-Rotgipfler is a wine produced in the Thermenregion in Austria, particularly in the Gumpoldskirchen district. It is a blend of the two varieties Zierfandler (synonym: Sp\u00e4trot) and Rotgipfler. Zierfandler is said to contribute finesse, while Rotgipfler contributes with strength and a higher alcohol, and the wine often has asparagus aromas. Sp\u00e4trot-Rotgipfler is often produced as Pr\u00e4dikatswein, with more or less pronounced sweetness, and is long-lived."
+            }
+        ]
+    }
+}
