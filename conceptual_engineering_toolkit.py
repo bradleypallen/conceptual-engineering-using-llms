@@ -226,7 +226,7 @@ class Benchmark:
             except wikipedia.DisambiguationError as e:
                 item["description"] = "Disambiguation error when retrieving summary"
 
-    def save(self):
+    def save(self, benchmark_dir="benchmarks"):
         benchmark = {
             "created": datetime.now().isoformat(),
             "target_concept": self.target_concept,
@@ -239,7 +239,7 @@ class Benchmark:
                 "data": self.negatives,
             }
         }
-        filename = f'benchmarks/{self.target_concept}/data.json'
+        filename = f'{benchmark_dir}/{self.target_concept}/data.json'
         with open(filename, 'w+') as file:
             json.dump(benchmark, file)
         return filename
@@ -272,7 +272,7 @@ class Experiment:
         df_samp = pd.DataFrame.from_records(sample)
         self.results = pd.concat([df_samp[[ "name", "@id", "description", "actual" ]], df_pred[[ "predicted", "rationale" ]]], axis=1)
 
-    def save(self):
+    def save(self, experiment_dir='experiments'):
         cm = pycm.ConfusionMatrix(
             self.results["actual"].tolist(), 
             self.results["predicted"].tolist(), 
@@ -285,6 +285,6 @@ class Experiment:
             "data": self.results.to_dict('records'),
             "confusion_matrix": cm.matrix,
         }
-        filename = f'experiments/{run["concept"]["model_name"]}_{run["concept"]["id"]}_{run["created"]}.json'
+        filename = f'{experiment_dir}/{run["concept"]["model_name"]}_{run["concept"]["id"]}_{run["created"]}.json'
         json.dump(run, open(filename, 'w'))
         return filename
