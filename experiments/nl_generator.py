@@ -4,39 +4,30 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
 
-class NaturalLanguageClassifer:
-    """Represents a natural language classfier."""
+class NaturalLanguageDescriptionGenerator:
+    """Represents a natural language generator that translates an RDF serialization into a set of natural language statements."""
     
-    def __init__(self, id, label, definition, model_name="gpt-4", temperature=0.1):
+    def __init__(self, model_name="gpt-4", temperature=0.1):
         """
-        Initializes a classifier with a unique identifier, a label, and a definition.
+        Initializes a NL generator.
         
         Parameters:
-            id: The unique identifier for the class.
-            label: The label or name of the class.
-            definition: The definition of the class.
             model_name: The name of the model to be used for zero shot CoT classification (default "gpt-4").
             temperature: The temperature parameter for the model (default 0.1).
          """
-        self.id = id
-        self.label = label
-        self.definition = definition
         self.model_name = model_name
         self.temperature = temperature
         self.llm = self._llm(model_name, temperature)
-        self._classify_chain = self._zero_shot_chain_of_thought('./chains/classify.yaml')
+        self._generator_chain = self._zero_shot_chain_of_thought('./chains/generate_natural_language_description.yaml')
 
     def to_json(self):
         """
-        Converts the classifier to a JSON-like dictionary format.
+        Converts the generator to a JSON-like dictionary format.
         
         Returns:
             A dictionary with keys "id", "label", and "definition".
         """
         return {
-            "id": self.id,
-            "label": self.label,
-            "definition": self.definition,
             "model_name": self.model_name,
             "temperature": self.temperature,           
         }
@@ -92,23 +83,21 @@ class NaturalLanguageClassifer:
             output_variables=chain_specification["output_variables"]
         )
     
-    def classify(self, entity_label, entity_description):
+    def describe(self, entity_label, entity_serialization):
         """
-        Determines whether or not an entity is in the extension of the classifier's concept.
+        Generates a natural language description of an entity based on its RDF serialization.
         
         Parameters:
             entity_label: The label of the entity to be classified.
-            entity_description: The description of the entity to be classified.
+            entity_serialization: The RDF serialization of the entity to be classified.
         
         Returns:
-            A JSON object containing a classification of the entity based on the concept's definition.
+            A JSON object containing a natural language description of the entity.
         """
-        return self._classify_chain(
+        return self._generator_chain(
             {
-                "label": self.label, 
-                "definition": self.definition, 
-                "entity": entity_label,
-                "description": entity_description
+                "label": entity_label,
+                "serialization": entity_serialization
             }
         )
     

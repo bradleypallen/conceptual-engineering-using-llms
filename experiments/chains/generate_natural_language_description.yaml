@@ -1,0 +1,38 @@
+name: "generate_natural_language_description"
+rationale_generation: 
+  input_variables:
+    - "label"
+    - "serialization"
+  output_key: "initial_description"
+  template: "
+    Entity: {label} 
+    Serialization: {serialization}
+
+    Imagine that you are a data engineering working with an RDF serialization of an entity 
+    in a knowledge graph. Ignore any background knowledge you may have about the entity.
+    Using the above serialization, and only the information in the above serialization, 
+    translate the serialization into a natural language description
+    of the entity.
+    
+    Initial description:
+    "
+answer_generation: 
+  input_variables:
+    - "label"
+    - "serialization"
+    - "initial_description"
+  output_key: "description"
+  template: "
+    Entity: {label} 
+    Serialization: {serialization}
+    Initial description: {initial_description}
+  
+    Review the description you have produced with a critical eye. Make sure that the
+    description captures the full scope of the data in the serialization, especially
+    class membership. Make any revisions to the description, and produce a revised 
+    description that meets the above criterion.
+
+    Description:
+    "
+output_variables:
+  - "description"
