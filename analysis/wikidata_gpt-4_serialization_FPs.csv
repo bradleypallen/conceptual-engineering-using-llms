@@ -1,0 +1,177 @@
+,index,class_id,class_label,class_serialization,id,label,serialization,actual,predicted,rationale
+0,22,http://www.wikidata.org/entity/Q30324006,History of cities,"<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""history of cities""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://schema.org/description>	""aspect of history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""the city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2000/01/rdf-schema#label>	""history of the city""@en
+",http://www.wikidata.org/entity/Q1025460,Caesaromagus,"<http://www.wikidata.org/entity/Q1025460>	<http://www.w3.org/2000/01/rdf-schema#label>	""Caesaromagus""@en
+<http://www.wikidata.org/entity/Q1025460>	<http://schema.org/description>	""Roman settlement in Beauvais, France""@en
+",negative,positive,"Caesaromagus, as a Roman settlement in Beauvais, France, represents a specific instance in the history of cities. The development, growth, and changes that Caesaromagus has undergone over time contribute to the broader understanding of city history. Therefore, it can be argued that Caesaromagus is a part of the history of cities."
+1,25,http://www.wikidata.org/entity/Q30324006,History of cities,"<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""history of cities""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://schema.org/description>	""aspect of history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""the city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2000/01/rdf-schema#label>	""history of the city""@en
+",http://www.wikidata.org/entity/Q2914723,Nemausus,"<http://www.wikidata.org/entity/Q2914723>	<http://www.w3.org/2000/01/rdf-schema#label>	""Nemausus""@en
+<http://www.wikidata.org/entity/Q2914723>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Augusta Nemausus""@en
+<http://www.wikidata.org/entity/Q2914723>	<http://schema.org/description>	""ancient Roman city replaced by Nîmes""@en
+<http://www.wikidata.org/entity/Q2914723>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Colonia Augusta Nemausus""@en
+",negative,positive,"The concept ""History of cities"" refers to the aspect of history that focuses on the development and evolution of cities. The entity ""Nemausus"" is described as an ancient Roman city that was replaced by Nîmes. This implies that there is a historical narrative involving the transformation of Nemausus into the modern city of Nîmes. Therefore, Nemausus can be considered as part of the ""History of cities"" because its evolution over time represents a specific instance of how cities can change and develop throughout history."
+2,26,http://www.wikidata.org/entity/Q30324006,History of cities,"<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""history of cities""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://schema.org/description>	""aspect of history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""the city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2000/01/rdf-schema#label>	""history of the city""@en
+",http://www.wikidata.org/entity/Q2932881,Caesarodunum,"<http://www.wikidata.org/entity/Q2932881>	<http://www.w3.org/2000/01/rdf-schema#label>	""Caesarodunum""@en
+",negative,positive,"Caesarodunum, as an entity, could be considered under the concept of ""History of cities"" because it represents a historical city. The concept ""History of cities"" is an aspect of history that focuses on the historical development and changes of cities. Given that Caesarodunum is a historical city, its development, changes, and historical events that occurred within it would fall under the study of ""History of cities"". Therefore, it can be argued that Caesarodunum is a part of the ""History of cities""."
+3,27,http://www.wikidata.org/entity/Q30324006,History of cities,"<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""history of cities""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://schema.org/description>	""aspect of history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""the city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2000/01/rdf-schema#label>	""history of the city""@en
+",http://www.wikidata.org/entity/Q10297515,History of Marabá,"<http://www.wikidata.org/entity/Q10297515>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Marabá history""@en
+<http://www.wikidata.org/entity/Q10297515>	<http://www.w3.org/2000/01/rdf-schema#label>	""History of Marabá""@en
+",negative,positive,"The concept ""History of cities"" is defined as an aspect of history that focuses on the historical development and changes of cities. The entity ""History of Marabá"" is specifically about the history of Marabá, a city. Therefore, it falls under the broader concept of ""History of cities"" as it is a historical study of a specific city, which is Marabá. Hence, ""History of Marabá"" can be considered a specific instance or subset of the broader concept ""History of cities""."
+4,29,http://www.wikidata.org/entity/Q30324006,History of cities,"<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""history of cities""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://schema.org/description>	""aspect of history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""the city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2000/01/rdf-schema#label>	""history of the city""@en
+",http://www.wikidata.org/entity/Q2710144,Cenabum,"<http://www.wikidata.org/entity/Q2710144>	<http://schema.org/description>	""human settlement in France""@en
+<http://www.wikidata.org/entity/Q2710144>	<http://www.w3.org/2000/01/rdf-schema#label>	""Cenabum""@en
+",negative,positive,"The concept ""History of cities"" is defined as an aspect of history, with alternative labels such as ""city history"" or ""the city history"". The entity Cenabum is described as a ""human settlement in France"". Given that Cenabum is a human settlement, it can be inferred that it has a history, including its establishment, development, and any significant events that may have occurred there. Therefore, the history of Cenabum could be considered as part of the ""History of cities"", as it pertains to the historical aspects of a city or settlement."
+5,32,http://www.wikidata.org/entity/Q30324006,History of cities,"<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""history of cities""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://schema.org/description>	""aspect of history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2004/02/skos/core#altLabel>	""the city history""@en
+<http://www.wikidata.org/entity/Q30324006>	<http://www.w3.org/2000/01/rdf-schema#label>	""history of the city""@en
+",http://www.wikidata.org/entity/Q6806980,Mediolanum Santonum,"<http://www.wikidata.org/entity/Q6806980>	<http://www.w3.org/2000/01/rdf-schema#label>	""Mediolanum Santonum""@en
+<http://www.wikidata.org/entity/Q6806980>	<http://schema.org/description>	""Roman town in Gallia Aquitania, now Saintes""@en
+",negative,positive,"The concept ""History of cities"" refers to the aspect of history that focuses on the development, evolution, and changes of cities over time. Mediolanum Santonum, as per the provided description, is a Roman town in Gallia Aquitania, which is now known as Saintes. This indicates that Mediolanum Santonum has a historical background, having existed during the Roman era and having evolved into the modern city of Saintes. Therefore, the history and evolution of Mediolanum Santonum can be considered a part of the ""History of cities""."
+6,260,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q114141357,King Crowley,"<http://www.wikidata.org/entity/Q114141357>	<http://www.w3.org/2000/01/rdf-schema#label>	""King Crowley""@en
+<http://www.wikidata.org/entity/Q114141357>	<http://schema.org/description>	""archaeological forgery""@en
+",negative,positive,"The entity King Crowley is described as an ""archaeological forgery"". A forgery involves intentional deception, which aligns with the definition of fraud as ""intentional deception made for unfair or unlawful gain or damaging or depriving a victim"". Therefore, based on the provided definitions, one could argue that King Crowley, being a forgery, is a form of fraud."
+7,263,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q7299530,Razerpak,"<http://www.wikidata.org/entity/Q7299530>	<http://schema.org/description>	""controversial client-side cheat pack created for Quake""@en
+<http://www.wikidata.org/entity/Q7299530>	<http://www.w3.org/2000/01/rdf-schema#label>	""Razerpak""@en
+",negative,positive,"Based on the provided definitions, an argument could be made that Razerpak is a form of fraud. The definition of fraud includes ""intentional deception made for unfair or unlawful gain or damaging or depriving a victim"". Razerpak, as a ""controversial client-side cheat pack created for Quake"", could be seen as a form of intentional deception. It is designed to give players an unfair advantage in the game, which could be seen as an unfair gain. Furthermore, it could be argued that it damages or deprives other players who are playing the game without cheats, as it disrupts the fair and balanced gameplay that they are expecting. Therefore, based on these definitions, one could argue that Razerpak is a form of fraud."
+8,264,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q164653,Action Replay,"<http://www.wikidata.org/entity/Q164653>	<http://schema.org/description>	""Brand of video game cheating devices""@en
+<http://www.wikidata.org/entity/Q164653>	<http://www.w3.org/2000/01/rdf-schema#label>	""Action Replay""@en
+",negative,positive,"Action Replay, as a brand of video game cheating devices, could be considered a form of fraud based on the provided definition. This is because it involves intentional deception made for unfair gain, in this case, gaining an unfair advantage in a video game. This could be seen as damaging or depriving the other players who are playing the game fairly. Therefore, based on the given definition of fraud, one could argue that Action Replay is a form of fraud."
+9,268,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q5140011,Code Breaker,"<http://www.wikidata.org/entity/Q5140011>	<http://schema.org/description>	""brand name of cheating device""@en
+<http://www.wikidata.org/entity/Q5140011>	<http://www.w3.org/2000/01/rdf-schema#label>	""Code Breaker""@en
+",negative,positive,"Based on the provided definitions, one could argue that Code Breaker is a form of fraud because it is a cheating device. This implies that it is used to deceive or misrepresent in some way, which aligns with the definition of fraud as ""intentional deception made for unfair or unlawful gain."" In this case, the unfair gain could be winning a game or bypassing certain challenges by using the Code Breaker. Therefore, it can be argued that Code Breaker is a form of fraud."
+10,269,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q6483314,Lance Armstrong doping case,"<http://www.wikidata.org/entity/Q6483314>	<http://schema.org/description>	""Doping scandal in professional cycling""@en
+<http://www.wikidata.org/entity/Q6483314>	<http://www.w3.org/2000/01/rdf-schema#label>	""Lance Armstrong doping case""@en
+",negative,positive,"The Lance Armstrong doping case can be considered a form of fraud based on the provided definition. The definition of fraud includes ""intentional deception made for unfair or unlawful gain or damaging or depriving a victim"". In the Lance Armstrong doping case, Armstrong intentionally deceived others by using performance-enhancing drugs to gain an unfair advantage in professional cycling competitions. This deception led to unlawful gain as he won titles and prizes based on his enhanced performance. Furthermore, this act damaged the integrity of the sport and deprived other athletes who competed fairly of the recognition and rewards they deserved. Therefore, based on the given definition, the Lance Armstrong doping case can be classified as a fraud."
+11,271,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q5651437,Hanxin,"<http://www.wikidata.org/entity/Q5651437>	<http://schema.org/description>	""hoax""@en
+<http://www.wikidata.org/entity/Q5651437>	<http://www.w3.org/2000/01/rdf-schema#label>	""Hanxin""@en
+",negative,positive,"The concept of Fraud is defined as an ""intentional deception made for unfair or unlawful gain or damaging or depriving a victim"". The entity Hanxin is described as a ""hoax"". A hoax is a form of deception, typically intended to mislead or trick individuals. Therefore, based on the provided definitions, one could argue that Hanxin, being a hoax, aligns with the concept of Fraud as it involves intentional deception."
+12,272,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q6158922,Japanese paleolithic hoax,"<http://www.wikidata.org/entity/Q6158922>	<http://schema.org/description>	""hoax""@en
+<http://www.wikidata.org/entity/Q6158922>	<http://www.w3.org/2000/01/rdf-schema#label>	""Japanese paleolithic hoax""@en
+",negative,positive,"The Japanese paleolithic hoax is described as a ""hoax,"" which implies intentional deception. According to the definition of Fraud, it is an ""intentional deception made for unfair or unlawful gain or damaging or depriving a victim."" Therefore, given that the Japanese paleolithic hoax involves intentional deception, it can be argued that it falls under the category of Fraud."
+13,273,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q10377275,Hu Xingrong plagiarism incident at Shantou University,"<http://www.wikidata.org/entity/Q10377275>	<http://www.w3.org/2000/01/rdf-schema#label>	""Hu Xingrong plagiarism incident at Shantou University""@en
+",negative,positive,"The Hu Xingrong plagiarism incident at Shantou University can be considered a form of fraud based on the provided definition. Fraud is defined as an intentional deception made for unfair or unlawful gain or damaging or depriving a victim. In the case of plagiarism, it is an intentional act of deception where one person presents another person's work as their own. This is done for unfair gain, such as academic recognition or advancement, which aligns with the definition of fraud. Furthermore, the original author of the work is deprived of their rightful credit and recognition, which also fits into the definition of fraud. Therefore, the Hu Xingrong plagiarism incident at Shantou University can be argued to be a case of fraud."
+14,276,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q244937,Piltdown Man,"<http://www.wikidata.org/entity/Q244937>	<http://www.w3.org/2000/01/rdf-schema#label>	""Piltdown Man""@en
+<http://www.wikidata.org/entity/Q244937>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Eoanthropus dawsoni""@en
+<http://www.wikidata.org/entity/Q244937>	<http://schema.org/description>	""paleoanthropological hoax""@en
+",negative,positive,"The definition of fraud includes ""intentional deception made for unfair or unlawful gain or damaging or depriving a victim"". The description of Piltdown Man is labeled as a ""paleoanthropological hoax"". A hoax is a deliberate deception, which aligns with the definition of fraud. Therefore, based on the provided definitions, Piltdown Man can be considered a form of fraud."
+15,346,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q2612408,Anker Pils,"<http://www.wikidata.org/entity/Q2612408>	<http://schema.org/description>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q2612408>	<http://www.w3.org/2000/01/rdf-schema#label>	""Anker Pils""@en
+",negative,positive,"The definition of Beer in Belgium is given as ""beer from Belgium"". The entity Anker Pils is described as a ""Belgian beer"". Given these definitions, it can be inferred that Anker Pils, being a Belgian beer, falls under the category of Beer in Belgium. Therefore, based on the provided definitions, Anker Pils is a Beer in Belgium."
+16,349,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q1402670,Maes pils,"<http://www.wikidata.org/entity/Q1402670>	<http://schema.org/description>	""Belgian beer brewed by Alken-Maes""@en
+<http://www.wikidata.org/entity/Q1402670>	<http://www.w3.org/2000/01/rdf-schema#label>	""Maes pils""@en
+",negative,positive,"The definition of Beer in Belgium is ""beer from Belgium"". The description of Maes pils is ""Belgian beer brewed by Alken-Maes"". Since Maes pils is described as a Belgian beer, it fits the definition of Beer in Belgium. Therefore, based on the provided definitions, Maes pils can be considered a Beer in Belgium."
+17,351,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q3002811,Cristal,"<http://www.wikidata.org/entity/Q3002811>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Cristal Alken""@en
+<http://www.wikidata.org/entity/Q3002811>	<http://schema.org/description>	""pilsner""@en
+<http://www.wikidata.org/entity/Q3002811>	<http://www.w3.org/2000/01/rdf-schema#label>	""Cristal""@en
+",negative,positive,"The definition of Beer in Belgium is ""beer from Belgium"". The entity Cristal is described as a ""pilsner"", which is a type of beer. Although the description does not explicitly state that Cristal is from Belgium, the alternate label ""Cristal Alken"" suggests a Belgian origin, as Alken is a municipality in Belgium. Therefore, based on the given information, it can be argued that Cristal is a Beer in Belgium."
+18,478,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q4050284,Studium Theologicum Jerosolimitanum,"<http://www.wikidata.org/entity/Q4050284>	<http://schema.org/description>	""faculty of theology, seminary""@en
+<http://www.wikidata.org/entity/Q4050284>	<http://www.w3.org/2000/01/rdf-schema#label>	""Studium Theologicum Jerosolimitanum""@en
+",negative,positive,"The Studium Theologicum Jerosolimitanum is described as a ""faculty of theology, seminary"". A seminary is a type of higher education institution that prepares students for religious work, in this case, theology. Given that theology is a field of study that is closely associated with the Catholic Church, it can be inferred that the Studium Theologicum Jerosolimitanum is a type of university affiliated with the Catholic Church. Therefore, based on the provided definition, the Studium Theologicum Jerosolimitanum can be considered a Catholic higher education institution."
+19,622,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q913373,Sailor Saturn,"<http://www.wikidata.org/entity/Q913373>	<http://schema.org/description>	""fictional character from Sailor Moon""@en
+<http://www.wikidata.org/entity/Q913373>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Hotaru Tomoe""@en
+<http://www.wikidata.org/entity/Q913373>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Hotaru Tomoe (Sailor Saturn)""@en
+<http://www.wikidata.org/entity/Q913373>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sailor Saturn""@en
+",negative,positive,"The definition of a child is a ""human between birth and puberty"". While the description of Sailor Saturn does not explicitly state her age, it is known that she is a ""fictional character from Sailor Moon"". In the Sailor Moon series, Sailor Saturn, also known as Hotaru Tomoe, is depicted as a young girl who is not yet in her puberty. Therefore, based on the information provided, it can be argued that Sailor Saturn fits the definition of a child."
+20,626,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q14153484,Snow White,"<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2000/01/rdf-schema#label>	""Snow White""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Snowwhite""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Snowhite""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Princess Snow White""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Snow‐Maiden""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Snow‐drop""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Snow White (character)""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Snow White (Grimm)""@en
+<http://www.wikidata.org/entity/Q14153484>	<http://schema.org/description>	""character in Grimms' fairy tale \""Snow White\""""@en
+",negative,positive,"The definition provided for the concept of a child is ""human between birth and puberty"". While the description of Snow White does not explicitly state her age or stage of life, it does identify her as a ""character in Grimms' fairy tale 'Snow White'"". Given the common knowledge that characters in fairy tales, especially princesses like Snow White, are often portrayed as young individuals, it can be inferred that Snow White falls within the age range of a child, i.e., between birth and puberty. Therefore, based on this inference, one could argue that Snow White is a child."
+21,705,http://www.wikidata.org/entity/Q36747,Indigenous peoples of the Americas,"<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Amerindians""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""indigenous Americans""@en
+<http://www.wikidata.org/entity/Q36747>	<http://schema.org/description>	""peoples""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2000/01/rdf-schema#label>	""indigenous peoples of the Americas""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Native Americans""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""American Indians""@en
+",http://www.wikidata.org/entity/Q9166524,Basawi,"<http://www.wikidata.org/entity/Q9166524>	<http://www.w3.org/2000/01/rdf-schema#label>	""Basawi""@en
+<http://www.wikidata.org/entity/Q9166524>	<http://schema.org/description>	""Indian woman obliged to give birth to a male heir to her father""@en
+",negative,positive,"The description of Basawi indicates that she is an ""Indian woman."" The term ""Indian"" is often used to refer to Indigenous peoples of the Americas, as indicated by the alternate labels ""American Indians"" and ""Amerindians"" in the definition of Indigenous peoples of the Americas. Therefore, based on this information, it can be argued that Basawi is a part of the Indigenous peoples of the Americas."

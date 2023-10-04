@@ -1,0 +1,837 @@
+,index,class_id,class_label,class_serialization,id,label,serialization,actual,predicted,rationale
+0,46,http://www.wikidata.org/entity/Q193040,Embedded system,"<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2004/02/skos/core#altLabel>	""embedded computing""@en
+<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2004/02/skos/core#altLabel>	""embedded device""@en
+<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2004/02/skos/core#altLabel>	""embedded technology""@en
+<http://www.wikidata.org/entity/Q193040>	<http://schema.org/description>	""computer system with a dedicated function within a larger mechanical or electrical system.""@en
+<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2000/01/rdf-schema#label>	""embedded system""@en
+",http://www.wikidata.org/entity/Q2818458,Namco Warp & Warp,"<http://www.wikidata.org/entity/Q2818458>	<http://www.w3.org/2000/01/rdf-schema#label>	""Namco Warp & Warp""@en
+",positive,negative,"Without additional information specifically linking Namco Warp & Warp to the definition of an embedded system, it's not possible to definitively argue that Namco Warp & Warp is an embedded system. The definition provided describes an embedded system as a computer system with a dedicated function within a larger mechanical or electrical system. While Namco Warp & Warp could potentially utilize embedded systems in its operation, the provided information does not confirm this. Therefore, based on the given information, we cannot assert that Namco Warp & Warp is an embedded system."
+1,48,http://www.wikidata.org/entity/Q193040,Embedded system,"<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2004/02/skos/core#altLabel>	""embedded computing""@en
+<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2004/02/skos/core#altLabel>	""embedded device""@en
+<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2004/02/skos/core#altLabel>	""embedded technology""@en
+<http://www.wikidata.org/entity/Q193040>	<http://schema.org/description>	""computer system with a dedicated function within a larger mechanical or electrical system.""@en
+<http://www.wikidata.org/entity/Q193040>	<http://www.w3.org/2000/01/rdf-schema#label>	""embedded system""@en
+",http://www.wikidata.org/entity/Q843916,Naomi 2,"<http://www.wikidata.org/entity/Q843916>	<http://www.w3.org/2000/01/rdf-schema#label>	""Naomi 2""@en
+",positive,negative,"The definition of an embedded system is a computer system with a dedicated function within a larger mechanical or electrical system. While the provided description for Naomi 2 is not detailed, it is known to be a specific entity, which suggests it could be a system with a dedicated function. Therefore, it could be argued that Naomi 2 is an embedded system. However, without more specific information about Naomi 2's functions and its role within a larger system, this assertion cannot be definitively confirmed."
+2,80,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q744997,NGC 3077,"<http://www.wikidata.org/entity/Q744997>	<http://schema.org/description>	""galaxy in the constellation Ursa Major""@en
+<http://www.wikidata.org/entity/Q744997>	<http://www.w3.org/2004/02/skos/core#altLabel>	""New General Catalogue 3077""@en
+<http://www.wikidata.org/entity/Q744997>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 29146""@en
+<http://www.wikidata.org/entity/Q744997>	<http://www.w3.org/2004/02/skos/core#altLabel>	""UGC 5398""@en
+<http://www.wikidata.org/entity/Q744997>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 3077""@en
+",positive,negative,"The provided definition and information do not give any specific details or characteristics about NGC 3077 that would allow us to categorize it as an Irregular galaxy. The definition of an Irregular galaxy is one that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy. However, the description of NGC 3077 only mentions that it is a galaxy in the constellation Ursa Major. Without additional information about the shape or structure of NGC 3077, we cannot definitively assert that it is an Irregular galaxy based solely on the provided definition and information."
+3,87,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q657940,NGC 1800,"<http://www.wikidata.org/entity/Q657940>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q657940>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 1800""@en
+",positive,negative,"The provided information does not give specific details about the shape or type of NGC 1800. Therefore, based solely on the given information, it cannot be definitively argued that NGC 1800 is an Irregular galaxy."
+4,90,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q2300676,IC 5152,"<http://www.wikidata.org/entity/Q2300676>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q2300676>	<http://www.w3.org/2000/01/rdf-schema#label>	""IC 5152""@en
+",positive,negative,"The provided information does not give specific details about the shape or type of the galaxy IC 5152. Therefore, based solely on the given information, it cannot be definitively argued that IC 5152 is an Irregular galaxy."
+5,91,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q3686289,IC 3617,"<http://www.wikidata.org/entity/Q3686289>	<http://www.w3.org/2000/01/rdf-schema#label>	""IC 3617""@en
+<http://www.wikidata.org/entity/Q3686289>	<http://schema.org/description>	""galaxy""@en
+",positive,negative,"The provided information does not give sufficient evidence to assert that IC 3617 is an Irregular galaxy. The description only states that IC 3617 is a galaxy, but does not specify its shape or type. Therefore, based on the given information, we cannot definitively categorize IC 3617 as an Irregular galaxy."
+6,92,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q3686410,IC 3518,"<http://www.wikidata.org/entity/Q3686410>	<http://www.w3.org/2000/01/rdf-schema#label>	""IC 3518""@en
+<http://www.wikidata.org/entity/Q3686410>	<http://schema.org/description>	""galaxy""@en
+",positive,negative,"The provided information does not give specific details about the shape of IC 3518. Therefore, based solely on the given information, it cannot be definitively argued that IC 3518 is an Irregular galaxy."
+7,93,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q60223428,MCG-02-07-026,"<http://www.wikidata.org/entity/Q60223428>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q60223428>	<http://www.w3.org/2004/02/skos/core#altLabel>	""A 0228-10""@en
+<http://www.wikidata.org/entity/Q60223428>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 9539""@en
+<http://www.wikidata.org/entity/Q60223428>	<http://www.w3.org/2000/01/rdf-schema#label>	""MCG-02-07-026""@en
+",positive,negative,"The provided information does not give any specific details about the shape or type of the galaxy MCG-02-07-026. Therefore, based solely on the given information, it cannot be asserted that MCG-02-07-026 is an Irregular galaxy."
+8,94,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q60223452,UGC 2014,"<http://www.wikidata.org/entity/Q60223452>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q60223452>	<http://www.w3.org/2004/02/skos/core#altLabel>	""A 0229+38""@en
+<http://www.wikidata.org/entity/Q60223452>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 9702""@en
+<http://www.wikidata.org/entity/Q60223452>	<http://www.w3.org/2000/01/rdf-schema#label>	""UGC 2014""@en
+",positive,negative,"The provided information does not give any specific details about the shape or characteristics of UGC 2014. Therefore, based solely on the given information, it cannot be definitively argued that UGC 2014 is an Irregular galaxy."
+9,95,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q60223517,UGC 2182,"<http://www.wikidata.org/entity/Q60223517>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q60223517>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 10274""@en
+<http://www.wikidata.org/entity/Q60223517>	<http://www.w3.org/2000/01/rdf-schema#label>	""UGC 2182""@en
+",positive,negative,"The provided information does not give any specific details about the shape or characteristics of UGC 2182, therefore it is not possible to assert that UGC 2182 is an Irregular galaxy based solely on the given information."
+10,96,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q60223902,ESO 249-27,"<http://www.wikidata.org/entity/Q60223902>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q60223902>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 14078""@en
+<http://www.wikidata.org/entity/Q60223902>	<http://www.w3.org/2000/01/rdf-schema#label>	""ESO 249-27""@en
+",positive,negative,"The provided definition and information do not contain sufficient details to argue that ESO 249-27 is an Irregular galaxy. The definition of an Irregular galaxy is a galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy. However, the description of ESO 249-27 only states that it is a galaxy, without specifying its shape or type. Therefore, based solely on the given information, it cannot be asserted that ESO 249-27 is an Irregular galaxy."
+11,97,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q60223718,UGC 2664,"<http://www.wikidata.org/entity/Q60223718>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q60223718>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 12400""@en
+<http://www.wikidata.org/entity/Q60223718>	<http://www.w3.org/2000/01/rdf-schema#label>	""UGC 2664""@en
+",positive,negative,"The provided information does not give any specific details about the shape or characteristics of UGC 2664. Therefore, based solely on the given information, it cannot be definitively argued that UGC 2664 is an Irregular galaxy."
+12,98,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q1104819,NGC 3448,"<http://www.wikidata.org/entity/Q1104819>	<http://schema.org/description>	""interacting galaxy""@en
+<http://www.wikidata.org/entity/Q1104819>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 3448""@en
+",positive,negative,"The provided definition does not give enough information to definitively argue that NGC 3448 is an Irregular galaxy. The definition of an Irregular galaxy is one that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy. However, the description of NGC 3448 only states that it is an ""interacting galaxy"", which does not provide information about its shape or form. Therefore, based solely on the given definitions, it cannot be conclusively argued that NGC 3448 is an Irregular galaxy."
+13,99,http://www.wikidata.org/entity/Q190397,Irregular galaxy,"<http://www.wikidata.org/entity/Q190397>	<http://schema.org/description>	""galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy""@en
+<http://www.wikidata.org/entity/Q190397>	<http://www.w3.org/2000/01/rdf-schema#label>	""irregular galaxy""@en
+",http://www.wikidata.org/entity/Q3058038,IC 4662,"<http://www.wikidata.org/entity/Q3058038>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q3058038>	<http://www.w3.org/2000/01/rdf-schema#label>	""IC 4662""@en
+",positive,negative,"The provided information does not give specific details about the shape of IC 4662. Therefore, based solely on the given information, it cannot be definitively argued that IC 4662 is an Irregular galaxy."
+14,121,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q116453983,Hawkeye (ciruela),"<http://www.wikidata.org/entity/Q116453983>	<http://schema.org/description>	""plum cultivar variety""@en
+<http://www.wikidata.org/entity/Q116453983>	<http://www.w3.org/2000/01/rdf-schema#label>	""Hawkeye (ciruela)""@en
+",positive,negative,"The definition of Plant variety (law) states that it refers to a legal status of a cultivated plant that may not be propagated. The description of Hawkeye (ciruela) identifies it as a ""plum cultivar variety"". A cultivar is a plant variety that has been produced in cultivation by selective breeding. Therefore, given that Hawkeye (ciruela) is a cultivated plant variety, it fits within the definition of a Plant variety (law)."
+15,122,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q115860686,African Rose,"<http://www.wikidata.org/entity/Q115860686>	<http://www.w3.org/2000/01/rdf-schema#label>	""African Rose""@en
+<http://www.wikidata.org/entity/Q115860686>	<http://schema.org/description>	""'African Rose' variety of plum, obtained through the program of \""ARC - lnfruitec\"" public in South Africa.""@en
+",positive,negative,"The definition of Plant variety (law) states that it is a legal status for a cultivated plant that may not be propagated. The description of African Rose indicates that it is a variety of plum that was obtained through a specific program in South Africa. This suggests that African Rose is a cultivated plant, and if it is legally protected from propagation, it would fit the definition of a Plant variety (law). Therefore, it can be argued that African Rose is a Plant variety (law)."
+16,123,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q114796259,Prunus salicina 'Alhambra',"<http://www.wikidata.org/entity/Q114796259>	<http://www.w3.org/2000/01/rdf-schema#label>	""Prunus salicina 'Alhambra'""@en
+<http://www.wikidata.org/entity/Q114796259>	<http://schema.org/description>	""plum cultivar""@en
+",positive,negative,"The definition of a Plant variety (law) is a cultivated plant that may not be propagated. Prunus salicina 'Alhambra' is described as a plum cultivar. A cultivar is a plant variety that has been produced in cultivation by selective breeding. Therefore, it can be argued that Prunus salicina 'Alhambra' fits the definition of a Plant variety (law) as it is a cultivated plant. However, the information provided does not specify whether or not it may be propagated, which is a key part of the definition of Plant variety (law)."
+17,124,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q117878607,Heron,"<http://www.wikidata.org/entity/Q117878607>	<http://www.w3.org/2000/01/rdf-schema#label>	""Heron""@en
+<http://www.wikidata.org/entity/Q117878607>	<http://schema.org/description>	""Prunus domestica""@en
+",positive,negative,"The definition of a Plant variety (law) is a cultivated plant that may not be propagated. The entity Heron is described as ""Prunus domestica"", which indicates that it is a type of plant. Therefore, if Heron is a cultivated plant and it is legally restricted from being propagated, it could be considered a Plant variety (law)."
+18,126,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q1147113,Prunus domestica ʽJojo’,"<http://www.wikidata.org/entity/Q1147113>	<http://schema.org/description>	""plum cultivar""@en
+<http://www.wikidata.org/entity/Q1147113>	<http://www.w3.org/2000/01/rdf-schema#label>	""Prunus domestica ʽJojo’""@en
+",positive,negative,"The definition of a Plant variety (law) is a legal status given to a cultivated plant that may not be propagated. The entity Prunus domestica ʽJojo’ is described as a plum cultivar. A cultivar is a plant variety that has been produced in cultivation by selective breeding. Therefore, given that Prunus domestica ʽJojo’ is a cultivated plant, it could potentially fall under the category of a Plant variety (law), assuming it has been granted this legal status and may not be propagated."
+19,127,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q1541380,Prunus domestica ʽGraf Althans’,"<http://www.wikidata.org/entity/Q1541380>	<http://schema.org/description>	""plum cultivar""@en
+<http://www.wikidata.org/entity/Q1541380>	<http://www.w3.org/2000/01/rdf-schema#label>	""Prunus domestica ʽGraf Althans’""@en
+",positive,negative,"The definition of Plant variety (law) states that it refers to a cultivated plant that may not be propagated. The entity Prunus domestica ʽGraf Althans’ is described as a ""plum cultivar"". A cultivar is a plant variety that has been produced in cultivation by selective breeding. Therefore, given that Prunus domestica ʽGraf Althans’ is a cultivated plant, it fits the definition of a Plant variety (law)."
+20,128,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q1356437,Trinidad Moruga Scorpion,"<http://www.wikidata.org/entity/Q1356437>	<http://schema.org/description>	""exceptionally hot chili pepper""@en
+<http://www.wikidata.org/entity/Q1356437>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Trinidad scorpion""@en
+<http://www.wikidata.org/entity/Q1356437>	<http://www.w3.org/2000/01/rdf-schema#label>	""Trinidad Moruga Scorpion""@en
+",positive,negative,"The definition of Plant variety (law) refers to a cultivated plant that may not be propagated. The Trinidad Moruga Scorpion is described as an exceptionally hot chili pepper, which indicates that it is a type of plant. Therefore, it could be argued that the Trinidad Moruga Scorpion is a Plant variety (law) if it is a cultivated plant that is legally protected from propagation. However, the provided information does not specify whether the Trinidad Moruga Scorpion is legally protected from propagation, so further information would be needed to confirm this assertion."
+21,129,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q1790872,canola,"<http://www.wikidata.org/entity/Q1790872>	<http://www.w3.org/2000/01/rdf-schema#label>	""canola""@en
+<http://www.wikidata.org/entity/Q1790872>	<http://schema.org/description>	""low eruca acid cultivar of rapeseed""@en
+",positive,negative,"The definition of Plant variety (law) refers to a cultivated plant that may not be propagated. The description of canola identifies it as a ""low eruca acid cultivar of rapeseed,"" which indicates that it is a cultivated variety of the rapeseed plant. Therefore, based on this information, it can be argued that canola fits the definition of a Plant variety (law) as it is a cultivated plant."
+22,130,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q1144139,beefsteak tomato,"<http://www.wikidata.org/entity/Q1144139>	<http://schema.org/description>	""vegetable""@en
+<http://www.wikidata.org/entity/Q1144139>	<http://www.w3.org/2004/02/skos/core#altLabel>	""beef tomato""@en
+<http://www.wikidata.org/entity/Q1144139>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Beefsteak tomato""@en
+<http://www.wikidata.org/entity/Q1144139>	<http://www.w3.org/2000/01/rdf-schema#label>	""beefsteak tomato""@en
+",positive,negative,"The definition of Plant variety (law) refers to a cultivated plant that may not be propagated. The entity beefsteak tomato is described as a vegetable, which implies that it is a type of plant. Furthermore, it is a specific type of tomato, suggesting that it is a variety of plant. Therefore, based on the given definition, it can be argued that the beefsteak tomato is a Plant variety (law) as it is a specific type of cultivated plant."
+23,131,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q116258248,Belle of Leuven,"<http://www.wikidata.org/entity/Q116258248>	<http://schema.org/description>	""plum cultivar""@en
+<http://www.wikidata.org/entity/Q116258248>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belle of Leuven""@en
+",positive,negative,"The definition of Plant variety (law) refers to a cultivated plant that may not be propagated. The entity Belle of Leuven is described as a plum cultivar. A cultivar is a plant variety that has been produced in cultivation by selective breeding. Therefore, based on the provided definitions, it can be argued that Belle of Leuven is a Plant variety (law) because it is a cultivated plant variety."
+24,133,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q3651648,Camoni,"<http://www.wikidata.org/entity/Q3651648>	<http://www.w3.org/2000/01/rdf-schema#label>	""Camoni""@en
+<http://www.wikidata.org/entity/Q3651648>	<http://schema.org/description>	""tomato variety""@en
+",positive,negative,"The definition of Plant variety (law) states that it refers to a cultivated plant that may not be propagated. The entity Camoni is described as a tomato variety. Since tomatoes are cultivated plants, and Camoni is a specific variety of this plant, it can be argued that Camoni falls under the category of Plant variety (law)."
+25,134,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q2884672,Barnea,"<http://www.wikidata.org/entity/Q2884672>	<http://schema.org/description>	""olive variety""@en
+<http://www.wikidata.org/entity/Q2884672>	<http://www.w3.org/2000/01/rdf-schema#label>	""Barnea""@en
+",positive,negative,"The definition of a Plant variety (law) is a legal status that applies to a cultivated plant that may not be propagated. The entity Barnea is described as an olive variety. Given that olives are cultivated plants, it can be inferred that Barnea, as an olive variety, could potentially fall under the category of Plant variety (law). This is assuming that the propagation of Barnea is legally restricted, which is not explicitly stated but could be implied by its categorization as a variety. Therefore, based on the provided definitions, there is a plausible argument for the assertion that Barnea is a Plant variety (law)."
+26,135,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q6926484,Butlum,"<http://www.wikidata.org/entity/Q6926484>	<http://www.w3.org/2000/01/rdf-schema#label>	""Butlum""@en
+<http://www.wikidata.org/entity/Q6926484>	<http://schema.org/description>	""pistachio type""@en
+",positive,negative,"Based on the provided definition, a plant variety in law refers to a cultivated plant that may not be propagated. The entity Butlum is described as a type of pistachio. Given that pistachios are cultivated plants, it can be inferred that Butlum could potentially be a plant variety under law. However, the information provided does not specify whether Butlum may or may not be propagated, which is a key criterion in the definition of a plant variety under law. Therefore, while it is possible that Butlum could be a plant variety under law, the information provided does not definitively support this assertion."
+27,136,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q3082975,Franquette,"<http://www.wikidata.org/entity/Q3082975>	<http://www.w3.org/2000/01/rdf-schema#label>	""Franquette""@en
+",positive,negative,"The definition of a Plant variety (law) is a legal status given to a cultivated plant that may not be propagated. While the description of Franquette does not provide explicit information about its legal status or propagation restrictions, it is identified as a distinct entity with a specific name, which is a common characteristic of cultivated plants. Therefore, it could be argued that Franquette is a Plant variety (law) based on the assumption that it is a cultivated plant with a specific name. However, without additional information confirming its legal status and propagation restrictions, this assertion remains speculative."
+28,137,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q3513776,Māori potatoes,"<http://www.wikidata.org/entity/Q3513776>	<http://www.w3.org/2004/02/skos/core#altLabel>	""taewa""@en
+<http://www.wikidata.org/entity/Q3513776>	<http://schema.org/description>	""varieties of potato cultivated by Māori people""@en
+<http://www.wikidata.org/entity/Q3513776>	<http://www.w3.org/2000/01/rdf-schema#label>	""Māori potatoes""@en
+",positive,negative,"The definition of Plant variety (law) refers to a cultivated plant that may not be propagated. The description of Māori potatoes states that they are varieties of potato cultivated by Māori people. Given that these potatoes are cultivated, they fit into the category of a plant variety. However, the information provided does not specify whether Māori potatoes may or may not be propagated, which is a key aspect of the definition of Plant variety (law). Therefore, based solely on the provided information, it cannot be definitively asserted that Māori potatoes is a Plant variety (law)."
+29,139,http://www.wikidata.org/entity/Q1363241,Plant variety (law),"<http://www.wikidata.org/entity/Q1363241>	<http://www.w3.org/2000/01/rdf-schema#label>	""plant variety""@en
+<http://www.wikidata.org/entity/Q1363241>	<http://schema.org/description>	""legal status, a cultivated plant that may not be propagated""@en
+",http://www.wikidata.org/entity/Q12654704,Gagatai,"<http://www.wikidata.org/entity/Q12654704>	<http://schema.org/description>	""black currant variety""@en
+<http://www.wikidata.org/entity/Q12654704>	<http://www.w3.org/2000/01/rdf-schema#label>	""Gagatai""@en
+",positive,negative,"Based on the provided definition, a Plant variety (law) refers to a cultivated plant that has a legal status and may not be propagated. The entity Gagatai is described as a black currant variety. Although the description does not explicitly state that Gagatai has a legal status or that it may not be propagated, the fact that it is identified as a variety implies that it is a cultivated plant. Therefore, it can be argued that Gagatai fits the definition of a Plant variety (law)."
+30,161,http://www.wikidata.org/entity/Q32738,Microcomputer,"<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2004/02/skos/core#altLabel>	""microcomputers""@en
+<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2000/01/rdf-schema#label>	""microcomputer""@en
+<http://www.wikidata.org/entity/Q32738>	<http://schema.org/description>	""small, relatively inexpensive computer""@en
+",http://www.wikidata.org/entity/Q11232592,Sharp MZ-2861,"<http://www.wikidata.org/entity/Q11232592>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sharp MZ-2861""@en
+",positive,negative,"The Sharp MZ-2861 is a specific model of a computer. Given that a microcomputer is defined as a ""small, relatively inexpensive computer,"" it can be inferred that the Sharp MZ-2861 could potentially be a microcomputer. However, without specific information about the size and cost of the Sharp MZ-2861, a definitive conclusion cannot be reached based solely on the provided definition."
+31,162,http://www.wikidata.org/entity/Q32738,Microcomputer,"<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2004/02/skos/core#altLabel>	""microcomputers""@en
+<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2000/01/rdf-schema#label>	""microcomputer""@en
+<http://www.wikidata.org/entity/Q32738>	<http://schema.org/description>	""small, relatively inexpensive computer""@en
+",http://www.wikidata.org/entity/Q12746908,Sharp MZ 5500 - 5600,"<http://www.wikidata.org/entity/Q12746908>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sharp MZ 5500 - 5600""@en
+",positive,negative,"The Sharp MZ 5500 - 5600 is a specific model of a computer. Given that a microcomputer is defined as a small, relatively inexpensive computer, it is reasonable to assert that the Sharp MZ 5500 - 5600 could be classified as a microcomputer. However, without additional specific information about the size and cost of the Sharp MZ 5500 - 5600, this assertion is based on the general categorization of this entity as a computer."
+32,163,http://www.wikidata.org/entity/Q32738,Microcomputer,"<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2004/02/skos/core#altLabel>	""microcomputers""@en
+<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2000/01/rdf-schema#label>	""microcomputer""@en
+<http://www.wikidata.org/entity/Q32738>	<http://schema.org/description>	""small, relatively inexpensive computer""@en
+",http://www.wikidata.org/entity/Q12746914,Sharp MZ-80C,"<http://www.wikidata.org/entity/Q12746914>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Sharp MZ 80C""@en
+<http://www.wikidata.org/entity/Q12746914>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Sharp MZ80C""@en
+<http://www.wikidata.org/entity/Q12746914>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sharp MZ-80C""@en
+",positive,negative,"The definition of a microcomputer is a small, relatively inexpensive computer. While the description of the Sharp MZ-80C does not explicitly state that it is a small, relatively inexpensive computer, it is implied by the fact that it is a specific model of a computer. Therefore, it can be argued that the Sharp MZ-80C is a microcomputer."
+33,165,http://www.wikidata.org/entity/Q32738,Microcomputer,"<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2004/02/skos/core#altLabel>	""microcomputers""@en
+<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2000/01/rdf-schema#label>	""microcomputer""@en
+<http://www.wikidata.org/entity/Q32738>	<http://schema.org/description>	""small, relatively inexpensive computer""@en
+",http://www.wikidata.org/entity/Q6132369,Sony HB-501,"<http://www.wikidata.org/entity/Q6132369>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sony HB-501""@en
+",positive,negative,"The provided definition of a microcomputer is a ""small, relatively inexpensive computer"". While the description of Sony HB-501 does not provide specific details, it is known to be a product of Sony, a company that manufactures electronic devices, including computers. Therefore, it is plausible to assert that Sony HB-501 could be a microcomputer. However, without more specific information about the Sony HB-501, it is not possible to definitively conclude that it is a microcomputer based solely on the provided definition."
+34,167,http://www.wikidata.org/entity/Q32738,Microcomputer,"<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2004/02/skos/core#altLabel>	""microcomputers""@en
+<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2000/01/rdf-schema#label>	""microcomputer""@en
+<http://www.wikidata.org/entity/Q32738>	<http://schema.org/description>	""small, relatively inexpensive computer""@en
+",http://www.wikidata.org/entity/Q11232587,Sharp MZ-1500,"<http://www.wikidata.org/entity/Q11232587>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sharp MZ-1500""@en
+",positive,negative,"The Sharp MZ-1500 is a specific model of a computer. Given the definition of a microcomputer as a ""small, relatively inexpensive computer,"" it can be inferred that the Sharp MZ-1500 could potentially be classified as a microcomputer. However, without specific information about the size and cost of the Sharp MZ-1500, a definitive classification cannot be made solely based on the provided definition."
+35,169,http://www.wikidata.org/entity/Q32738,Microcomputer,"<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2004/02/skos/core#altLabel>	""microcomputers""@en
+<http://www.wikidata.org/entity/Q32738>	<http://www.w3.org/2000/01/rdf-schema#label>	""microcomputer""@en
+<http://www.wikidata.org/entity/Q32738>	<http://schema.org/description>	""small, relatively inexpensive computer""@en
+",http://www.wikidata.org/entity/Q5959939,Sharp MZ40K,"<http://www.wikidata.org/entity/Q5959939>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Sharp MZ-40K""@en
+<http://www.wikidata.org/entity/Q5959939>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sharp MZ40K""@en
+",positive,negative,"The definition of a microcomputer is a small, relatively inexpensive computer. While the description of Sharp MZ40K does not explicitly state that it is a small, relatively inexpensive computer, it is implied by the fact that it is a specific model of a computer. Therefore, based on the given definition, it can be argued that the Sharp MZ40K is a microcomputer."
+36,243,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q1256075,Silver Thursday,"<http://www.wikidata.org/entity/Q1256075>	<http://schema.org/description>	""event resulting in a drop in silver prices""@en
+<http://www.wikidata.org/entity/Q1256075>	<http://www.w3.org/2000/01/rdf-schema#label>	""Silver Thursday""@en
+",positive,negative,"Based on the provided definitions, it is difficult to argue that Silver Thursday is a Fraud. The definition of Fraud is ""intentional deception made for unfair or unlawful gain or damaging or depriving a victim"". However, the description of Silver Thursday is ""event resulting in a drop in silver prices"". There is no information provided that indicates any intentional deception, unfair or unlawful gain, or damage or deprivation of a victim in relation to Silver Thursday. Therefore, without additional information, it cannot be argued that Silver Thursday is a Fraud."
+37,245,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q2365254,Sumitomo copper affair,"<http://www.wikidata.org/entity/Q2365254>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sumitomo copper affair""@en
+",positive,negative,"Without specific details about the Sumitomo copper affair, it's difficult to provide a concrete argument. However, if the Sumitomo copper affair involved intentional deception made for unfair or unlawful gain, or resulted in damaging or depriving a victim, it could be classified as a fraud according to the provided definition. This could include misrepresentation, deceit, or commercial fraud related to the copper industry."
+38,246,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q714008,Kwangmyong,"<http://www.wikidata.org/entity/Q714008>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Gwangmyeong""@en
+<http://www.wikidata.org/entity/Q714008>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Kwanmyon""@en
+<http://www.wikidata.org/entity/Q714008>	<http://www.w3.org/2004/02/skos/core#altLabel>	""North Korean intranet""@en
+<http://www.wikidata.org/entity/Q714008>	<http://schema.org/description>	""North Korean \""walled garden\"" national intranet""@en
+<http://www.wikidata.org/entity/Q714008>	<http://www.w3.org/2000/01/rdf-schema#label>	""Kwangmyong""@en
+",positive,negative,"Based on the provided definitions, it could be argued that Kwangmyong is a form of fraud if one considers the ""walled garden"" national intranet as a form of intentional deception. This could be seen as a way to unfairly control or limit the information available to North Korean citizens, thereby creating an unfair gain for the government while potentially damaging or depriving the citizens. However, this argument heavily relies on the interpretation of the terms ""intentional deception"", ""unfair gain"", and ""damaging or depriving a victim""."
+39,252,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q1878916,Lyoness,"<http://www.wikidata.org/entity/Q1878916>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Cashback World""@en
+<http://www.wikidata.org/entity/Q1878916>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Lyconet""@en
+<http://www.wikidata.org/entity/Q1878916>	<http://www.w3.org/2004/02/skos/core#altLabel>	""myWorld""@en
+<http://www.wikidata.org/entity/Q1878916>	<http://schema.org/description>	""multi-level marketing company""@en
+<http://www.wikidata.org/entity/Q1878916>	<http://www.w3.org/2000/01/rdf-schema#label>	""Lyoness""@en
+",positive,negative,"Based on the provided definitions, an argument could be made that Lyoness could be considered a fraud if it is proven that it is intentionally deceiving people for unfair or unlawful gain, or damaging or depriving a victim. As a multi-level marketing company, Lyoness could potentially be involved in practices that involve misrepresentation or deceit, which are alternative labels for fraud. However, without specific evidence of such practices, it would be speculative to definitively label Lyoness as a fraud."
+40,258,http://www.wikidata.org/entity/Q28813,Fraud,"<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""commercial fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""misrepresentation (Crime)""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2004/02/skos/core#altLabel>	""deceit""@en
+<http://www.wikidata.org/entity/Q28813>	<http://www.w3.org/2000/01/rdf-schema#label>	""fraud""@en
+<http://www.wikidata.org/entity/Q28813>	<http://schema.org/description>	""intentional deception made for unfair or unlawful gain or damaging or depriving a victim""@en
+",http://www.wikidata.org/entity/Q717249,Tanaka Memorial,"<http://www.wikidata.org/entity/Q717249>	<http://schema.org/description>	""alleged Japanese strategic planning document from 1927 in which Prime Minister Baron Tanaka Giichi laid out for Emperor Hirohito a strategy to take over the world""@en
+<http://www.wikidata.org/entity/Q717249>	<http://www.w3.org/2004/02/skos/core#altLabel>	""The Tanaka Memorial""@en
+<http://www.wikidata.org/entity/Q717249>	<http://www.w3.org/2000/01/rdf-schema#label>	""Tanaka Memorial""@en
+",positive,negative,"The Tanaka Memorial is described as an ""alleged"" strategic planning document, suggesting that there is uncertainty or doubt about its authenticity or truthfulness. This aligns with the concept of fraud, which involves intentional deception. If the Tanaka Memorial was indeed fabricated or misrepresented with the intention of causing harm or gaining an unfair advantage, it could be considered a form of fraud."
+41,280,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119677494,A-851,"<http://www.wikidata.org/entity/Q119677494>	<http://schema.org/description>	""H-16 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119677494>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-851""@en
+<http://www.wikidata.org/entity/Q119677494>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-851""@en
+",positive,negative,"The entity A-851 is described as an ""H-16 of the United States Navy"". While the definition of a seaplane does not directly mention an H-16, it is described as an ""airplane class"". Given that A-851 is associated with the United States Navy, it can be inferred that it is likely a type of aircraft, which aligns with the definition of a seaplane as an ""airplane class"". Therefore, it is reasonable to assert that A-851 could be a seaplane."
+42,281,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119677496,A-852,"<http://www.wikidata.org/entity/Q119677496>	<http://schema.org/description>	""H-16 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119677496>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-852""@en
+<http://www.wikidata.org/entity/Q119677496>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-852""@en
+",positive,negative,"The entity A-852 is described as an ""H-16 of the United States Navy"". While the definition of a seaplane does not directly mention an H-16, it is described as an ""airplane class"". Given that A-852 is associated with the United States Navy, it can be inferred that it is a type of aircraft, which aligns with the definition of a seaplane as an ""airplane class"". Therefore, it is reasonable to assert that A-852 could be a seaplane."
+43,282,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119677504,A-858,"<http://www.wikidata.org/entity/Q119677504>	<http://schema.org/description>	""H-16 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119677504>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-858""@en
+<http://www.wikidata.org/entity/Q119677504>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-858""@en
+",positive,negative,"The entity A-858 is described as an ""H-16 of the United States Navy"". While the definition of a Seaplane does not provide specific details about what constitutes a Seaplane, it is described as an ""airplane class"". Given that A-858 is associated with the Navy, it can be inferred that it is a type of aircraft, which aligns with the broad classification of a Seaplane as an ""airplane class"". Therefore, it is reasonable to assert that A-858 could be a Seaplane."
+44,283,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119677545,A-1046,"<http://www.wikidata.org/entity/Q119677545>	<http://schema.org/description>	""H-16 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119677545>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-1046""@en
+<http://www.wikidata.org/entity/Q119677545>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-1046""@en
+",positive,negative,"The entity A-1046 is described as an ""H-16 of the United States Navy"". While the definition of a seaplane does not provide specific details about what constitutes a seaplane, it is described as an ""airplane class"". Given that the A-1046 is associated with the Navy, it can be inferred that it is likely a type of aircraft designed for water operations, which aligns with the alternate labels for a seaplane such as ""hydroplane"", ""hydroaeroplane"", and ""water-based aircraft"". Therefore, it is reasonable to assert that A-1046 could be a seaplane."
+45,284,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119677544,A-1043,"<http://www.wikidata.org/entity/Q119677544>	<http://schema.org/description>	""H-16 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119677544>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-1043""@en
+<http://www.wikidata.org/entity/Q119677544>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-1043""@en
+",positive,negative,"The entity A-1043 is described as an ""H-16 of the United States Navy"". While the definition of a seaplane does not explicitly mention the H-16, it is reasonable to infer that an H-16 could be a type of seaplane, given that seaplanes are a class of airplane and the H-16 is associated with the Navy, which operates in marine environments where seaplanes would be used. Therefore, it is plausible to assert that A-1043 is a seaplane."
+46,285,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119677543,A-1037,"<http://www.wikidata.org/entity/Q119677543>	<http://schema.org/description>	""H-16 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119677543>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-1037""@en
+<http://www.wikidata.org/entity/Q119677543>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-1037""@en
+",positive,negative,"The entity A-1037 is described as ""H-16 of the United States Navy"". While the definition does not explicitly state that A-1037 is a seaplane, the association with the United States Navy suggests that it could be a water-based aircraft, which is one of the alternative labels for a seaplane. Therefore, it is plausible to assert that A-1037 could be a seaplane."
+47,286,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q104104725,Catalina PBY-5-03,"<http://www.wikidata.org/entity/Q104104725>	<http://schema.org/description>	""Brazilian military airplane, crashed in 1947""@en
+<http://www.wikidata.org/entity/Q104104725>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catalina PBY-5-03""@en
+",positive,negative,"The Catalina PBY-5-03 is described as a ""Brazilian military airplane"". The concept of a Seaplane is defined as an ""airplane class"". Given that both the Catalina PBY-5-03 and a Seaplane are types of airplanes, it is reasonable to assert that the Catalina PBY-5-03 could be a Seaplane. However, without additional information specifically linking the Catalina PBY-5-03 to the characteristics of a Seaplane (such as being a ""hydroplane"", ""hydroaeroplane"", or ""water-based aircraft""), this assertion cannot be definitively confirmed."
+48,289,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q7122350,Pacific Clipper,"<http://www.wikidata.org/entity/Q7122350>	<http://www.w3.org/2004/02/skos/core#altLabel>	""California Clipper""@en
+<http://www.wikidata.org/entity/Q7122350>	<http://www.w3.org/2004/02/skos/core#altLabel>	""NC18609(A)""@en
+<http://www.wikidata.org/entity/Q7122350>	<http://www.w3.org/2000/01/rdf-schema#label>	""Pacific Clipper""@en
+<http://www.wikidata.org/entity/Q7122350>	<http://schema.org/description>	""the first commercial plane to circumnavigate the world""@en
+",positive,negative,"The Pacific Clipper is described as a commercial plane. The concept of a Seaplane is defined as a class of airplane, which includes alternative labels such as ""hydroplane"", ""hydroaeroplane"", and ""water-based aircraft"". Given that both the Pacific Clipper and Seaplane fall under the category of airplanes, it is plausible to assert that the Pacific Clipper could be a Seaplane. However, without more specific information linking the Pacific Clipper to the characteristics of a Seaplane (such as being water-based), this assertion cannot be definitively confirmed."
+49,290,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q20909700,Caudron Type K,"<http://www.wikidata.org/entity/Q20909700>	<http://www.w3.org/2000/01/rdf-schema#label>	""Caudron Type K""@en
+<http://www.wikidata.org/entity/Q20909700>	<http://schema.org/description>	""type of aircraft""@en
+",positive,negative,"The Caudron Type K is described as a ""type of aircraft"". The concept of a Seaplane is defined as an ""airplane class"" and also referred to as a ""water-based aircraft"", ""hydroaeroplane"", and ""hydroplane"". Although the definition does not explicitly state that the Caudron Type K is a Seaplane, it can be inferred that it could potentially be a Seaplane as it is a type of aircraft and Seaplane is a class of airplane. However, without additional information specifically linking the Caudron Type K to the characteristics of a Seaplane (such as being water-based), a definitive conclusion cannot be made."
+50,293,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119677475,A-752,"<http://www.wikidata.org/entity/Q119677475>	<http://schema.org/description>	""Curtiss F of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119677475>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-752""@en
+<http://www.wikidata.org/entity/Q119677475>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-752""@en
+",positive,negative,"The entity A-752 is described as a ""Curtiss F of the United States Navy"". While the definition does not explicitly state that A-752 is a seaplane, it is known that the Curtiss F is a type of aircraft. Given that a seaplane is a class of airplane, it is reasonable to infer that A-752 could be a seaplane. However, without more specific information linking A-752 to the characteristics of a seaplane (such as being a water-based aircraft or hydroplane), the assertion cannot be definitively confirmed."
+51,295,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119671954,A-765,"<http://www.wikidata.org/entity/Q119671954>	<http://schema.org/description>	""H-12 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119671954>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-765""@en
+<http://www.wikidata.org/entity/Q119671954>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-765""@en
+",positive,negative,"The entity A-765 is described as ""H-12 of the United States Navy"". While the definition of a seaplane does not directly mention the term ""H-12"", it is known that seaplanes are a class of airplanes. Given that A-765 is associated with the United States Navy, it can be inferred that it is likely to be a water-based aircraft, which aligns with one of the alternative labels for seaplanes. Therefore, it is reasonable to assert that A-765 could be a seaplane."
+52,296,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119671958,A-767,"<http://www.wikidata.org/entity/Q119671958>	<http://schema.org/description>	""H-12 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119671958>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-767""@en
+<http://www.wikidata.org/entity/Q119671958>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-767""@en
+",positive,negative,"The entity A-767 is described as ""H-12 of the United States Navy"". The United States Navy is known for its use of various types of aircraft, including seaplanes. Although the description does not explicitly state that A-767 is a seaplane, it is plausible to infer that it could be a seaplane given its association with the United States Navy. Furthermore, the alternative label ""BuNo A-767"" suggests that A-767 is a type of aircraft, which aligns with the concept of a seaplane being a class of airplane. Therefore, it is reasonable to assert that A-767 could be a seaplane."
+53,297,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119671956,A-766,"<http://www.wikidata.org/entity/Q119671956>	<http://schema.org/description>	""H-12 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119671956>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-766""@en
+<http://www.wikidata.org/entity/Q119671956>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-766""@en
+",positive,negative,"The entity A-766 is described as ""H-12 of the United States Navy"". While the definition of a Seaplane does not provide specific details, it is referred to as an ""airplane class"". Given that A-766 is associated with the Navy, it can be inferred that it is a type of aircraft, potentially aligning with the ""airplane class"" description of a Seaplane. Furthermore, the alternative labels for Seaplane include ""hydroplane"", ""hydroaeroplane"", and ""water-based aircraft"", all of which suggest an aircraft designed to take off and land on water. As a part of the Navy, it is plausible that A-766 could be a water-based aircraft, thus potentially classifying it as a Seaplane. However, without more specific information, this assertion is based on inference and assumption."
+54,298,http://www.wikidata.org/entity/Q115940,Seaplane,"<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""hydroaeroplane""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2004/02/skos/core#altLabel>	""water-based aircraft""@en
+<http://www.wikidata.org/entity/Q115940>	<http://schema.org/description>	""airplane class""@en
+<http://www.wikidata.org/entity/Q115940>	<http://www.w3.org/2000/01/rdf-schema#label>	""seaplane""@en
+",http://www.wikidata.org/entity/Q119671961,A-768,"<http://www.wikidata.org/entity/Q119671961>	<http://schema.org/description>	""H-12 of the United States Navy""@en
+<http://www.wikidata.org/entity/Q119671961>	<http://www.w3.org/2000/01/rdf-schema#label>	""A-768""@en
+<http://www.wikidata.org/entity/Q119671961>	<http://www.w3.org/2004/02/skos/core#altLabel>	""BuNo A-768""@en
+",positive,negative,"The entity A-768 is described as ""H-12 of the United States Navy"". Although the definition of Seaplane does not provide specific details, it is referred to as an ""airplane class"". Given that A-768 is associated with the Navy, it can be inferred that it is a type of aircraft, potentially a water-based one, which aligns with the alternate labels for Seaplane such as ""hydroplane"", ""hydroaeroplane"", and ""water-based aircraft"". Therefore, it is reasonable to assert that A-768 could be a Seaplane."
+55,320,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q848355,Orval,"<http://www.wikidata.org/entity/Q848355>	<http://www.w3.org/2000/01/rdf-schema#label>	""Orval""@en
+<http://www.wikidata.org/entity/Q848355>	<http://schema.org/description>	""Trappist beer""@en
+",positive,negative,"The definition of Beer in Belgium is ""beer from Belgium"". Orval is described as a ""Trappist beer"". While the description of Orval does not explicitly state that it is from Belgium, the fact that it is a Trappist beer implies that it is from Belgium, as Trappist beers are traditionally brewed in Trappist monasteries, most of which are located in Belgium. Therefore, based on the given definitions, it can be argued that Orval is a Beer in Belgium."
+56,323,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q973275,Abbaye de Cambron,"<http://www.wikidata.org/entity/Q973275>	<http://www.w3.org/2000/01/rdf-schema#label>	""Abbaye de Cambron""@en
+",positive,negative,"The provided definition does not give any information that could be used to argue that Abbaye de Cambron is a Beer in Belgium. The definition only states that Belgian beer is beer from Belgium. It does not provide any information about specific beers, breweries, or locations related to beer production in Belgium. Therefore, based solely on the provided definition, it is not possible to argue that Abbaye de Cambron is a Beer in Belgium."
+57,324,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q519781,Blanche de Namur,"<http://www.wikidata.org/entity/Q519781>	<http://www.w3.org/2000/01/rdf-schema#label>	""Blanche de Namur""@en
+",positive,negative,"The definition of Beer in Belgium is ""beer from Belgium"". The entity Blanche de Namur does not provide a description that directly links it to being a beer or being from Belgium. However, given that it is presented in the context of the concept Beer in Belgium, it can be inferred that Blanche de Namur is a type of beer from Belgium. Therefore, based on this inference, Blanche de Namur can be considered a Beer in Belgium."
+58,325,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q610086,Achel Brewery,"<http://www.wikidata.org/entity/Q610086>	<http://www.w3.org/2000/01/rdf-schema#label>	""Achel Brewery""@en
+",positive,negative,"The definition of ""Beer in Belgium"" is ""beer from Belgium"". Achel Brewery, as indicated by its name, is a brewery, which is a place where beer is produced. Therefore, if Achel Brewery is located in Belgium, the beer it produces would be considered ""Beer in Belgium"". However, the provided information does not specify the location of Achel Brewery, so we cannot definitively assert that Achel Brewery is a ""Beer in Belgium"" based solely on the given information."
+59,327,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q13573961,Dominus,"<http://www.wikidata.org/entity/Q13573961>	<http://schema.org/description>	""beer""@en
+<http://www.wikidata.org/entity/Q13573961>	<http://www.w3.org/2000/01/rdf-schema#label>	""Dominus""@en
+",positive,negative,"The definition of Beer in Belgium is ""beer from Belgium"". The entity Dominus is described as a ""beer"". While the description of Dominus does not explicitly state that it is from Belgium, it is labeled as ""Dominus"", which could potentially indicate a Belgian origin. Therefore, based on the given information, it could be argued that Dominus is a Beer in Belgium. However, without further information confirming the Belgian origin of Dominus, this assertion remains speculative."
+60,328,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q2535987,Saison de Pipaix,"<http://www.wikidata.org/entity/Q2535987>	<http://www.w3.org/2000/01/rdf-schema#label>	""Saison de Pipaix""@en
+",positive,negative,"The assertion that Saison de Pipaix is a Beer in Belgium can be made based on the information provided. The definition of Beer in Belgium is ""beer from Belgium"". The entity Saison de Pipaix, while not explicitly stated to be a beer or from Belgium in the given information, is labeled in a similar manner to the concept Beer in Belgium. This suggests that it could be a specific type or brand of Belgian beer. Therefore, it is reasonable to assert that Saison de Pipaix is a Beer in Belgium."
+61,330,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q2608973,3 Fonteinen Oude Kriek,"<http://www.wikidata.org/entity/Q2608973>	<http://www.w3.org/2000/01/rdf-schema#label>	""3 Fonteinen Oude Kriek""@en
+",positive,negative,"The entity 3 Fonteinen Oude Kriek is labeled and described in English, suggesting that it is a product or concept that is recognized and named in English-speaking contexts. The concept Beer in Belgium is defined as ""beer from Belgium"". Given that 3 Fonteinen Oude Kriek is an entity with a specific name, it can be inferred that it is a specific type or brand of a product or concept. If we assume that 3 Fonteinen Oude Kriek is a type of beer, then it fits the definition of Beer in Belgium as it would be a specific type of ""beer from Belgium"". Therefore, based on the provided definition, it can be argued that 3 Fonteinen Oude Kriek is a Beer in Belgium."
+62,331,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q15985396,Crabbelaer,"<http://www.wikidata.org/entity/Q15985396>	<http://www.w3.org/2000/01/rdf-schema#label>	""Crabbelaer""@en
+",positive,negative,"The definition provided for Beer in Belgium is ""beer from Belgium"". The entity Crabbelaer does not have a description provided, but it is labeled as ""Crabbelaer"". If we assume that Crabbelaer is a type of beer and it is from Belgium, then according to the definition provided, Crabbelaer can be considered a Beer in Belgium. However, without additional information confirming that Crabbelaer is indeed a type of beer and that it is from Belgium, we cannot definitively assert that Crabbelaer is a Beer in Belgium."
+63,332,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q19631002,Us Heit Dubbel Tarwe Bier,"<http://www.wikidata.org/entity/Q19631002>	<http://schema.org/description>	""Dutch wheat beer brand""@en
+<http://www.wikidata.org/entity/Q19631002>	<http://www.w3.org/2000/01/rdf-schema#label>	""Us Heit Dubbel Tarwe Bier""@en
+",positive,negative,"Based on the provided definitions, it is not possible to argue that Us Heit Dubbel Tarwe Bier is a Beer in Belgium. The definition of Us Heit Dubbel Tarwe Bier identifies it as a ""Dutch wheat beer brand,"" which does not align with the definition of Belgian beer as ""beer from Belgium."" Without additional information linking Us Heit Dubbel Tarwe Bier to Belgium, the assertion cannot be made based on the given definitions."
+64,333,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q2568622,Oude Kriek Hanssens,"<http://www.wikidata.org/entity/Q2568622>	<http://www.w3.org/2000/01/rdf-schema#label>	""Oude Kriek Hanssens""@en
+",positive,negative,"The entity Oude Kriek Hanssens is labeled in English, which suggests that it is a product or item that is recognized in English-speaking contexts. Given that it is not explicitly stated where Oude Kriek Hanssens is from, we can infer that it might be a product from Belgium because it is being discussed in the context of the concept ""Beer in Belgium"". Therefore, it is reasonable to assert that Oude Kriek Hanssens is a Beer in Belgium."
+65,335,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q1824405,'t Gaverhopke Kriek,"<http://www.wikidata.org/entity/Q1824405>	<http://www.w3.org/2000/01/rdf-schema#label>	""'t Gaverhopke Kriek""@en
+",positive,negative,"The definition of Beer in Belgium is ""beer from Belgium"". The entity 't Gaverhopke Kriek does not provide specific information about its origin or type. However, given that it is labeled in a similar manner to the concept Beer in Belgium, it can be inferred that 't Gaverhopke Kriek is a type of Beer in Belgium. This is based on the assumption that the labeling and naming conventions are consistent and meaningful."
+66,338,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q5021786,Kriek Boon,"<http://www.wikidata.org/entity/Q5021786>	<http://www.w3.org/2000/01/rdf-schema#label>	""Kriek Boon""@en
+",positive,negative,"The definition of Beer in Belgium is ""beer from Belgium"". The entity Kriek Boon is not explicitly stated to be a beer or to be from Belgium in the provided information. However, given that Kriek Boon is an entity in the context of this definition, it can be inferred that Kriek Boon is a type of beer from Belgium. Therefore, Kriek Boon is a Beer in Belgium."
+67,339,http://www.wikidata.org/entity/Q348229,Beer in Belgium,"<http://www.wikidata.org/entity/Q348229>	<http://www.w3.org/2000/01/rdf-schema#label>	""Belgian beer""@en
+<http://www.wikidata.org/entity/Q348229>	<http://schema.org/description>	""beer from Belgium""@en
+",http://www.wikidata.org/entity/Q98925309,St. Feuillien Saison,"<http://www.wikidata.org/entity/Q98925309>	<http://schema.org/description>	""beer""@en
+<http://www.wikidata.org/entity/Q98925309>	<http://www.w3.org/2000/01/rdf-schema#label>	""St. Feuillien Saison""@en
+",positive,negative,"The definition of Beer in Belgium is ""beer from Belgium"". The entity St. Feuillien Saison is described as a ""beer"". While the description does not explicitly state that St. Feuillien Saison is from Belgium, the name ""St. Feuillien"" is a Belgian name, suggesting that it could be a beer from Belgium. Therefore, it is plausible to assert that St. Feuillien Saison could be a Beer in Belgium."
+68,360,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q487228,NGC 1672,"<http://www.wikidata.org/entity/Q487228>	<http://schema.org/description>	""barred spiral galaxy in the constellation Dorado""@en
+<http://www.wikidata.org/entity/Q487228>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 15941""@en
+<http://www.wikidata.org/entity/Q487228>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 1672""@en
+",positive,negative,"The provided definitions do not supply enough information to argue that NGC 1672 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies,"" but does not provide specific characteristics or criteria that could be used to classify NGC 1672 as such. Similarly, the description of NGC 1672 as a ""barred spiral galaxy in the constellation Dorado"" does not provide any overlapping or relevant information that could link it to the Seyfert galaxy class. Therefore, based solely on the provided definitions, an argument cannot be made that NGC 1672 is a Seyfert galaxy."
+69,361,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q14017,Messier 77,"<http://www.wikidata.org/entity/Q14017>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 10266""@en
+<http://www.wikidata.org/entity/Q14017>	<http://www.w3.org/2004/02/skos/core#altLabel>	""UGC 2188""@en
+<http://www.wikidata.org/entity/Q14017>	<http://schema.org/description>	""spiral galaxy in the constellation Cetus""@en
+<http://www.wikidata.org/entity/Q14017>	<http://www.w3.org/2004/02/skos/core#altLabel>	""M77""@en
+<http://www.wikidata.org/entity/Q14017>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Cetus A""@en
+<http://www.wikidata.org/entity/Q14017>	<http://www.w3.org/2004/02/skos/core#altLabel>	""New General Catalogue 1068""@en
+<http://www.wikidata.org/entity/Q14017>	<http://www.w3.org/2004/02/skos/core#altLabel>	""NGC 1068""@en
+<http://www.wikidata.org/entity/Q14017>	<http://www.w3.org/2000/01/rdf-schema#label>	""Messier 77""@en
+",positive,negative,"The provided definitions do not contain any direct information that would allow for an argument asserting that Messier 77 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies"", but does not provide any specific characteristics or criteria that could be used to classify Messier 77, described as a ""spiral galaxy in the constellation Cetus"", as a Seyfert galaxy. Therefore, based solely on the provided definitions, an argument cannot be made for Messier 77 being a Seyfert galaxy."
+70,362,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q733508,7C 114610.00+594129.00,"<http://www.wikidata.org/entity/Q733508>	<http://schema.org/description>	""blazar""@en
+<http://www.wikidata.org/entity/Q733508>	<http://www.w3.org/2000/01/rdf-schema#label>	""7C 114610.00+594129.00""@en
+",positive,negative,"Based on the provided definitions, there is no direct information or evidence to support the assertion that 7C 114610.00+594129.00 is a Seyfert galaxy. The definition of Seyfert galaxy is simply stated as a ""class of galaxies"", while 7C 114610.00+594129.00 is described as a ""blazar"". Without further information linking these two concepts, an argument cannot be made that 7C 114610.00+594129.00 is a Seyfert galaxy."
+71,363,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q929194,NGC 5322,"<http://www.wikidata.org/entity/Q929194>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q929194>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 5322""@en
+",positive,negative,"The provided definitions do not supply enough information to assert that NGC 5322 is a Seyfert galaxy. While NGC 5322 is identified as a galaxy, there is no specific information given that would classify it as a Seyfert galaxy, which is a specific class of galaxies. Therefore, based solely on the provided definitions, we cannot argue that NGC 5322 is a Seyfert galaxy."
+72,364,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q177114,NGC 3259,"<http://www.wikidata.org/entity/Q177114>	<http://www.w3.org/2004/02/skos/core#altLabel>	""1RXS J103233.8+650235""@en
+<http://www.wikidata.org/entity/Q177114>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 3259""@en
+<http://www.wikidata.org/entity/Q177114>	<http://schema.org/description>	""spiral galaxy""@en
+",positive,negative,"The provided definitions do not supply enough information to argue that NGC 3259 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply given as a ""class of galaxies"", but does not provide specific characteristics or criteria that would allow for classification. Similarly, the description of NGC 3259 is given as a ""spiral galaxy"", but without further information on what constitutes a Seyfert galaxy, it cannot be definitively stated that NGC 3259 is a Seyfert galaxy based solely on these definitions."
+73,365,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q46914,NGC 5033,"<http://www.wikidata.org/entity/Q46914>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 5033""@en
+<http://www.wikidata.org/entity/Q46914>	<http://schema.org/description>	""spiral galaxy in the constellation Canes Venatici""@en
+",positive,negative,"The provided definitions do not contain sufficient information to argue that NGC 5033 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies,"" but does not provide any specific characteristics or criteria that could be used to classify NGC 5033 as such. Similarly, the description of NGC 5033 as a ""spiral galaxy in the constellation Canes Venatici"" does not provide any information that could be used to link it to the Seyfert galaxy class. Therefore, based solely on the provided definitions, an argument cannot be made that NGC 5033 is a Seyfert galaxy."
+74,366,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q578660,NGC 6394,"<http://www.wikidata.org/entity/Q578660>	<http://schema.org/description>	""barred spiral galaxy""@en
+<http://www.wikidata.org/entity/Q578660>	<http://www.w3.org/2004/02/skos/core#altLabel>	""SBb""@en
+<http://www.wikidata.org/entity/Q578660>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 6394""@en
+",positive,negative,"The provided definitions do not supply enough information to assert that NGC 6394 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies"", but does not provide specific characteristics or criteria that would allow for classification. Similarly, the description of NGC 6394 as a ""barred spiral galaxy"" does not inherently suggest it belongs to the Seyfert class. Without additional information or context, an argument for NGC 6394 being a Seyfert galaxy cannot be made based solely on these definitions."
+75,367,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q1037688,NGC 617,"<http://www.wikidata.org/entity/Q1037688>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q1037688>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 617""@en
+",positive,negative,"The provided definitions do not offer any specific information that would allow us to categorize NGC 617 as a Seyfert galaxy. The definition of Seyfert galaxy is simply ""class of galaxies"", and the description of NGC 617 is ""galaxy"". Without additional information linking NGC 617 to the specific characteristics of Seyfert galaxies, we cannot make the assertion that NGC 617 is a Seyfert galaxy."
+76,368,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q1040941,NGC 1019,"<http://www.wikidata.org/entity/Q1040941>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q1040941>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 1019""@en
+",positive,negative,"The provided definitions do not offer any specific information or characteristics that could be used to categorize NGC 1019 as a Seyfert galaxy. The definition of Seyfert galaxy is simply ""class of galaxies"", and the description of NGC 1019 is ""galaxy"". Without additional information linking NGC 1019 to the specific class of Seyfert galaxies, an argument cannot be made based solely on these definitions."
+77,369,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q942187,NGC 4151,"<http://www.wikidata.org/entity/Q942187>	<http://schema.org/description>	""spiral galaxy in the constellation Canes Venatici""@en
+<http://www.wikidata.org/entity/Q942187>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Eye of Sauron""@en
+<http://www.wikidata.org/entity/Q942187>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 4151""@en
+",positive,negative,"The provided definitions do not contain sufficient information to argue that NGC 4151 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies"", but does not provide any specific characteristics or criteria that could be used to classify NGC 4151 as such. Similarly, the description of NGC 4151 as a ""spiral galaxy in the constellation Canes Venatici"" does not provide any information that could be used to link it to the Seyfert galaxy class. Therefore, based solely on the provided definitions, an argument cannot be made that NGC 4151 is a Seyfert galaxy."
+78,370,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q1035654,NGC 169,"<http://www.wikidata.org/entity/Q1035654>	<http://schema.org/description>	""spiral galaxy in the constellation Andromeda""@en
+<http://www.wikidata.org/entity/Q1035654>	<http://www.w3.org/2004/02/skos/core#altLabel>	""New General Catalogue 169""@en
+<http://www.wikidata.org/entity/Q1035654>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 2202""@en
+<http://www.wikidata.org/entity/Q1035654>	<http://www.w3.org/2004/02/skos/core#altLabel>	""UGC 365""@en
+<http://www.wikidata.org/entity/Q1035654>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 169""@en
+",positive,negative,"The provided definition and information do not contain any evidence or argument to support the assertion that NGC 169 is a Seyfert galaxy. The definition of Seyfert galaxy is simply stated as a ""class of galaxies"", but it does not specify what characteristics or properties a galaxy must have to be classified as a Seyfert galaxy. Similarly, the description of NGC 169 only identifies it as a ""spiral galaxy in the constellation Andromeda"", but does not provide any specific details that could link it to the Seyfert class of galaxies. Therefore, based solely on the provided information, it is not possible to argue that NGC 169 is a Seyfert galaxy."
+79,371,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q506417,NGC 1566,"<http://www.wikidata.org/entity/Q506417>	<http://www.w3.org/2004/02/skos/core#altLabel>	""New General Catalogue 1566""@en
+<http://www.wikidata.org/entity/Q506417>	<http://www.w3.org/2004/02/skos/core#altLabel>	""NGC 1569""@en
+<http://www.wikidata.org/entity/Q506417>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 14897""@en
+<http://www.wikidata.org/entity/Q506417>	<http://schema.org/description>	""spiral galaxy in the constellation Doradus""@en
+<http://www.wikidata.org/entity/Q506417>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 1566""@en
+",positive,negative,"The provided definition and description do not contain any information that would allow for a direct argument that NGC 1566 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies"", but does not provide any specific characteristics or criteria that could be used to classify NGC 1566 as such. Similarly, the description of NGC 1566 as a ""spiral galaxy in the constellation Doradus"" does not provide any specific information that could be used to argue that it is a Seyfert galaxy. Therefore, based solely on the provided information, an argument cannot be made for the assertion that NGC 1566 is a Seyfert galaxy."
+80,372,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q27060,IC 9,"<http://www.wikidata.org/entity/Q27060>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q27060>	<http://www.w3.org/2000/01/rdf-schema#label>	""IC 9""@en
+",positive,negative,"The provided definitions do not offer any specific information that would allow us to categorize IC 9 as a Seyfert galaxy. The definition of Seyfert galaxy is simply ""class of galaxies"", and the description of IC 9 is ""galaxy"". While IC 9 is indeed a galaxy, this does not necessarily mean it belongs to the specific class of Seyfert galaxies. Therefore, based solely on the given definitions, we cannot assert that IC 9 is a Seyfert galaxy."
+81,373,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q4658,Messier 106,"<http://www.wikidata.org/entity/Q4658>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Messier Object 106""@en
+<http://www.wikidata.org/entity/Q4658>	<http://www.w3.org/2004/02/skos/core#altLabel>	""NGC 4258""@en
+<http://www.wikidata.org/entity/Q4658>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 39600""@en
+<http://www.wikidata.org/entity/Q4658>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Spiral Galaxy M106""@en
+<http://www.wikidata.org/entity/Q4658>	<http://www.w3.org/2004/02/skos/core#altLabel>	""UGC 7353""@en
+<http://www.wikidata.org/entity/Q4658>	<http://schema.org/description>	""Spiral galaxy in the constellation Canes Venatici""@en
+<http://www.wikidata.org/entity/Q4658>	<http://www.w3.org/2000/01/rdf-schema#label>	""Messier 106""@en
+",positive,negative,"The provided definitions do not contain any information that directly suggests that Messier 106 is a Seyfert galaxy. The definition of Seyfert galaxy only states that it is a ""class of galaxies"", but does not provide any specific characteristics or criteria that could be used to classify Messier 106 as such. Similarly, the description of Messier 106 identifies it as a ""spiral galaxy in the constellation Canes Venatici"", but does not mention anything about it being a Seyfert galaxy. Therefore, based solely on the provided definitions, there is no basis for asserting that Messier 106 is a Seyfert galaxy."
+82,374,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q14349,Messier 94,"<http://www.wikidata.org/entity/Q14349>	<http://www.w3.org/2004/02/skos/core#altLabel>	""M94""@en
+<http://www.wikidata.org/entity/Q14349>	<http://schema.org/description>	""Spiral galaxy in the constellation Canes Venatici""@en
+<http://www.wikidata.org/entity/Q14349>	<http://www.w3.org/2004/02/skos/core#altLabel>	""NGC 4736""@en
+<http://www.wikidata.org/entity/Q14349>	<http://www.w3.org/2004/02/skos/core#altLabel>	""PGC 43495""@en
+<http://www.wikidata.org/entity/Q14349>	<http://www.w3.org/2004/02/skos/core#altLabel>	""UGC 7996""@en
+<http://www.wikidata.org/entity/Q14349>	<http://www.w3.org/2000/01/rdf-schema#label>	""Messier 94""@en
+",positive,negative,"Based on the provided definitions, there is no information to support the assertion that Messier 94 is a Seyfert galaxy. The definition of Seyfert galaxy only states that it is a ""class of galaxies"", but does not provide any specific characteristics or criteria that could be used to classify Messier 94 as such. Similarly, the description of Messier 94 only identifies it as a ""spiral galaxy in the constellation Canes Venatici"", but does not provide any additional information that could link it to the Seyfert galaxy class. Therefore, without additional information, it is not possible to argue that Messier 94 is a Seyfert galaxy based solely on the provided definitions."
+83,375,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q248178,NGC 7314,"<http://www.wikidata.org/entity/Q248178>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q248178>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 7314""@en
+",positive,negative,"The provided definitions do not offer any specific information that would allow us to definitively categorize NGC 7314 as a Seyfert galaxy. The definition of a Seyfert galaxy is simply given as a ""class of galaxies"", but no specific characteristics or criteria are provided that would allow us to determine whether NGC 7314, which is described as a ""galaxy"", falls into this class. Therefore, based solely on the given definitions, we cannot make a valid argument that NGC 7314 is a Seyfert galaxy."
+84,376,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q13957,Whirlpool Galaxy,"<http://www.wikidata.org/entity/Q13957>	<http://www.w3.org/2004/02/skos/core#altLabel>	""M51""@en
+<http://www.wikidata.org/entity/Q13957>	<http://www.w3.org/2004/02/skos/core#altLabel>	""M51a""@en
+<http://www.wikidata.org/entity/Q13957>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Messier 51""@en
+<http://www.wikidata.org/entity/Q13957>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q13957>	<http://www.w3.org/2000/01/rdf-schema#label>	""Whirlpool Galaxy""@en
+",positive,negative,"Based on the provided definitions, it is not possible to argue that the Whirlpool Galaxy is a Seyfert galaxy. The definition of Seyfert galaxy simply states that it is a ""class of galaxies"", but does not provide any specific characteristics or criteria that could be used to classify the Whirlpool Galaxy as such. Similarly, the description of the Whirlpool Galaxy only identifies it as a ""galaxy"", without providing any additional information that could link it to the Seyfert class. Therefore, without further information, we cannot assert that the Whirlpool Galaxy is a Seyfert galaxy."
+85,377,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q1104290,NGC 3338,"<http://www.wikidata.org/entity/Q1104290>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q1104290>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 3338""@en
+",positive,negative,"The provided definition does not give specific characteristics or criteria that define a Seyfert galaxy, other than it being a ""class of galaxies"". NGC 3338 is described as a ""galaxy"", but without additional information linking it to the specific class of Seyfert galaxies, it is not possible to definitively argue that NGC 3338 is a Seyfert galaxy based solely on the provided definitions."
+86,378,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q1112714,NGC 4593,"<http://www.wikidata.org/entity/Q1112714>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q1112714>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 4593""@en
+",positive,negative,"The provided definitions do not contain sufficient information to argue that NGC 4593 is a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies"", and NGC 4593 is described as a ""galaxy"". However, without further information linking NGC 4593 to the specific class of Seyfert galaxies, an argument cannot be made based solely on these definitions."
+87,379,http://www.wikidata.org/entity/Q213930,Seyfert galaxy,"<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Seyfert galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://schema.org/description>	""class of galaxies""@en
+<http://www.wikidata.org/entity/Q213930>	<http://www.w3.org/2000/01/rdf-schema#label>	""Seyfert galaxy""@en
+",http://www.wikidata.org/entity/Q1104524,NGC 3393,"<http://www.wikidata.org/entity/Q1104524>	<http://schema.org/description>	""galaxy""@en
+<http://www.wikidata.org/entity/Q1104524>	<http://www.w3.org/2000/01/rdf-schema#label>	""NGC 3393""@en
+",positive,negative,"The provided definitions do not offer any specific information that would allow us to categorize NGC 3393 as a Seyfert galaxy. The definition of a Seyfert galaxy is simply stated as a ""class of galaxies"", but it does not provide any distinctive characteristics or criteria that could be used to classify NGC 3393, which is described as a ""galaxy"", as a Seyfert galaxy. Therefore, based solely on the given definitions, we cannot assert that NGC 3393 is a Seyfert galaxy."
+88,442,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q24951967,Intercultural Institute of Ayuuk,"<http://www.wikidata.org/entity/Q24951967>	<http://www.w3.org/2000/01/rdf-schema#label>	""Intercultural Institute of Ayuuk""@en
+",positive,negative,"Without additional information about the Intercultural Institute of Ayuuk, it is impossible to provide an argument that it is a Catholic higher education institution. The definition provided for Catholic higher education specifies that it is a type of university affiliated with the Catholic Church. There is no information given that suggests the Intercultural Institute of Ayuuk is affiliated with the Catholic Church. Therefore, based solely on the provided definitions, there is no basis for asserting that the Intercultural Institute of Ayuuk is a Catholic higher education institution."
+89,446,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q374457,Sogang University,"<http://www.wikidata.org/entity/Q374457>	<http://www.w3.org/2004/02/skos/core#altLabel>	""SU""@en
+<http://www.wikidata.org/entity/Q374457>	<http://schema.org/description>	""research and liberal arts university in Seoul, South Korea""@en
+<http://www.wikidata.org/entity/Q374457>	<http://www.w3.org/2000/01/rdf-schema#label>	""Sogang University""@en
+",positive,negative,"The definition of Catholic higher education is a type of university affiliated with the Catholic Church. While the provided information about Sogang University does not explicitly state its affiliation with the Catholic Church, it does not contradict the possibility either. Therefore, it is possible that Sogang University could be a Catholic higher education institution, but additional information confirming its religious affiliation would be needed to make a definitive argument."
+90,450,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q1814702,Central American University (San Salvador),"<http://www.wikidata.org/entity/Q1814702>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Universidad Centroamericana \""José Simeón Cañas\""""@en
+<http://www.wikidata.org/entity/Q1814702>	<http://www.w3.org/2000/01/rdf-schema#label>	""Central American University (San Salvador)""@en
+<http://www.wikidata.org/entity/Q1814702>	<http://schema.org/description>	""Salvadoran private university""@en
+",positive,negative,"The provided definition does not give any specific information that directly links the Central American University (San Salvador) to being a Catholic higher education institution. The definition of a Catholic higher education is a ""type of university affiliated with the Catholic Church"", but there is no information given in the description of the Central American University (San Salvador) that indicates it is affiliated with the Catholic Church. Therefore, based solely on the provided definitions, an argument cannot be made that the Central American University (San Salvador) is a Catholic higher education institution."
+91,451,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q1391755,University of Namur,"<http://www.wikidata.org/entity/Q1391755>	<http://schema.org/description>	""Belgian university""@en
+<http://www.wikidata.org/entity/Q1391755>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Facultes universitaires Notre-Dame de la Paix""@en
+<http://www.wikidata.org/entity/Q1391755>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Facultés universitaires Notre-Dame de la Paix""@en
+<http://www.wikidata.org/entity/Q1391755>	<http://www.w3.org/2004/02/skos/core#altLabel>	""FUNDP""@en
+<http://www.wikidata.org/entity/Q1391755>	<http://www.w3.org/2004/02/skos/core#altLabel>	""UNamur""@en
+<http://www.wikidata.org/entity/Q1391755>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Universite de Namur""@en
+<http://www.wikidata.org/entity/Q1391755>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Université de Namur""@en
+<http://www.wikidata.org/entity/Q1391755>	<http://www.w3.org/2000/01/rdf-schema#label>	""University of Namur""@en
+",positive,negative,"The provided definition of Catholic higher education refers to a type of university affiliated with the Catholic Church. However, the information given about the University of Namur does not explicitly state any affiliation with the Catholic Church. Therefore, based solely on the provided information, it cannot be definitively argued that the University of Namur is a Catholic higher education institution."
+92,455,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q2636927,Universidad del Pacifico,"<http://www.wikidata.org/entity/Q2636927>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Mascota: Fernanda Martel""@en
+<http://www.wikidata.org/entity/Q2636927>	<http://schema.org/description>	""university in Lima, Peru""@en
+<http://www.wikidata.org/entity/Q2636927>	<http://www.w3.org/2000/01/rdf-schema#label>	""Universidad del Pacifico""@en
+",positive,negative,"The provided definition and information do not give any direct evidence or indication that Universidad del Pacifico is a Catholic higher education institution. The definition of Catholic higher education is a type of university affiliated with the Catholic Church, but there is no information given that suggests Universidad del Pacifico is affiliated with the Catholic Church. The only information provided about Universidad del Pacifico is that it is a university in Lima, Peru. Therefore, based on the given information, it is not possible to provide an argument that Universidad del Pacifico is a Catholic higher education institution."
+93,456,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q2496136,Rafael Landívar University,"<http://www.wikidata.org/entity/Q2496136>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Rafael Landivar University""@en
+<http://www.wikidata.org/entity/Q2496136>	<http://www.w3.org/2000/01/rdf-schema#label>	""Rafael Landívar University""@en
+",positive,negative,"The definition of Catholic higher education is a type of university affiliated with the Catholic Church. While the provided information about Rafael Landívar University does not explicitly state its affiliation with the Catholic Church, the name of the university itself suggests a potential Catholic connection, as Rafael Landívar was a notable Jesuit priest and poet. Therefore, it could be argued that Rafael Landívar University is a Catholic higher education institution. However, without explicit information confirming the university's affiliation with the Catholic Church, this argument is based on inference and assumption."
+94,458,http://www.wikidata.org/entity/Q557206,Catholic higher education,"<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Roman Catholic university""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Catholic higher education""@en
+<http://www.wikidata.org/entity/Q557206>	<http://schema.org/description>	""type of university affiliated with the Catholic Church""@en
+<http://www.wikidata.org/entity/Q557206>	<http://www.w3.org/2000/01/rdf-schema#label>	""Catholic university""@en
+",http://www.wikidata.org/entity/Q6156337,Universidad Antonio Ruiz de Montoya,"<http://www.wikidata.org/entity/Q6156337>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Antonio Ruiz de Montoya University""@en
+<http://www.wikidata.org/entity/Q6156337>	<http://www.w3.org/2000/01/rdf-schema#label>	""Universidad Antonio Ruiz de Montoya""@en
+",positive,negative,"The definition of Catholic higher education is a type of university affiliated with the Catholic Church. Although the provided information does not explicitly state that Universidad Antonio Ruiz de Montoya is affiliated with the Catholic Church, the name of the university suggests a Catholic affiliation. Antonio Ruiz de Montoya was a Jesuit missionary, and the Jesuit order is a Catholic institution. Therefore, it can be inferred that Universidad Antonio Ruiz de Montoya is a Catholic higher education institution."
+95,483,http://www.wikidata.org/entity/Q4174776,Village (Japan),"<http://www.wikidata.org/entity/Q4174776>	<http://www.w3.org/2004/02/skos/core#altLabel>	""mura""@en
+<http://www.wikidata.org/entity/Q4174776>	<http://schema.org/description>	""local administrative unit in Japan""@en
+<http://www.wikidata.org/entity/Q4174776>	<http://www.w3.org/2000/01/rdf-schema#label>	""village of Japan""@en
+<http://www.wikidata.org/entity/Q4174776>	<http://www.w3.org/2004/02/skos/core#altLabel>	""son""@en
+",http://www.wikidata.org/entity/Q4422970,Shibetoro,"<http://www.wikidata.org/entity/Q4422970>	<http://www.w3.org/2000/01/rdf-schema#label>	""Shibetoro""@en
+<http://www.wikidata.org/entity/Q4422970>	<http://schema.org/description>	""former village in Kurilsky District, Sakhalin Oblast, Russia""@en
+",positive,negative,"The assertion that Shibetoro is a Village (Japan) cannot be supported based on the provided definitions. The description of Shibetoro identifies it as a ""former village in Kurilsky District, Sakhalin Oblast, Russia"", not as a local administrative unit in Japan. Therefore, based on the given information, Shibetoro does not fit the definition of a Village (Japan)."
+96,493,http://www.wikidata.org/entity/Q4174776,Village (Japan),"<http://www.wikidata.org/entity/Q4174776>	<http://www.w3.org/2004/02/skos/core#altLabel>	""mura""@en
+<http://www.wikidata.org/entity/Q4174776>	<http://schema.org/description>	""local administrative unit in Japan""@en
+<http://www.wikidata.org/entity/Q4174776>	<http://www.w3.org/2000/01/rdf-schema#label>	""village of Japan""@en
+<http://www.wikidata.org/entity/Q4174776>	<http://www.w3.org/2004/02/skos/core#altLabel>	""son""@en
+",http://www.wikidata.org/entity/Q269634,Tachikawa,"<http://www.wikidata.org/entity/Q269634>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Tatikawa""@en
+<http://www.wikidata.org/entity/Q269634>	<http://schema.org/description>	""city in Tokyo, Japan""@en
+<http://www.wikidata.org/entity/Q269634>	<http://www.w3.org/2000/01/rdf-schema#label>	""Tachikawa""@en
+",positive,negative,"Based on the provided definitions, it is not possible to argue that Tachikawa is a Village (Japan). The definition of Tachikawa indicates that it is a ""city in Tokyo, Japan"". The definition of Village (Japan) is a ""local administrative unit in Japan"". There is no information provided that suggests a city can also be considered a village in the context of Japan's administrative units. Therefore, without additional information, we cannot assert that Tachikawa is a Village (Japan)."
+97,520,http://www.wikidata.org/entity/Q26513,Fetus,"<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""faetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""fætus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""fetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""foetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""fœtus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2000/01/rdf-schema#label>	""human fetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://schema.org/description>	""prenatal human between the embryonic state and birth""@en
+",http://www.wikidata.org/entity/Q51883211,"Luísa Vitória, Princess of Grão-Pará","<http://www.wikidata.org/entity/Q51883211>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Luísa Vitória""@en
+<http://www.wikidata.org/entity/Q51883211>	<http://www.w3.org/2000/01/rdf-schema#label>	""Luísa Vitória, Princess of Grão-Pará""@en
+<http://www.wikidata.org/entity/Q51883211>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Louise Victoria, Princess of Grão-Pará""@en
+<http://www.wikidata.org/entity/Q51883211>	<http://schema.org/description>	""(1874-1874)""@en
+",positive,negative,"The definition provided for a fetus is a ""prenatal human between the embryonic state and birth"". However, there is no information given in the description of Luísa Vitória, Princess of Grão-Pará that indicates she was in a prenatal state, between the embryonic state and birth. Therefore, based solely on the provided definitions, there is no valid argument to assert that Luísa Vitória, Princess of Grão-Pará is a fetus."
+98,525,http://www.wikidata.org/entity/Q26513,Fetus,"<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""faetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""fætus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""fetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""foetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2004/02/skos/core#altLabel>	""fœtus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://www.w3.org/2000/01/rdf-schema#label>	""human fetus""@en
+<http://www.wikidata.org/entity/Q26513>	<http://schema.org/description>	""prenatal human between the embryonic state and birth""@en
+",http://www.wikidata.org/entity/Q63871198,Paul Richard Polanski,"<http://www.wikidata.org/entity/Q63871198>	<http://www.wikidata.org/prop/direct/P1559>	""Paul Richard Polanski""@en
+<http://www.wikidata.org/entity/Q63871198>	<http://www.w3.org/2000/01/rdf-schema#label>	""Paul Richard Polanski""@en
+<http://www.wikidata.org/entity/Q63871198>	<http://schema.org/description>	""son of Sharon Tate and Roman Polanski""@en
+",positive,negative,"The definition of a fetus is a ""prenatal human between the embryonic state and birth"". Paul Richard Polanski, being the son of Sharon Tate and Roman Polanski, must have been a prenatal human between the embryonic state and birth at some point in time. Therefore, it can be argued that Paul Richard Polanski was a fetus."
+99,601,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q110798071,Richieu Spiegelman,"<http://www.wikidata.org/entity/Q110798071>	<http://schema.org/description>	""brother of Art Spiegelman""@en
+<http://www.wikidata.org/entity/Q110798071>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Rysio Spiegelman""@en
+<http://www.wikidata.org/entity/Q110798071>	<http://www.w3.org/2000/01/rdf-schema#label>	""Richieu Spiegelman""@en
+",positive,negative,"The definition of a child is a ""human between birth and puberty"". While the provided information about Richieu Spiegelman does not explicitly state his age, it does identify him as the ""brother of Art Spiegelman"". This implies that Richieu Spiegelman is a human being, and unless information is provided to the contrary, it can be assumed that he has been through the stage of being a ""child"" as defined. Therefore, it can be argued that Richieu Spiegelman is a child, or at least, has been a child."
+100,604,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q115258013,Marion Stone,"<http://www.wikidata.org/entity/Q115258013>	<http://www.w3.org/2000/01/rdf-schema#label>	""Marion Stone""@en
+<http://www.wikidata.org/entity/Q115258013>	<http://schema.org/description>	""character""@en
+",positive,negative,"The provided information does not give any specific details about Marion Stone's age or stage in life. Therefore, based on the given information, it cannot be definitively argued that Marion Stone is a child."
+101,607,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q118970518,Creche house Bayero University Kano state,"<http://www.wikidata.org/entity/Q118970518>	<http://www.wikidata.org/prop/direct/P6375>	""Opposite NANA HOSTEL Bayero University Kano state old site""@en
+<http://www.wikidata.org/entity/Q118970518>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Crech""@en
+<http://www.wikidata.org/entity/Q118970518>	<http://schema.org/description>	""Creche house in bayero University Kano old site""@en
+<http://www.wikidata.org/entity/Q118970518>	<http://www.w3.org/2000/01/rdf-schema#label>	""Creche house Bayero University Kano state""@en
+",positive,negative,"The assertion that Creche house Bayero University Kano state is a Child cannot be supported based on the provided definitions. The concept of a ""Child"" is defined as a human between birth and puberty, while the entity ""Creche house Bayero University Kano state"" is described as a physical location, specifically a creche house in a university. There is no overlap or shared characteristics between these two definitions that would allow for the assertion that the Creche house is a Child."
+102,608,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q112671379,sixteen-year-old male,"<http://www.wikidata.org/entity/Q112671379>	<http://schema.org/description>	""age sixteen male human""@en
+<http://www.wikidata.org/entity/Q112671379>	<http://www.w3.org/2000/01/rdf-schema#label>	""sixteen-year-old male""@en
+",positive,negative,"The definition provided for the concept ""Child"" is a ""human between birth and puberty"". While the exact age range can vary, puberty generally occurs between the ages of 10 and 14 for boys. However, the entity in question is a ""sixteen-year-old male"". While this individual is beyond the typical age range for puberty, the definition does not provide a specific upper age limit. Therefore, based on the information provided, it could be argued that a ""sixteen-year-old male"" falls under the broad category of ""Child""."
+103,612,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q2961239,Chartiste,"<http://www.wikidata.org/entity/Q2961239>	<http://www.w3.org/2000/01/rdf-schema#label>	""Chartiste""@en
+",positive,negative,"Based on the provided definitions, there is no information to suggest or support the assertion that Chartiste is a Child. The definition of a Child is a ""human between birth and puberty"", while Chartiste is simply labeled as ""Chartiste"" with no further description provided. Therefore, without additional information, we cannot argue that Chartiste is a Child."
+104,613,http://www.wikidata.org/entity/Q7569,Child,"<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""children""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2004/02/skos/core#altLabel>	""kid""@en
+<http://www.wikidata.org/entity/Q7569>	<http://www.w3.org/2000/01/rdf-schema#label>	""child""@en
+<http://www.wikidata.org/entity/Q7569>	<http://schema.org/description>	""human between birth and puberty""@en
+",http://www.wikidata.org/entity/Q110149956,Dzieciątko,"<http://www.wikidata.org/entity/Q110149956>	<http://schema.org/description>	""Christmas custom""@en
+<http://www.wikidata.org/entity/Q110149956>	<http://www.w3.org/2000/01/rdf-schema#label>	""Dzieciątko""@en
+",positive,negative,"Based on the provided definitions, it is not possible to assert that Dzieciątko is a Child. The definition of a Child is a ""human between birth and puberty"", while Dzieciątko is described as a ""Christmas custom"". There is no information given that suggests Dzieciątko is a human between birth and puberty, therefore it cannot be classified as a Child according to the given definitions."
+105,650,http://www.wikidata.org/entity/Q130788,Chronology,"<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2000/01/rdf-schema#label>	""chronology""@en
+<http://www.wikidata.org/entity/Q130788>	<http://schema.org/description>	""science of arranging events in order of occurrence""@en
+<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2004/02/skos/core#altLabel>	""вакыт исәпләве""@en
+<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2004/02/skos/core#altLabel>	""ел исәпләве""@en
+<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2004/02/skos/core#altLabel>	""тарих барышы""@en
+",http://www.wikidata.org/entity/Q83076,MUL.APIN,"<http://www.wikidata.org/entity/Q83076>	<http://schema.org/description>	""compendium with many diverse aspects of Babylonian astronomy and astrology""@en
+<http://www.wikidata.org/entity/Q83076>	<http://www.w3.org/2000/01/rdf-schema#label>	""MUL.APIN""@en
+",positive,negative,"The MUL.APIN, as described, is a compendium with many diverse aspects of Babylonian astronomy and astrology. This suggests that it contains a collection of events or phenomena related to astronomy and astrology, possibly arranged in a certain order. Chronology, as defined, is the science of arranging events in order of occurrence. Therefore, if the events or phenomena in the MUL.APIN are arranged in the order of their occurrence or discovery, it could be considered a form of chronology."
+106,658,http://www.wikidata.org/entity/Q130788,Chronology,"<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2000/01/rdf-schema#label>	""chronology""@en
+<http://www.wikidata.org/entity/Q130788>	<http://schema.org/description>	""science of arranging events in order of occurrence""@en
+<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2004/02/skos/core#altLabel>	""вакыт исәпләве""@en
+<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2004/02/skos/core#altLabel>	""ел исәпләве""@en
+<http://www.wikidata.org/entity/Q130788>	<http://www.w3.org/2004/02/skos/core#altLabel>	""тарих барышы""@en
+",http://www.wikidata.org/entity/Q1961932,Malanka,"<http://www.wikidata.org/entity/Q1961932>	<http://www.w3.org/2000/01/rdf-schema#label>	""Malanka""@en
+<http://www.wikidata.org/entity/Q1961932>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Melanka""@en
+<http://www.wikidata.org/entity/Q1961932>	<http://schema.org/description>	""folk holiday of Eastern Slavs celebrated on New Year's Eve""@en
+<http://www.wikidata.org/entity/Q1961932>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Shchedra Kutia""@en
+<http://www.wikidata.org/entity/Q1961932>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Shchedryi Vechir""@en
+",positive,negative,"The assertion that Malanka is a Chronology cannot be supported based on the given definitions. Chronology is defined as the science of arranging events in order of occurrence. Malanka, on the other hand, is described as a folk holiday of Eastern Slavs celebrated on New Year's Eve. There is no information provided that suggests Malanka involves arranging events in order of occurrence, which is the key characteristic of a chronology. Therefore, based on the provided definitions, Malanka cannot be classified as a chronology."
+107,682,http://www.wikidata.org/entity/Q36747,Indigenous peoples of the Americas,"<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Amerindians""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""indigenous Americans""@en
+<http://www.wikidata.org/entity/Q36747>	<http://schema.org/description>	""peoples""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2000/01/rdf-schema#label>	""indigenous peoples of the Americas""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Native Americans""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""American Indians""@en
+",http://www.wikidata.org/entity/Q5644156,Hamatla Treaty Society,"<http://www.wikidata.org/entity/Q5644156>	<http://www.w3.org/2000/01/rdf-schema#label>	""Hamatla Treaty Society""@en
+",positive,negative,"The provided definition does not give enough information to definitively argue that the Hamatla Treaty Society is a part of the Indigenous peoples of the Americas. The definition only provides alternative labels for the concept of Indigenous peoples of the Americas, such as ""Amerindians"", ""indigenous Americans"", ""Native Americans"", and ""American Indians"". However, it does not provide any characteristics, attributes, or defining features of these groups. Similarly, the description of the Hamatla Treaty Society is simply its label, with no additional information about its nature, purpose, or affiliations. Therefore, based solely on the provided definitions, it is not possible to argue that the Hamatla Treaty Society is a part of the Indigenous peoples of the Americas."
+108,696,http://www.wikidata.org/entity/Q36747,Indigenous peoples of the Americas,"<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Amerindians""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""indigenous Americans""@en
+<http://www.wikidata.org/entity/Q36747>	<http://schema.org/description>	""peoples""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2000/01/rdf-schema#label>	""indigenous peoples of the Americas""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Native Americans""@en
+<http://www.wikidata.org/entity/Q36747>	<http://www.w3.org/2004/02/skos/core#altLabel>	""American Indians""@en
+",http://www.wikidata.org/entity/Q16112957,Bamoa,"<http://www.wikidata.org/entity/Q16112957>	<http://www.w3.org/2000/01/rdf-schema#label>	""Bamoa""@en
+<http://www.wikidata.org/entity/Q16112957>	<http://schema.org/description>	""human settlement in Mexico""@en
+",positive,negative,"The provided definition does not give any information that could be used to argue that Bamoa, a human settlement in Mexico, is an Indigenous peoples of the Americas. The definition of Indigenous peoples of the Americas includes terms like ""Amerindians"", ""indigenous Americans"", ""Native Americans"", and ""American Indians"", but does not provide any criteria or characteristics that could be used to classify a specific group or location, such as Bamoa, as being part of these Indigenous peoples. Therefore, based solely on the provided definitions, an argument cannot be made for the assertion that Bamoa is an Indigenous peoples of the Americas."
+109,725,http://www.wikidata.org/entity/Q300920,Esports,"<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""cyber-sport""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""e-sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""electronic sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""pro gaming""@en
+<http://www.wikidata.org/entity/Q300920>	<http://schema.org/description>	""form of competition that is facilitated by electronic systems, particularly video games""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2000/01/rdf-schema#label>	""esports""@en
+",http://www.wikidata.org/entity/Q1256146,DreamHack,"<http://www.wikidata.org/entity/Q1256146>	<http://www.w3.org/2000/01/rdf-schema#label>	""DreamHack""@en
+<http://www.wikidata.org/entity/Q1256146>	<http://schema.org/description>	""Swedish production company""@en
+",positive,negative,"The definition of Esports is a form of competition that is facilitated by electronic systems, particularly video games. While the description of DreamHack does not explicitly state that it is involved in Esports, it is described as a Swedish production company. Production companies are often involved in the organization and facilitation of events, which could potentially include Esports competitions. Therefore, it is plausible to assert that DreamHack could be involved in Esports."
+110,726,http://www.wikidata.org/entity/Q300920,Esports,"<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""cyber-sport""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""e-sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""electronic sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""pro gaming""@en
+<http://www.wikidata.org/entity/Q300920>	<http://schema.org/description>	""form of competition that is facilitated by electronic systems, particularly video games""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2000/01/rdf-schema#label>	""esports""@en
+",http://www.wikidata.org/entity/Q1485594,GIGA Television,"<http://www.wikidata.org/entity/Q1485594>	<http://schema.org/description>	""German television station and online magazine""@en
+<http://www.wikidata.org/entity/Q1485594>	<http://www.w3.org/2000/01/rdf-schema#label>	""GIGA Television""@en
+",positive,negative,"The definition of Esports is a form of competition that is facilitated by electronic systems, particularly video games. While the description of GIGA Television does not explicitly state that it is involved in Esports, it is a German television station and online magazine. Given the prevalence of Esports coverage in media outlets, it is plausible that GIGA Television could be involved in the broadcasting or coverage of Esports competitions. Therefore, it could be argued that GIGA Television is an Esports entity in the sense that it may provide a platform for Esports content."
+111,728,http://www.wikidata.org/entity/Q300920,Esports,"<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""cyber-sport""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""e-sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""electronic sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""pro gaming""@en
+<http://www.wikidata.org/entity/Q300920>	<http://schema.org/description>	""form of competition that is facilitated by electronic systems, particularly video games""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2000/01/rdf-schema#label>	""esports""@en
+",http://www.wikidata.org/entity/Q7836711,Treasure Master,"<http://www.wikidata.org/entity/Q7836711>	<http://schema.org/description>	""1991 video game""@en
+<http://www.wikidata.org/entity/Q7836711>	<http://www.w3.org/2000/01/rdf-schema#label>	""Treasure Master""@en
+",positive,negative,"Based on the provided definitions, it is not possible to assert that Treasure Master is an Esport. The definition of Esports refers to a form of competition facilitated by electronic systems, particularly video games. While Treasure Master is indeed a video game, there is no information provided that indicates it is used in a competitive manner, which is a key characteristic of Esports. Therefore, without additional information suggesting that Treasure Master is used in competitive gaming events, we cannot categorize it as an Esport."
+112,734,http://www.wikidata.org/entity/Q300920,Esports,"<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""cyber-sport""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""e-sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""electronic sports""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2004/02/skos/core#altLabel>	""pro gaming""@en
+<http://www.wikidata.org/entity/Q300920>	<http://schema.org/description>	""form of competition that is facilitated by electronic systems, particularly video games""@en
+<http://www.wikidata.org/entity/Q300920>	<http://www.w3.org/2000/01/rdf-schema#label>	""esports""@en
+",http://www.wikidata.org/entity/Q11312015,Starcade,"<http://www.wikidata.org/entity/Q11312015>	<http://www.wikidata.org/prop/direct/P1476>	""Starcade""@en
+<http://www.wikidata.org/entity/Q11312015>	<http://schema.org/description>	""American game show television program""@en
+<http://www.wikidata.org/entity/Q11312015>	<http://www.w3.org/2000/01/rdf-schema#label>	""Starcade""@en
+",positive,negative,"The definition of Esports is a form of competition that is facilitated by electronic systems, particularly video games. Starcade is described as an American game show television program. While the description of Starcade does not explicitly mention the use of electronic systems or video games, the fact that it is a game show could imply that some form of competition is involved. Therefore, it is possible that Starcade could be considered a form of Esports, assuming the competitions in the show involve electronic systems or video games."
+113,761,http://www.wikidata.org/entity/Q7991,Natural science,"<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural history""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural sciences""@en
+<http://www.wikidata.org/entity/Q7991>	<http://schema.org/description>	""branch of science about the natural world""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2000/01/rdf-schema#label>	""natural science""@en
+",http://www.wikidata.org/entity/Q149922,geocentric latitude,"<http://www.wikidata.org/entity/Q149922>	<http://www.w3.org/2000/01/rdf-schema#label>	""geocentric latitude""@en
+",positive,negative,"Based on the provided definitions, it is not possible to argue that geocentric latitude is a Natural science. Natural science is defined as a branch of science about the natural world. While geocentric latitude is a concept used in the field of geography and astronomy, it is not a branch of science itself. It is a specific term or concept used within the broader fields of science, rather than a branch of science. Therefore, it cannot be classified as a Natural science."
+114,762,http://www.wikidata.org/entity/Q7991,Natural science,"<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural history""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural sciences""@en
+<http://www.wikidata.org/entity/Q7991>	<http://schema.org/description>	""branch of science about the natural world""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2000/01/rdf-schema#label>	""natural science""@en
+",http://www.wikidata.org/entity/Q129373,geography of the United Kingdom,"<http://www.wikidata.org/entity/Q129373>	<http://schema.org/description>	""geographical features of United Kingdom""@en
+<http://www.wikidata.org/entity/Q129373>	<http://www.w3.org/2000/01/rdf-schema#label>	""geography of the United Kingdom""@en
+",positive,negative,"The assertion that the geography of the United Kingdom is a Natural science may not be directly supported by the given definitions. Natural science is defined as a branch of science about the natural world, which typically includes fields like biology, physics, chemistry, and earth sciences. While geography, especially physical geography, can be considered a part of earth sciences, the definition provided for the geography of the United Kingdom refers specifically to the geographical features of the United Kingdom. This seems to be more of a subject or topic within the broader field of geography or earth science, rather than a branch of natural science itself. Therefore, based on the given definitions, it would be more accurate to say that the geography of the United Kingdom is a topic studied within the field of natural science, rather than being a natural science itself."
+115,770,http://www.wikidata.org/entity/Q7991,Natural science,"<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural history""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural sciences""@en
+<http://www.wikidata.org/entity/Q7991>	<http://schema.org/description>	""branch of science about the natural world""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2000/01/rdf-schema#label>	""natural science""@en
+",http://www.wikidata.org/entity/Q589284,diving reflex,"<http://www.wikidata.org/entity/Q589284>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Diving response""@en
+<http://www.wikidata.org/entity/Q589284>	<http://www.w3.org/2004/02/skos/core#altLabel>	""Mammalian diving reflex""@en
+<http://www.wikidata.org/entity/Q589284>	<http://www.w3.org/2000/01/rdf-schema#label>	""diving reflex""@en
+<http://www.wikidata.org/entity/Q589284>	<http://schema.org/description>	""physiological response to immersion of air-breathing vertebrates""@en
+",positive,negative,"The diving reflex is a physiological response observed in air-breathing vertebrates when they are immersed in water. This is a natural phenomenon that occurs in the biological world, which can be studied and understood through scientific methods. Natural science is a branch of science that deals with the natural world. Therefore, the study of the diving reflex, being a natural phenomenon, can be considered a part of natural science."
+116,772,http://www.wikidata.org/entity/Q7991,Natural science,"<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural history""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural sciences""@en
+<http://www.wikidata.org/entity/Q7991>	<http://schema.org/description>	""branch of science about the natural world""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2000/01/rdf-schema#label>	""natural science""@en
+",http://www.wikidata.org/entity/Q5404258,Ethnic groups of Andhra Pradesh,"<http://www.wikidata.org/entity/Q5404258>	<http://www.w3.org/2000/01/rdf-schema#label>	""Ethnic groups of Andhra Pradesh""@en
+",positive,negative,"Based on the provided definitions, there is no valid argument to assert that ""Ethnic groups of Andhra Pradesh"" is a ""Natural Science"". Natural Science is defined as a branch of science about the natural world, which typically includes fields like physics, chemistry, biology, and earth science. On the other hand, ""Ethnic groups of Andhra Pradesh"" refers to a specific social and cultural group in a specific geographical location, which falls under social sciences or anthropology, not natural sciences. Therefore, the assertion is not valid."
+117,774,http://www.wikidata.org/entity/Q7991,Natural science,"<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural history""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural sciences""@en
+<http://www.wikidata.org/entity/Q7991>	<http://schema.org/description>	""branch of science about the natural world""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2000/01/rdf-schema#label>	""natural science""@en
+",http://www.wikidata.org/entity/Q660819,standard addition,"<http://www.wikidata.org/entity/Q660819>	<http://schema.org/description>	""method in analytical chemistry""@en
+<http://www.wikidata.org/entity/Q660819>	<http://www.w3.org/2000/01/rdf-schema#label>	""standard addition""@en
+",positive,negative,"Based on the provided definitions, it is not possible to argue that standard addition is a Natural science. Standard addition is described as a ""method in analytical chemistry"", which implies it is a technique or procedure used within the field of chemistry. On the other hand, Natural science is defined as a ""branch of science about the natural world"". While chemistry is a branch of natural science, a method or technique used within chemistry, such as standard addition, does not constitute a branch of science itself. Therefore, standard addition cannot be classified as a Natural science."
+118,776,http://www.wikidata.org/entity/Q7991,Natural science,"<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural history""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural sciences""@en
+<http://www.wikidata.org/entity/Q7991>	<http://schema.org/description>	""branch of science about the natural world""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2000/01/rdf-schema#label>	""natural science""@en
+",http://www.wikidata.org/entity/Q6086445,Isotope-coded affinity tag,"<http://www.wikidata.org/entity/Q6086445>	<http://www.w3.org/2000/01/rdf-schema#label>	""Isotope-coded affinity tag""@en
+<http://www.wikidata.org/entity/Q6086445>	<http://schema.org/description>	""method for quantitative proteomics""@en
+",positive,negative,"The assertion that Isotope-coded affinity tag is a Natural science cannot be supported based on the given definitions. Natural science is defined as a branch of science about the natural world. On the other hand, Isotope-coded affinity tag is described as a method for quantitative proteomics. While proteomics is a field within the biological sciences, which are a subset of the natural sciences, the Isotope-coded affinity tag itself is a specific method or tool used within this field, not a branch of science about the natural world. Therefore, it would not be accurate to categorize Isotope-coded affinity tag as a Natural science."
+119,778,http://www.wikidata.org/entity/Q7991,Natural science,"<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural history""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2004/02/skos/core#altLabel>	""natural sciences""@en
+<http://www.wikidata.org/entity/Q7991>	<http://schema.org/description>	""branch of science about the natural world""@en
+<http://www.wikidata.org/entity/Q7991>	<http://www.w3.org/2000/01/rdf-schema#label>	""natural science""@en
+",http://www.wikidata.org/entity/Q7632014,Subsistence crisis,"<http://www.wikidata.org/entity/Q7632014>	<http://www.w3.org/2000/01/rdf-schema#label>	""Subsistence crisis""@en
+<http://www.wikidata.org/entity/Q7632014>	<http://schema.org/description>	""this crisis occur in France""@en
+",positive,negative,"Based on the provided definitions, it is not possible to argue that a Subsistence crisis is a Natural science. Natural science is defined as a branch of science about the natural world, which typically includes fields like biology, physics, chemistry, and earth sciences. On the other hand, a Subsistence crisis, as per the given information, is a crisis that occurs in France. There is no information provided that links a Subsistence crisis to the study of the natural world, thus it cannot be classified as a Natural science."

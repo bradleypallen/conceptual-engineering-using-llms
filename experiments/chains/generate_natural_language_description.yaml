@@ -8,7 +8,7 @@ rationale_generation:
     Entity: {label} 
     Serialization: {serialization}
 
-    Imagine that you are a data engineering working with an RDF serialization of an entity 
+    Imagine that you are a data engineer working with an RDF serialization of an entity 
     in a knowledge graph. Ignore any background knowledge you may have about the entity.
     Using the above serialization, and only the information in the above serialization, 
     translate the serialization into a natural language description
