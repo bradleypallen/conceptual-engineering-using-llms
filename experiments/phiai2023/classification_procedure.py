@@ -4,6 +4,31 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
 
+
+RATIONALE_GENERATION_PROMPT = """Concept: {concept} 
+Definition: {definition}
+Entity: {entity} 
+Description: {description}
+  
+Using the above definition, and only the information in the above definition, 
+provide an argument for the assertion that {entity} is a(n) {concept}.
+    
+Rationale:
+"""
+
+ANSWER_GENERATION_PROMPT = """Concept: {concept} 
+Definition: {definition}
+Entity: {entity} 
+Description: {description}
+Rationale: {rationale}
+
+Now using the argument provided in the above rationale, answer the question: is {entity} a(n) {concept}? 
+Answer 'positive' or 'negative', and only 'positive' or 'negative'.  Use lower case. 
+If there is not enough information to be sure of an answer, answer 'negative'.
+  
+Answer:
+"""
+
 class ClassificationProcedure:
     """Represents a classification procedure."""
     
@@ -26,7 +51,7 @@ class ClassificationProcedure:
         self.model_name = model_name
         self.temperature = temperature
         self.llm = self._llm(model_name, temperature)
-        self._classify_chain = self._zero_shot_chain_of_thought('./chains/classify.yaml')
+        self._classify_chain = self._zero_shot_chain_of_thought()
 
     def _llm(self, model_name, temperature):
         if model_name in [
@@ -46,37 +71,31 @@ class ClassificationProcedure:
         else:
             raise Exception(f'Model {model_name} not supported')
 
-    def _zero_shot_chain_of_thought(self, file):
+    def _zero_shot_chain_of_thought(self):
         """
         Creates a langchain.SequentialChain that implements a zero-shot
-        chain of thought (CoT) using a specification.
-        
-        Parameters:
-            file: The name of the YAML file containing a specification of the CoT.
+        chain of thought (CoT) using a specification. 
         """
-        chain_specification = yaml.safe_load(open(file, 'r'))
-        template_1 = chain_specification["rationale_generation"]
-        chain_1 = LLMChain(
+        rationale_generation = LLMChain(
             llm=self.llm,
             prompt=PromptTemplate(
-                input_variables=template_1["input_variables"], 
-                template=template_1["template"]
+                input_variables=["concept", "definition", "entity", "description"], 
+                template=RATIONALE_GENERATION_PROMPT
             ), 
-            output_key=template_1["output_key"]
+            output_key="rationale"
         )
-        template_2 = chain_specification["answer_generation"]
-        chain_2 = LLMChain(
+        answer_generation = LLMChain(
             llm=self.llm, 
             prompt=PromptTemplate(
-                input_variables=template_2["input_variables"], 
-                template=template_2["template"]
+                input_variables=["concept", "definition", "entity", "description", "rationale"], 
+                template=ANSWER_GENERATION_PROMPT
             ), 
-            output_key=template_2["output_key"]
+            output_key="answer"
         )
         return SequentialChain(
-            chains=[chain_1, chain_2],
-            input_variables=template_1["input_variables"],
-            output_variables=chain_specification["output_variables"]
+            chains=[rationale_generation, answer_generation],
+            input_variables=["concept", "definition", "entity", "description"],
+            output_variables=["rationale", "answer"]
         )
     
     def classify(self, name, description):
@@ -98,6 +117,3 @@ class ClassificationProcedure:
                 "description": description
             }
         )
-    
-    def tokens_used(self, str):
-        return self.llm.get_num_tokens(str)
