@@ -7,7 +7,7 @@ from langchain.prompts import PromptTemplate
 class ClassificationProcedure:
     """Represents a classification procedure."""
     
-    def __init__(self, id, term, definition, model_name="gpt-4", temperature=0.1):
+    def __init__(self, id, term, definition, reference, model_name="gpt-4", temperature=0.1):
         """
         Initializes a classifier for a concept, given a unique identifier, a term, and a definition.
         
@@ -15,12 +15,14 @@ class ClassificationProcedure:
             id: The identifier for the concept.
             term: The term or name of the concept.
             definition: The definition of the concept.
+            reference: A URL containing the source of the definition.
             model_name: The name of the model to be used for zero shot CoT classification (default "gpt-4").
             temperature: The temperature parameter for the model (default 0.1).
          """
         self.id = id
         self.term = term
         self.definition = definition
+        self.reference = reference
         self.model_name = model_name
         self.temperature = temperature
         self.llm = self._llm(model_name, temperature)
