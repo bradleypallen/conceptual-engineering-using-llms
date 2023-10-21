@@ -33,7 +33,7 @@ Answer:
     
     def __init__(self, id, term, definition, reference, model_name="gpt-4", temperature=0.1):
         """
-        Initializes a classifier for a concept, given a unique identifier, a term, and a definition.
+        Initializes a classification procedure for a concept, given a unique identifier, a term, and a definition.
         
         Parameters:
             id: The identifier for the concept.
@@ -99,7 +99,7 @@ Answer:
     
     def classify(self, name, description):
         """
-        Determines whether or not an entity is in the extension of the classifier's concept.
+        Determines whether or not an entity is in the extension of the classification procedure's concept.
         
         Parameters:
             name: The name of the entity to be classified.
