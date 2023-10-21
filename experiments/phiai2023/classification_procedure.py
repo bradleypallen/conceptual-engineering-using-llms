@@ -4,8 +4,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
 
+class ClassificationProcedure:
+    """Represents a classification procedure."""
 
-RATIONALE_GENERATION_PROMPT = """Concept: {concept} 
+    RATIONALE_GENERATION_PROMPT = """Concept: {concept} 
 Definition: {definition}
 Entity: {entity} 
 Description: {description}
@@ -16,7 +18,7 @@ provide an argument for the assertion that {entity} is a(n) {concept}.
 Rationale:
 """
 
-ANSWER_GENERATION_PROMPT = """Concept: {concept} 
+    ANSWER_GENERATION_PROMPT = """Concept: {concept} 
 Definition: {definition}
 Entity: {entity} 
 Description: {description}
@@ -28,9 +30,6 @@ If there is not enough information to be sure of an answer, answer 'negative'.
   
 Answer:
 """
-
-class ClassificationProcedure:
-    """Represents a classification procedure."""
     
     def __init__(self, id, term, definition, reference, model_name="gpt-4", temperature=0.1):
         """
@@ -62,7 +61,7 @@ class ClassificationProcedure:
         elif model_name in [
             "text-curie-001"
             ]:
-            return OpenAI(model_name=model_name, temperature=temperature)
+            return OpenAI(model_name=model_name, temperature=temperature, request_timeout=100)
         elif model_name in [
             "meta-llama/Llama-2-70b-chat-hf", 
             "google/flan-t5-xxl",
@@ -80,7 +79,7 @@ class ClassificationProcedure:
             llm=self.llm,
             prompt=PromptTemplate(
                 input_variables=["concept", "definition", "entity", "description"], 
-                template=RATIONALE_GENERATION_PROMPT
+                template=self.RATIONALE_GENERATION_PROMPT
             ), 
             output_key="rationale"
         )
@@ -88,7 +87,7 @@ class ClassificationProcedure:
             llm=self.llm, 
             prompt=PromptTemplate(
                 input_variables=["concept", "definition", "entity", "description", "rationale"], 
-                template=ANSWER_GENERATION_PROMPT
+                template=self.ANSWER_GENERATION_PROMPT
             ), 
             output_key="answer"
         )
